@@ -17,7 +17,7 @@ class Education extends Component {
   render() {
     return (
       <div className={s.root}>
-        <h1>Education</h1>
+        <h1>Education - TODO</h1>
 
         <div className={s.content}>TODO.</div>
       </div>

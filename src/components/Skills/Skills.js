@@ -17,7 +17,7 @@ class Skills extends Component {
   render() {
     return (
       <div className={s.root}>
-        <h1>Skills</h1>
+        <h1>Skills - TODO</h1>
 
         <div className={s.content}>TODO</div>
       </div>

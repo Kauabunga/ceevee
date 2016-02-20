@@ -18,7 +18,7 @@ const jobs = [
   {
     title: 'Solnet',
     date: 'Aug 2012 - Now ( 3.5 years )',
-    brief: myChance.paragraph({sentences: 6})
+    brief: 'I started Solnet a week out from graduating starting on the digital delivery team of the company. ' + myChance.paragraph({sentences: 5})
   },
   {
     title: 'Research Project: Query Expansion',

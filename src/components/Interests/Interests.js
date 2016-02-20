@@ -11,15 +11,60 @@ import React, { Component, PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Interests.scss';
 
+
+const interests = [
+  {
+    title: 'Javascript'
+  },
+  {
+    title: 'User Experience'
+  },
+  {
+    title: 'Netball'
+  },
+  {
+    title: 'Running'
+  },
+  {
+    title: 'Cycling'
+  },
+  {
+    title: 'Photography'
+  },
+  {
+    title: 'Gaming'
+  },
+  {
+    title: 'Sound systems'
+  },
+  {
+    title: 'Beer brewing'
+  },
+  {
+    title: 'Stenciling'
+  }
+];
+
+
+
 class Interests extends Component {
 
 
   render() {
     return (
       <div className={s.root}>
-        <h1>Interests</h1>
+        <h1>Interests - TODO</h1>
 
-        <div className={s.content}>TODO</div>
+        <ul>
+          {
+            interests.map((interest, i) => {
+              return (
+                <li key={i}>{interest.title}</li>
+              );
+            })
+          }
+        </ul>
+
       </div>
     );
   }
