@@ -47,19 +47,56 @@
 
   text-decoration: none;
 
-  top: 60px;
-  min-width: 100px;
-  margin-left: 20px;
-  min-height: 30px;
-  text-align: center;
-  line-height: 30px;
+  display: flex;
+  align-items: center;
+
+  position: relative;
+  top: 40px;
+  margin-left: 30px;
+
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+
+  box-shadow: $box-shadow;
+
+  amp-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   &:hover {
+    &:after {
+      opacity: 1;
+      transform: translateY(5px);
+    }
+  }
 
+  &:after {
+    transition: opacity 200ms ease, transform 200ms ease;
+    position: absolute;
+    top: 55px;
+    opacity: 0;
   }
 
   @media print {
     display: none;
+  }
+}
+
+.printButton {
+  @extend .headerButton;
+  &:after {
+    content: 'Print';
+    left: 11px;
+  }
+}
+
+.downloadButton {
+  @extend .headerButton;
+  &:after {
+    content: 'Download';
+    left: -9px;
   }
 }
 

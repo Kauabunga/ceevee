@@ -72,7 +72,7 @@ class Experience extends Component {
                     {
                        job.svg ? (<div className={s.jobImage}><amp-img src={job.svg.src} height={job.svg.height} width={job.svg.width} layout="responsive"></amp-img></div>) : null
                     }
-                    <p>{job.brief}</p>
+                    <p className={s.jobBrief}>{job.brief}</p>
                   </div>
                 </div>
               </div>

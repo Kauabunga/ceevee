@@ -13,6 +13,9 @@ import s from './Header.scss';
 import Link from '../Link';
 import Navigation from '../Navigation';
 
+var arrow = require('./arrow.svg');
+var printer = require('./printer.svg');
+
 class Header extends Component {
 
   render() {
@@ -21,8 +24,12 @@ class Header extends Component {
         <div className={s.container}>
           <h1>Carson Bruce</h1>
 
-          <a className={s.headerButton} href="javascript:window.print()">Print</a>
-          <a className={s.headerButton} href="/cv.pdf" target="_blank">Download</a>
+          <a className={s.printButton} href="javascript:window.print()">
+            <amp-img src={printer} width="20px" height="20px"></amp-img>
+          </a>
+          <a className={s.downloadButton} href="/carson.bruce_cv.pdf" target="_blank">
+            <amp-img src={arrow} width="20px" height="20px"></amp-img>
+          </a>
 
         </div>
       </div>
