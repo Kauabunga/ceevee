@@ -118,10 +118,14 @@ $link-color: #bbb;
 
 .jobContent {
   min-height: 100px;
-  margin: 0 40px;
+  margin: 0 20px;
   padding: 10px 0 40px;
 
   line-height: 1.8em;
+
+  @media (min-width: $screen-xs-min){
+    margin: 0 40px;
+  }
 
   @media print {
     margin: 0;

@@ -4,9 +4,13 @@
 
 
 .root {
-  margin: 0 30px;
+  margin: 0 12px;
   padding: 20px 0;
   max-width: $max-content-width;
+
+  @media (min-width: $screen-xs-min) {
+    margin: 0 30px;
+  }
 
   @media (min-width: $max-content-break) {
     margin: 0 auto;

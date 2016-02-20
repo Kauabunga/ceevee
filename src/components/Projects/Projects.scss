@@ -77,6 +77,10 @@
 
   ul {
     display: inline-block;
+    padding: 0 20px;
+    @media (min-width: $screen-xs-min){
+      padding: 0 0 0 40px;
+    }
   }
   ul li {
     margin-bottom: 8px;
