@@ -20,6 +20,11 @@
     display: block;
   }
 
+  @media print {
+    padding: 0;
+    margin: 20px 20px;
+  }
+
 }
 
 
@@ -31,7 +36,7 @@
   line-height: 1.8em;
 
   @media (min-width: $max-content-break) {
-    margin: 40px 80px 40px 0;
+    margin: 40px 200px 40px 0;
     font-size: 1.4em;
     line-height: 2em;
   }
