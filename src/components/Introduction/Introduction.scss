@@ -1,0 +1,42 @@
+
+
+@import '../variables.scss';
+
+
+
+.root {
+
+  margin: 40px 60px;
+  padding: 20px 0;
+  max-width: $max-content-width;
+
+  position: relative;
+  display: inline-block;
+
+  @media (min-width: $max-content-break) {
+    margin: 0 auto;
+    display: block;
+  }
+
+}
+
+
+.content {
+
+  margin: 40px 0;
+
+  @media (min-width: $max-content-break) {
+    margin: 40px 80px 40px 0;
+  }
+
+  font-size: 1.4em;
+  line-height: 2em;
+
+  @media print {
+    margin: 0;
+
+    font-size: 1.2em;
+    line-height: 1.6em;
+  }
+
+}

@@ -10,6 +10,33 @@
 import React, { Component, PropTypes } from 'react';
 import { googleAnalyticsId } from '../../config';
 
+
+var analyticsConfig = {
+  "vars": {
+    "account": "UA-74078643-1"
+  },
+  "triggers": {
+    "trackPageview": {  // Trigger names can be any string. trackPageview is not a required name.
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+};
+
+class Analytics extends Component {
+  renderRawMarkup(){
+    return JSON.stringify(analyticsConfig).replace(/&quot;/g, '"');
+  }
+  render(){
+    return (
+      <amp-analytics type="googleanalytics" id="analytics1">
+        <script type="application/json" dangerouslySetInnerHTML={{__html: this.renderRawMarkup()}}></script>
+      </amp-analytics>
+
+    )
+  }
+}
+
 class Html extends Component {
 
   static propTypes = {
@@ -25,37 +52,38 @@ class Html extends Component {
     description: '',
   };
 
-  trackingCode() {
-    return ({ __html:
-      `(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=` +
-      `function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;` +
-      `e=o.createElement(i);r=o.getElementsByTagName(i)[0];` +
-      `e.src='https://www.google-analytics.com/analytics.js';` +
-      `r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));` +
-      `ga('create','${googleAnalyticsId}','auto');ga('send','pageview');`,
-    });
-  }
 
   render() {
     return (
-      <html className="no-js" lang="">
+      <html is="remove-this-is" amp="" lang="en">
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <title>{this.props.title}</title>
+        <link rel="canonical" href="http://www.carson.kiwi/" />
         <meta name="description" content={this.props.description} />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width,minimum-scale=1" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <style id="css" dangerouslySetInnerHTML={{ __html: this.props.css }} />
+
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <style id="css" is="remove-this-is" amp-custom="" dangerouslySetInnerHTML={{ __html: this.props.css }} />
+
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css' />
+
+        <script async src={this.props.entry}></script>
+
       </head>
       <body>
         <div id="app" dangerouslySetInnerHTML={{ __html: this.props.body }} />
-        <script src={this.props.entry}></script>
-        <script dangerouslySetInnerHTML={this.trackingCode()} />
+        <Analytics />
       </body>
       </html>
     );
   }
+
+  //<script async src={this.props.entry}></script>
+
+  //<script src={this.props.entry}></script>
 
 }
 

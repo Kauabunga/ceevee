@@ -50,11 +50,27 @@ server.get('*', async (req, res, next) => {
     });
 
     const html = ReactDOM.renderToStaticMarkup(<Html {...data} />);
-    res.status(statusCode).send(`<!doctype html>\n${html}`);
+    const apmHtml = prepApmStyles(html);
+    res.status(statusCode).send(`<!doctype html>\n${apmHtml}`);
   } catch (err) {
     next(err);
   }
 });
+
+/**
+ *
+ */
+function prepApmStyles(html){
+
+  return html.replace('</title>', '</title><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>' +
+  '<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>' +
+  '<script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>' +
+  '<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>')
+             .replace(/is="remove-this-is"/g, '')
+             .replace(/amp/, '⚡')
+             .replace(/dangerouslySetInnerHTML="\[object Object\]"/g, '')
+             .replace(/dangerouslysetinnerhtml="\[object Object\]"/g, '');
+}
 
 //
 // Launch the server

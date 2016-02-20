@@ -9,49 +9,75 @@
 
 @import '../variables.scss';
 
-$brand-color: #61dafb;
 
 .root {
-  background: #373277;
+  background: $blue-dark;
   color: #fff;
+  height: $header-height;
 }
 
 .container {
-  margin: 0 auto;
-  padding: 20px 0;
+
+  margin: 0 30px;
+  padding: 141px 0 20px;
   max-width: $max-content-width;
+
+  position: relative;
+
+  @media (min-width: $max-content-break) {
+    margin: 0 auto;
+  }
+
+
+  h1 {
+    color: #fff;
+    margin: 0;
+  }
+
 }
 
-.brand {
-  color: color($brand-color lightness(+10%));
-  text-decoration: none;
-  font-size: 1.75em; /* ~28px */
-}
 
-.brandTxt {
-  margin-left: 10px;
-}
+.headerButton {
+  background-color: $orange;
+  color: #000;
 
-.nav {
+  z-index: 5;
+
   float: right;
-  margin-top: 6px;
-}
 
-.banner {
+  text-decoration: none;
+
+  top: 60px;
+  min-width: 100px;
+  margin-left: 20px;
+  min-height: 30px;
   text-align: center;
+  line-height: 30px;
+
+  &:hover {
+
+  }
+
+  @media print {
+    display: none;
+  }
 }
 
-.bannerTitle {
-  margin: 0;
-  padding: 10px;
-  font-weight: normal;
-  font-size: 4em;
-  line-height: 1em;
+
+
+.cv {
+  position: absolute;
+
+  top: 51px;
+  right: 5px;
+  font-size: 12em;
+  opacity: 0.075;
+
+  @media (min-width: $screen-sm-min) {
+    font-size: 16em;
+    top: 0;
+
+  }
 }
 
-.bannerDesc {
-  padding: 0;
-  color: rgba(255, 255, 255, .5);
-  font-size: 1.25em;
-  margin: 0;
-}
+

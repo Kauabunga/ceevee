@@ -12,7 +12,14 @@ import emptyFunction from 'fbjs/lib/emptyFunction';
 import s from './App.scss';
 import Header from '../Header';
 import Feedback from '../Feedback';
+import Introduction from '../Introduction';
+import Experience from '../Experience';
+import Education from '../Education';
+import Projects from '../Projects';
+import Interests from '../Interests';
+import Skills from '../Skills';
 import Footer from '../Footer';
+
 
 class App extends Component {
 
@@ -53,12 +60,18 @@ class App extends Component {
   }
 
   render() {
-    return !this.props.error ? (
+    return ! this.props.error ? (
       <div>
         <Header />
-        {this.props.children}
-        <Feedback />
-        <Footer />
+        <div className={s.contentContainer}>
+          <Introduction />
+          <Experience />
+          <Education />
+          <Projects />
+          <Skills />
+          <Interests />
+          <Footer />
+        </div>
       </div>
     ) : this.props.children;
   }

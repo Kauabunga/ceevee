@@ -1,0 +1,115 @@
+
+
+@import '../variables.scss';
+@import '../content.scss';
+
+$job-margin-bottom: 40px;
+$bullet-height: 40%;
+
+$bullet-break: 500px;
+
+$link-color: #bbb;
+
+.job {
+  position: relative;
+
+  padding-bottom: 20px;
+  margin-bottom: $job-margin-bottom;
+
+
+
+  @media(min-width: $bullet-break){
+    &:before {
+      display: inline-block;
+      position: absolute;
+      content: '';
+
+      top: $bullet-height;
+
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: $blue;
+      box-shadow: $box-shadow;
+      z-index: 2;
+    }
+
+    &:after {
+      z-index: 1;
+      content: '';
+      background: $link-color;
+      width: 4px;
+      height: calc(100% + $job-margin-bottom);
+      display:inline-block;
+      position: absolute;
+      left: 6px;
+      top: calc($bullet-height + 16px);
+
+    }
+  }
+
+  @media(min-width: $max-content-break){
+
+    &:after {
+      left: 46px;
+    }
+    &:before {
+      left: 40px;
+    }
+  }
+
+  @media print {
+    padding: 0;
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.lastJob {
+  @extend .job;
+
+  &:after {
+    background: -webkit-linear-gradient($link-color, $link-color, transparent, transparent, transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($link-color, $link-color, transparent, transparent,transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($link-color, $link-color, transparent, transparent, transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($link-color, $link-color, transparent, transparent, transparent);
+  }
+}
+
+
+.jobContentContainer {
+  min-height: 100px;
+  @media(min-width: $bullet-break){
+    margin: 0 20px 0 50px;
+  }
+
+  @media(min-width: $max-content-break){
+    margin: 0 80px 0 120px;
+  }
+
+  background: white;
+  box-shadow: $box-shadow;
+
+  @media print {
+    margin: 0;
+    box-shadow: none;
+  }
+}
+.jobContent {
+  min-height: 100px;
+  margin: 0 40px;
+  padding: 10px 0 40px;
+
+  @media print {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+.jobTitle {
+  color: $gray-dark;
+  margin-bottom: 0;
+}

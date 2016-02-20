@@ -1,0 +1,69 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+import React, { Component, PropTypes } from 'react';
+import withStyles from 'isomorphic-style-loader/lib/withStyles';
+import s from './Experience.scss';
+
+import Chance from 'chance';
+const myChance = new Chance();
+
+const jobs = [
+  {
+    title: 'Solnet',
+    date: 'Aug 2012 - Now ( 3.5 years )',
+    brief: myChance.paragraph({sentences: 6})
+  },
+  {
+    title: 'Research Project: Query Expansion',
+    date: 'Nov 2011 - March 2012 ( 4 months )',
+    brief: myChance.paragraph({sentences: 3})
+  },
+  {
+    title: 'Research Project: Eye Gaze tracking',
+    date: 'Nov 2010 - March 2011 ( 4 months )',
+    brief: myChance.paragraph({sentences: 3})
+  },
+  {
+    title: 'Cool Bananas',
+    date: 'Nov 2009 - March 2010 ( 4 months )',
+    brief: myChance.paragraph({sentences: 2})
+  }
+];
+
+class Experience extends Component {
+
+  render() {
+    return (
+      <div className={s.root}>
+        <h1>Experience</h1>
+
+        {
+          jobs.map(function(job, i){
+            return (
+              <div key={i} className={i !== jobs.length - 1 ? s.job : s.lastJob}>
+                <div className={s.jobContentContainer}>
+                  <div className={s.jobContent}>
+                    <h2 className={s.jobTitle}>{job.title}</h2>
+                    <em>{job.date}</em>
+                    <p>{job.brief}</p>
+                  </div>
+                </div>
+              </div>
+            );
+          })
+        }
+
+      </div>
+    );
+  }
+
+}
+
+export default withStyles(Experience, s);

@@ -7,7 +7,7 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-@import '../../../node_modules/normalize.css/normalize.css';
+//@import '../../../node_modules/normalize.css/normalize.css';
 
 /*! React Starter Kit | MIT License | https://www.reactstarterkit.com/ */
 
@@ -23,7 +23,15 @@ html {
   font-size: 1em; /* ~16px; */
   font-family: $font-family-base;
   line-height: 1.375; /* ~22px */
+
+//  background: $background;
+  background: $background-content;
 }
+
+.contentContainer{
+  background: $background-content;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -110,10 +118,11 @@ textarea {
   *,
   *:before,
   *:after {
-    background: transparent !important;
-    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */
-    box-shadow: none !important;
-    text-shadow: none !important;
+
+    /* background: transparent !moimportant;
+    /*color: #000 !moimportant; /* Black prints faster: http://www.sanbeiji.com/archives/953 */
+    /*box-shadow: none !moimportant;
+    /*text-shadow: none !moimportant; */
   }
 
   a,
@@ -160,7 +169,7 @@ textarea {
   }
 
   img {
-    max-width: 100% !important;
+    /* max-width: 100% !moimportant; */
   }
 
   p,
