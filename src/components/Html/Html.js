@@ -65,12 +65,14 @@ class Html extends Component {
         <meta name="viewport" content="width=device-width,minimum-scale=1" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
+        <meta name="theme-color" content="#3F51B5"></meta>
+
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <style id="css" is="remove-this-is" amp-custom="" dangerouslySetInnerHTML={{ __html: this.props.css }} />
 
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css' />
 
-        <script async src={this.props.entry}></script>
+
 
       </head>
       <body>

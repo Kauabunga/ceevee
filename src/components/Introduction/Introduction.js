@@ -15,7 +15,23 @@ import Chance from 'chance';
 const myChance = new Chance();
 
 
-const text = 'Passionate. ...' + myChance.paragraph({sentences: 3});
+const text = `
+
+I am passionate when creating simple and beautiful web app solutions.
+
+Whole process. design -> release.
+
+Appreciation for processes through the entire stack - UX, Client, Server, Testing, and Architecture.
+
+I enjoy the details, optimising layout and painting, micro user interactions,
+
+Enjoy the landscape -> security, infastructure, ci,
+
+Early adoptor of Javascript technologies Angular, React, Node.js, Express.
+
+Embracing the shift towards more agile and simplier systems.
+
+`;
 
 
 class Introduction extends Component {
@@ -26,7 +42,7 @@ class Introduction extends Component {
       <div className={s.root}>
         <div className={s.content}>{text}</div>
         <div className={s.content}>
-          Get in touch <b>hello@carson.kiwi</b>
+          Leave me a message at <b className={s.email}>hello@carson.kiwi</b>
         </div>
       </div>
     );

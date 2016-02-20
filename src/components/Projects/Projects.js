@@ -54,7 +54,7 @@ const projects = [
     bullets: [
       'Time critical environment',
       'Collaberation with UX and design teams ensuring good usability of solution',
-      'Worked remotely for half of the project length',
+      'Worked remotely for half the project',
     ]
   },
   {

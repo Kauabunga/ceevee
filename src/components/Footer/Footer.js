@@ -12,6 +12,8 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Footer.scss';
 import Link from '../Link';
 
+const text = ``;
+
 class Footer extends Component {
 
   render() {
@@ -19,7 +21,8 @@ class Footer extends Component {
       <div className={s.root}>
         <div className={s.container}>
 
-          <span className={s.text}>Get in touch <b>hello@carson.kiwi</b></span>
+          <span className={s.text}>{text}</span>
+          <span className={s.text}><b>hello@carson.kiwi</b></span>
 
         </div>
       </div>
