@@ -22,7 +22,7 @@ class Header extends Component {
           <h1>Carson Bruce</h1>
 
           <a className={s.headerButton} href="javascript:window.print()">Print</a>
-          <a className={s.headerButton} href="/cv.pdf">Download</a>
+          <a className={s.headerButton} href="/cv.pdf" target="_blank">Download</a>
 
         </div>
       </div>

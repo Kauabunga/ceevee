@@ -79,6 +79,23 @@ $link-color: #bbb;
 }
 
 
+.titleContainer {
+  display: inline-block;
+  width: 70%;
+}
+
+.jobImage {
+  width: 30%;
+  display: inline-block;
+  float: right;
+
+  amp-img {
+    margin-top: 18px;
+    height: 52px;
+  }
+}
+
+
 .jobContentContainer {
   min-height: 100px;
   @media(min-width: $bullet-break){
