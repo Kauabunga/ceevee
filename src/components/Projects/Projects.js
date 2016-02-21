@@ -18,7 +18,15 @@ const projects = [
   {
     title: 'Employment Agreement Builder',
     client: 'Ministry of Business and Innovation and Employment',
-    brief: '',
+    brief: `
+
+      EAB is a web application imagined to provide value to both front end users along with those responsible for its maintenance.
+
+      Small to medium business use the tool to step through creating a new Employment agreement while at the same time educate themselves about employment law with easy to digest content.
+
+      I lead the technical 
+
+    `,
     isLarge: true,
     images: [
       {
@@ -33,11 +41,15 @@ const projects = [
     bullets: [
       'Followed BDD and TDD development processes',
       'Data driven forms',
-      'Node.js implementation',
+      'Through and through Javascript - client, server, test suite.',
+      'Created a complete automation test suite covering close to all app features.',
+      'Node.js micro services implementation',
       'Created a decoupled CMS component to support the application. See http://cmeasy.herokuapp.com/',
       'Created a decoupled html to docx and pdf rendering component',
       'Security implementation',
-      'Performance profiling and reviews'
+      'Performance profiling and reviews',
+      'Docker',
+      'Angular.js front end'
     ]
   },
   {

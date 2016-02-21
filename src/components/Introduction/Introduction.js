@@ -17,7 +17,7 @@ const myChance = new Chance();
 
 const text = `
 
-I am passionate when creating simple and beautiful web app solutions.
+I am passionate when creating simple and beautiful web applications.
 
 Whole process. design -> release.
 
@@ -27,9 +27,15 @@ I enjoy the details, optimising layout and painting, micro user interactions,
 
 Enjoy the landscape -> security, infastructure, ci,
 
-Early adoptor of Javascript technologies Angular, React, Node.js, Express.
+
+`;
+
+const text2 = `
+
+Early adopter of Javascript technologies Angular, React, Node.js, Express.
 
 Embracing the shift towards more agile and simplier systems.
+
 
 `;
 
@@ -41,6 +47,7 @@ class Introduction extends Component {
     return (
       <div className={s.root}>
         <div className={s.content}>{text}</div>
+        <div className={s.content}>{text2}</div>
         <div className={s.content}>
           Leave me a message at <b className={s.email}>hello@carson.kiwi</b>
         </div>
