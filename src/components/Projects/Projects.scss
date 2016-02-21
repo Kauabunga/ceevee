@@ -27,6 +27,15 @@
   }
 }
 
+.firstProject {
+  @extend .project;
+  flex: 1 0 100%;
+
+  .projectContainer {
+    margin-top: 0;
+  }
+}
+
 .projectContainer {
   margin: 40px 0;
   @media (min-width: $max-content-break){
@@ -113,12 +122,3 @@
   }
 }
 
-
-
-.firstProject {
-  @extend .project;
-
-  .projectContainer {
-    margin-top: 0;
-  }
-}
