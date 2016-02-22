@@ -37,7 +37,6 @@
   }
 
   @media print {
-//    padding: 0;
     margin: 0 20px;
   }
 
@@ -46,8 +45,9 @@
 
 
 .headerButton {
-  background-color: $orange;
-  color: #000;
+  background-color: $background-content;
+
+  color: $blue-dark;
 
   z-index: 5;
 
@@ -70,7 +70,7 @@
   width: 55px;
   height: 55px;
 
-  box-shadow: $box-shadow;
+
 
   amp-img {
     margin-left: auto;
@@ -98,9 +98,15 @@
 
 .printButton {
   @extend .headerButton;
+
   &:after {
     content: 'Print';
     left: 11px;
+  }
+
+  display: none;
+  @media(min-width: $max-content-break){
+    display: flex;
   }
 }
 

@@ -17,7 +17,7 @@ const myChance = new Chance();
 
 const text = `
 
-I am passionate when creating simple and beautiful web applications.
+I am passionate when creating simple and beautiful web applications. From system and .. design,
 
 Whole process. design -> release.
 
@@ -27,8 +27,8 @@ I enjoy the details, optimising layout and painting, micro user interactions,
 
 Enjoy the landscape -> security, infastructure, ci,
 
-
 `;
+
 
 const text2 = `
 
