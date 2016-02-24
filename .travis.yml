@@ -10,6 +10,10 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - g++-4.8
+      
+before_script:
+  - npm install -g babel-node
 
 after_script:
+  - npm run build
   - npm run deploy
