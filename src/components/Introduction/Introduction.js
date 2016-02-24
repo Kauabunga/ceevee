@@ -14,10 +14,16 @@ import s from './Introduction.scss';
 import Chance from 'chance';
 const myChance = new Chance();
 
+const main = `
+  I am passionate when creating simple and beautiful web applications.
+`;
+
 
 const text = `
 
-I am passionate when creating simple and beautiful web applications. From system and .. design,
+I am passionate when creating simple and beautiful web applications.
+
+From system and .. design,
 
 Whole process. design -> release.
 
@@ -36,7 +42,6 @@ Early adopter of Javascript technologies Angular, React, Node.js, Express.
 
 Embracing the shift towards more agile and simplier systems.
 
-
 `;
 
 
@@ -46,6 +51,7 @@ class Introduction extends Component {
   render() {
     return (
       <div className={s.root}>
+        <div className={s.content}>{main}</div>
         <div className={s.content}>{text}</div>
         <div className={s.content}>{text2}</div>
         <div className={s.content}>
