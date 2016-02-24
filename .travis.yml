@@ -7,6 +7,8 @@ env:
 
 before_deploy:
   - npm run build
+  - ls -ltra
+  - ls ./build -ltra
 
 deploy:
   provider: heroku
