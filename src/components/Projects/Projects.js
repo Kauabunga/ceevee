@@ -20,7 +20,7 @@ const projects = [
     client: 'Ministry of Business and Innovation and Employment',
     brief: `
 
-      EAB is a web application imagined to provide value to both front end users along with those responsible for its maintenance.
+      EAB is a web application realised to provide value to both front end users along with those responsible for its maintenance.
 
       Small to medium business use the tool to step through creating a new Employment agreement while at the same time educate themselves about employment law with easy to digest content.
 
