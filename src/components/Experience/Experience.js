@@ -42,7 +42,7 @@ const jobs = [
     date: 'Nov 2010 - March 2011 ( 4 months )',
     brief: `
     I was awarded a research scholarship at the end of my 300 level university year giving me experience in planning directing a research project.
-    With support from my supervisor and his team, I contributed to development on an open source gaze tracking system helping it evolve to a level where it might benefit the university, saving the commercial product cost of  $10 000. 
+    With support from my supervisor and his team, I contributed to development on an open source gaze tracking system helping it evolve to a level where it might benefit the university, saving an equivelant commercial product cost of  $10,000. 
     In addition to learning about eye-tracking systems I gained experience in project practice and quickly learned C#.
     `,
     svg: {
