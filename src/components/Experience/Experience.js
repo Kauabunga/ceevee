@@ -38,7 +38,9 @@ const jobs = [
     title: 'Research Project: Query Expansion',
     date: 'Nov 2011 - March 2012 ( 4 months )',
     brief: `
+    My second research opportunity was offered by the supervisor of my honours project to further the project towards an end goal of a draft research paper.
     
+    The paper was submitted and accepted to an Australasian Web Intellegence conference.
     `,
     svg: {
       src: require('./vuw.png'),
