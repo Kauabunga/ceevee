@@ -48,6 +48,7 @@ const projects = [
       'Created a decoupled html to docx and pdf rendering component',
       'Security implementation',
       'Performance profiling and reviews',
+      'Automated testing and releases a dozen times a day',
       'Docker',
       'Angular.js front end'
     ]
