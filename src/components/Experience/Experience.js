@@ -18,7 +18,9 @@ const jobs = [
   {
     title: 'Solnet',
     date: 'Aug 2012 - Now ( 3.5 years )',
-    brief: 'I started Solnet a week out from graduating starting on the digital delivery team of the company. ' + myChance.paragraph({sentences: 5}),
+    brief: `
+    I started Solnet a week out from graduating starting on the digital delivery team of the company.
+    `,
     svg: {
       src: require('./solnet.svg'),
       height: '2215px',
@@ -38,7 +40,11 @@ const jobs = [
   {
     title: 'Research Project: Eye Gaze tracking',
     date: 'Nov 2010 - March 2011 ( 4 months )',
-    brief: myChance.paragraph({sentences: 3}),
+    brief: `
+    I was awarded a research scholarship at the end of my 300 level university year giving me experience in planning directing a research project.
+    With support from my supervisor and his team, I contributed to development on an open source gaze tracking system helping it evolve to a level where it might benefit the university, saving the commercial product cost of  $10 000. 
+    In addition to learning about eye-tracking systems I gained experience in project practice and quickly learned C#.
+    `,
     svg: {
       src: require('./vuw.png'),
       height: '792px',
@@ -48,7 +54,11 @@ const jobs = [
   {
     title: 'Cool Bananas',
     date: 'Nov 2009 - March 2010 ( 4 months )',
-    brief: 'Internship developing a scripting parser and runtime for embeded systems. ' + myChance.paragraph({sentences: 2})
+    brief: `
+    Interning with a fellow student alongside a senior software engineer I worked on a project developing a prototype scripting parser and runtime for embeded systems.
+    The experience helped cement my years study learning C, Agile processes, and testing practices.
+    The project proved successful gaining further funding being developed into a commercial product.
+    `
   }
 ];
 
