@@ -83,6 +83,7 @@ const projects = [
     ],
     bullets: [
       'Tech leading and mentoring of a team five large',
+      'Improved developer tooling and experience with features like livereload',
       'Created the Client and Middleware security feature',
       'Middleware Javascript framework design, implementation, and testing',
       'Gatekeeper of critical environments used by a team of 60',
