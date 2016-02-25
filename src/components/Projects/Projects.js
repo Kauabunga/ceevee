@@ -19,7 +19,6 @@ const projects = [
     title: 'Employment Agreement Builder',
     client: 'Ministry of Business and Innovation and Employment',
     brief: `
-
       EAB is a web application realised to provide value to both front end users along with those responsible for its maintenance.
 
       Small to medium business parties use the tool to step through creating a new Employment agreement while at the same time educating themselves about employment law with easy to digest content.
@@ -49,7 +48,7 @@ const projects = [
       'Security implementation',
       'Performance profiling and reviews',
       'Automated testing and releases a dozen times a day',
-      'Docker',
+      'Docker containerised environments handling node scaling, static servers and bringing deployment time down to seconds',
       'Angular.js front end'
     ]
   },
@@ -67,13 +66,17 @@ const projects = [
     bullets: [
       'Time critical environment',
       'Collaberation with UX and design teams ensuring good usability of solution',
+      'Presented UX and design solution alternatives to client',
       'Worked remotely for half the project',
+      '',
     ]
   },
   {
     title: 'Online Banking',
     client: 'Westpac',
-    brief: '',
+    brief: `
+      
+    `,
     isLarge: false,
     images: [
       {
@@ -104,15 +107,19 @@ const projects = [
       }
     ],
     bullets: [
-      'Data driven forms from external services',
-      'Hybrid application design',
-      'Polished the application increasing rendering performance and removing jank'
+      'Data driven forms',
+      'Hybrid application design running on Supersonic',
+      'Polished the application improving rendering performance and removing jank'
     ]
   },
   {
     title: 'Learning clients name game',
     client: 'Classified',
-    brief: '',
+    brief: `
+      We entered in a competition to imagine, design, and develop a proof of concept mobile gamification app in 3 days.
+      
+      We placed top in the competition winning the prize of placing in the companies evaluation panel for future projects.
+    `,
     isLarge: false,
     images: [
       {
@@ -122,7 +129,9 @@ const projects = [
     ],
     bullets: [
       'Created a complete proof of concept application in 3 days',
-      'Hybrid application design'
+      'Succeeded in gaining a position on the clients project panel',
+      'Hybrid application design',
+      'Worked efficently with other Javascript, UX and UI developers'
     ]
   },
   {
@@ -137,7 +146,7 @@ const projects = [
       }
     ],
     bullets: [
-      'Created proof of concept application',
+      'Created proof of concept application as presales',
       'Contributed to the RFP solution design and estimates',
       'Designed and implemented Google Analytics solution',
       'Managed UAT test handover',
