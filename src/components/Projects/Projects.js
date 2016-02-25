@@ -22,7 +22,7 @@ const projects = [
 
       EAB is a web application realised to provide value to both front end users along with those responsible for its maintenance.
 
-      Small to medium business use the tool to step through creating a new Employment agreement while at the same time educate themselves about employment law with easy to digest content.
+      Small to medium business parties use the tool to step through creating a new Employment agreement while at the same time educating themselves about employment law with easy to digest content.
 
       The project ran successfully meeting its objectives finishing in three months. I lead the solution design and implementation while mentoring a Senior Java developer transitioning to Javascript.
 
