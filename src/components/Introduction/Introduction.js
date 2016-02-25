@@ -21,8 +21,6 @@ const main = `
 
 const text = `
 
-I am passionate when creating simple and beautiful web applications.
-
 From system and .. design,
 
 Whole process. design -> release.
@@ -51,11 +49,13 @@ class Introduction extends Component {
   render() {
     return (
       <div className={s.root}>
-        <div className={s.content}>{main}</div>
+        <div className={s.content}>
+        <b className={s.blue}>{main}</b>
+        </div>
         <div className={s.content}>{text}</div>
         <div className={s.content}>{text2}</div>
         <div className={s.content}>
-          Leave me a message at <b className={s.email}>hello@carson.kiwi</b>
+          Leave me a message at <b className={s.blue}>hello@carson.kiwi</b>
         </div>
       </div>
     );
