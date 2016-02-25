@@ -19,7 +19,14 @@ const jobs = [
     title: 'Solnet',
     date: 'Aug 2012 - Now ( 3.5 years )',
     brief: `
-    I started Solnet a week out from graduating starting on the digital delivery team of the company.
+    
+    I started Solnet a week out from graduating beginning in the delivery team of the company. 
+    A year in I moved on over into the Digital team where my love for JavaScript and appreciation for UX boomed.
+    
+    Experience with several significant clients mainly as a developer role but have been allowed to add value to all aspects
+    
+    More recently in my time at Solnet I have been involved in mentoring others in JavaScript tooling and practices
+    
     `,
     svg: {
       src: require('./solnet.svg'),
@@ -30,7 +37,9 @@ const jobs = [
   {
     title: 'Research Project: Query Expansion',
     date: 'Nov 2011 - March 2012 ( 4 months )',
-    brief: myChance.paragraph({sentences: 3}),
+    brief: `
+    
+    `,
     svg: {
       src: require('./vuw.png'),
       height: '792px',
