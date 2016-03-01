@@ -11,19 +11,20 @@ import React, { Component, PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Projects.scss';
 
-import Chance from 'chance';
-const myChance = new Chance();
 
 const projects = [
   {
     title: 'Employment Agreement Builder',
     client: 'Ministry of Business and Innovation and Employment',
     brief: `
+
       EAB is a web application realised to provide value to both front end users along with those responsible for its maintenance.
 
-      Small to medium business parties use the tool to step through creating a new Employment agreement while at the same time educating themselves about employment law with easy to digest content.
+      Small to medium business parties are able to use the tool to step through creating a new Employment agreement while at the
+      same time educating themselves about employment law with easy to digest content and links.
 
-      The project ran successfully meeting its objectives finishing in three months. I lead the solution design and implementation while mentoring a Senior Java developer transitioning to Javascript.
+      I lead the implementation design while mentoring a Senior Java developer transitioning to JavaScript.
+      The project ran successfully meeting its internal and external objectives finishing in three months.
 
     `,
     isLarge: true,
@@ -37,14 +38,17 @@ const projects = [
         thumbnail: require('./EAB-300.jpg')
       }
     ],
+    technologies: [
+      'Angular', 'Node.js', 'Docker', 'Agile', 'Azure', 'Heroku', 'Jenkins'
+    ],
     bullets: [
       'Followed BDD and TDD development processes',
       'Data driven forms',
       'Through and through Javascript - client, server, test suite.',
       'Created a complete automation test suite covering close to all app features.',
       'Node.js micro services implementation',
-      'Created a decoupled CMS component to support the application. See http://cmeasy.herokuapp.com/',
-      'Created a decoupled html to docx and pdf rendering component',
+      'Created a decoupled CMS component to support the application - see cmeasy.herokuapp.com',
+      'Created internal email, document, form components already reused on other projects',
       'Security implementation',
       'Performance profiling and reviews',
       'Automated testing and releases a dozen times a day',
@@ -55,27 +59,10 @@ const projects = [
   {
     title: 'NEON',
     client: 'Sky Television',
-    brief: '',
-    isLarge: false,
-    images: [
-      {
-        main: require('./EAB-1000.jpg'),
-        thumbnail: require('./EAB-300.jpg')
-      }
-    ],
-    bullets: [
-      'Time critical environment',
-      'Collaberation with UX and design teams ensuring good usability of solution',
-      'Presented UX and design solution alternatives to client',
-      'Worked remotely for half the project',
-      '',
-    ]
-  },
-  {
-    title: 'Online Banking',
-    client: 'Westpac',
     brief: `
-      
+
+
+
     `,
     isLarge: false,
     images: [
@@ -83,6 +70,34 @@ const projects = [
         main: require('./EAB-1000.jpg'),
         thumbnail: require('./EAB-300.jpg')
       }
+    ],
+    technologies: [
+      'Liferay', 'Angular', 'Java', 'Spring'
+    ],
+    bullets: [
+      'Time critical environment',
+      'Collaberation with UX and design teams ensuring good usability of solution',
+      'Presented UX and design solution alternatives to client',
+      'Worked remotely for half the project',
+    ]
+  },
+  {
+    title: 'Online Banking',
+    client: 'Westpac',
+    brief: `
+
+
+
+    `,
+    isLarge: false,
+    images: [
+      {
+        main: require('./EAB-1000.jpg'),
+        thumbnail: require('./EAB-300.jpg')
+      }
+    ],
+    technologies: [
+      'Websphere', 'Backbone.js', 'Worklight', 'Agile', 'Java', 'Spring', 'COBOL', 'Jenkins'
     ],
     bullets: [
       'Tech leading and mentoring of a team five large',
@@ -98,13 +113,19 @@ const projects = [
   {
     title: 'Air Forms',
     client: 'Air New Zealand',
-    brief: '',
+    brief: `
+
+
+    `,
     isLarge: false,
     images: [
       {
         main: require('./EAB-1000.jpg'),
         thumbnail: require('./EAB-300.jpg')
       }
+    ],
+    technologies: [
+      'Cordova', 'Angular.js', 'Steroids.js', 'Agile', 'Ionic', 'CSS/HTML'
     ],
     bullets: [
       'Data driven forms',
@@ -117,8 +138,14 @@ const projects = [
     client: 'Classified',
     brief: `
       We entered in a competition to imagine, design, and develop a proof of concept mobile gamification app in 3 days.
-      
-      We placed top in the competition winning the prize of placing in the companies evaluation panel for future projects.
+
+      Our UX and developer streams worked well together from the start, laying foundations for one another and we managed
+      to create a complete working iOS game that would quiz the user on peoples names with multiple mini-games supported by
+       a global leaderboard.
+
+      We placed well in the competition winning the prize of placing in the companies evaluation panel for future
+      projects followed shortly after with a winning proposal for a separate project.
+
     `,
     isLarge: false,
     images: [
@@ -127,23 +154,32 @@ const projects = [
         thumbnail: require('./EAB-300.jpg')
       }
     ],
+    technologies: [
+      'Cordova', 'Angular', 'CSS/HTML', 'Grunt.js'
+    ],
     bullets: [
       'Created a complete proof of concept application in 3 days',
       'Succeeded in gaining a position on the clients project panel',
       'Hybrid application design',
-      'Worked efficently with other Javascript, UX and UI developers'
+      'Worked efficently with other JavaScript, UX and UI developers'
     ]
   },
   {
     title: 'Employee Cost Calculator',
     client: 'Ministry of Business and Innovation and Employment',
-    brief: '',
+    brief: `
+
+
+    `,
     isLarge: false,
     images: [
       {
         main: require('./EAB-1000.jpg'),
         thumbnail: require('./EAB-300.jpg')
       }
+    ],
+    technologies: [
+      'Angular', 'CSS/HTML', 'Grunt.js'
     ],
     bullets: [
       'Created proof of concept application as presales',
@@ -155,13 +191,22 @@ const projects = [
   {
     title: 'Public website',
     client: 'Solnet',
-    brief: '',
+    brief: `
+
+      Full-stack javascript project
+
+      Solo developer picking up JavaScript, CSS, HTML
+
+    `,
     isLarge: false,
     images: [
       {
         main: require('./EAB-1000.jpg'),
         thumbnail: require('./EAB-300.jpg')
       }
+    ],
+    technologies: [
+      'Angular', 'CSS/HTML', 'Grunt.js', 'Node.js', 'Express'
     ],
     bullets: [
       'Self managed team',
@@ -173,13 +218,20 @@ const projects = [
   {
     title: 'ACC',
     client: 'Shared Capability',
-    brief: '',
+    brief: `
+
+      Little bite of javascript gave me the curse
+
+    `,
     isLarge: false,
     images: [
       {
         main: require('./EAB-1000.jpg'),
         thumbnail: require('./EAB-300.jpg')
       }
+    ],
+    technologies: [
+      'Java', 'Websphere', 'IBM Portal', 'IBM WCM', 'JQuery', 'Jenkins'
     ],
     bullets: [
       'Java developer',

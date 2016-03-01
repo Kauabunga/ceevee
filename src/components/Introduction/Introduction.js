@@ -11,9 +11,6 @@ import React, { Component, PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Introduction.scss';
 
-import Chance from 'chance';
-const myChance = new Chance();
-
 const main = `
   I am passionate when creating simple and beautiful web applications.
 `;
@@ -21,24 +18,30 @@ const main = `
 
 const text = `
 
-From system and .. design,
+Through from the early stages of a project, imagining the experience and drawing a solution,
+the inbetween, towards the publishing of a project,
 
-Whole process. design -> release.
+... I have something to offer ...
 
-Appreciation for processes through the entire stack - UX, Client, Server, Testing, and Architecture.
 
-I enjoy the details, optimising layout and painting, micro user interactions,
 
-Enjoy the landscape -> security, infastructure, ci,
+
+Open minded - Ability to problem solve/learn.
+
+... Follow on from learning, learn from team, learn with others ... Ability to work with and as part of the team.
+
+The details get me, optimising layout and painting, micro user interactions, ....
+Ensuring abstraction, testing, and writting code that reads like an article.
 
 `;
 
 
 const text2 = `
 
-Early adopter of Javascript technologies Angular, React, Node.js, Express.
+I am a year zero adopter of JavaScript technologies, Angular, React, Node.js, and Express,
+embracing the continuing shift towards simplier and more agile systems and process.
 
-Embracing the shift towards more agile and simplier systems.
+I love working with JavaScript and all the technologies and process it enables.
 
 `;
 
