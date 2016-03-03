@@ -12,7 +12,7 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Introduction.scss';
 
 const main = `
-  I am passionate when creating simple and beautiful web applications.
+  I am passionate when creating simple and beautiful apps.
 `;
 
 
