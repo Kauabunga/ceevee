@@ -11,15 +11,29 @@ import React, { Component, PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Education.scss';
 
-class Education extends Component {
 
+const education = {
+  year: '2007-2012',
+  title: `Bachelor of Engineering (BE), Software Engineering, First Class Honours`,
+  university: `Victoria University of Wellington`
+};
+
+
+
+class Education extends Component {
 
   render() {
     return (
-      <div className={s.root}>
-        <h1>Education - TODO</h1>
+      <div className={s.educationContent}>
+        <div className={s.root}>
+          <h1>Education</h1>
 
-        <div className={s.content}>TODO.</div>
+          <div className={s.educationContainer}>
+            <h2 className={s.content}>{education.university}</h2>
+            <h3 className={s.content}>{education.title}</h3>
+            <em className={s.content}>{education.year}</em>
+          </div>
+        </div>
       </div>
     );
   }

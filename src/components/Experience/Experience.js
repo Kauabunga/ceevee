@@ -18,12 +18,14 @@ const jobs = [
     date: 'Aug 2012 - Now ( 3.5 years )',
     brief: `
 
-    I started Solnet a week out from graduating beginning in the delivery team of the company.
+    I started Solnet a week out from graduating kicking off the role straight into the delivery team of the company.
     A year in I moved on over into the Digital team where my love for JavaScript and appreciation for UX boomed.
 
-    Experience with several significant clients mainly as a developer role but have been allowed to add value to all aspects
+    I have gained experience with several high profile clients placed first as a developer along with other roles such as devops, ux, team lead, tech lead.
 
-    More recently in my time at Solnet I have been involved in mentoring others in JavaScript tooling and practices
+    More recently in my time at Solnet I have been involved in mentoring others in JavaScript tooling and practices.
+
+    See the following Projects section for an overview of some of the work I've done at Solnet.
 
     `,
     svg: {

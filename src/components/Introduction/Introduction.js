@@ -18,27 +18,22 @@ const main = `
 
 const text = `
 
-Through from the early stages of a project, imagining the experience and drawing a solution,
-the inbetween, towards the publishing of a project,
+  I take interest in the entire software development process.
+  Through from the start when a project is imagined towards its end as a project is released. I have experienced a range of
+     roles and tasks covering its broad range.
 
-... I have something to offer ...
+`;
 
+const text2 = `
 
-
-
-Open minded - Ability to problem solve/learn.
-
-... Follow on from learning, learn from team, learn with others ... Ability to work with and as part of the team.
-
-The details get me, optimising layout and painting, micro user interactions, ....
-Ensuring abstraction, testing, and writting code that reads like an article.
+  I consider some of my key skills to include: Problem solving, Speed to learn, Openmindedness, Being a team player, and Communication.
 
 `;
 
 
-const text2 = `
+const text3 = `
 
-I am a year zero adopter of JavaScript technologies, Angular, React, Node.js, and Express,
+I am a year-zero adopter of JavaScript technologies, Angular, React, Node.js, and Express,
 embracing the continuing shift towards simplier and more agile systems and process.
 
 I love working with JavaScript and all the technologies and process it enables.
@@ -57,8 +52,9 @@ class Introduction extends Component {
         </div>
         <div className={s.content}>{text}</div>
         <div className={s.content}>{text2}</div>
+        <div className={s.content}>{text3}</div>
         <div className={s.content}>
-          Leave me a message at <b className={s.blue}>hello@carson.kiwi</b>
+          Come say hi at <b className={s.blue}>hello@carson.kiwi</b>
         </div>
       </div>
     );
