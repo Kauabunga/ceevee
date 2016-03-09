@@ -59,6 +59,8 @@ class App extends Component {
     this.removeCss();
   }
 
+
+
   render() {
     return ! this.props.error ? (
       <div>
@@ -68,7 +70,7 @@ class App extends Component {
           <Experience />
           <Education />
           <Projects />
-          <Skills />
+          {/*<Skills />*/}
           <Interests />
           <Footer />
         </div>

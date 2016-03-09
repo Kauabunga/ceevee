@@ -52,19 +52,19 @@ class Interests extends Component {
 
   render() {
     return (
-      <div className={s.root}>
-        <h1>Interests - TODO</h1>
-
-        <ul>
-          {
-            interests.map((interest, i) => {
-              return (
-                <li key={i}>{interest.title}</li>
-              );
-            })
-          }
-        </ul>
-
+      <div className={s.interestsContainer}>
+        <div className={s.root}>
+          <h1>Interests</h1>
+          <ul className={s.chipList}>
+            {
+              interests.map((interest, i) => {
+                return (
+                  <li key={i} className={s.chip}>{interest.title}</li>
+                );
+              })
+            }
+          </ul>
+        </div>
       </div>
     );
   }

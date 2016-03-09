@@ -4,10 +4,35 @@
 @import '../content.scss';
 
 
-
+.interestsContainer {
+  @extend .blueRoot;
+}
 
 .content {
 
 
+}
+
+.chipList {
+  list-style: none;
+  color: $gray-light;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 0;
+}
+
+.chip {
+  flex-grow: 1;
+
+  width: 160px;
+  text-align: center;
+  border-radius: 20px;
+  height: 40px;
+  line-height: 40px;
+
+  margin: 10px;
+  background-color: #fff;
 
 }

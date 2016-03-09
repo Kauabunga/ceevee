@@ -14,8 +14,8 @@ import s from './Education.scss';
 
 const education = {
   year: '2007-2012',
-  title: `Bachelor of Engineering (BE), Software Engineering, First Class Honours`,
-  university: `Victoria University of Wellington`
+  title: `Victoria University of Wellington`,
+  university: `Bachelor of Engineering (BE), Software Engineering, First Class Honours`
 };
 
 

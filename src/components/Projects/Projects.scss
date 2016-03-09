@@ -17,7 +17,9 @@
 
 .project {
   display: flex;
+
   flex: 1 0 100%;
+
   @media (min-width: $max-content-break){
     flex: 1 0 50%;
   }
@@ -37,6 +39,7 @@
 }
 
 .projectContainer {
+  flex-grow: 1;
   margin: 40px 0;
   @media (min-width: $max-content-break){
     margin: 0 40px 60px 0;
