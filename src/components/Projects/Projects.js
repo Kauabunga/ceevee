@@ -124,10 +124,12 @@ const projects = [
     client: 'Air NZ',
     brief: `
 
-      Integration with an existing data source turned API.
+      Crew forms was a heavily digital project looking to turn a currently paper based form into a more mobile tablet based solution.
 
-      Multiple phases.
+      The experience of these forms was improved with the new techbnology and with a change in platform the forms were allowed to be reimagined
+      through UX process to create an further better user experience rather than being a clone of the paper solution.
 
+      I worked on the project in its second phase after its first release bringing in a couple of new features and polishing the first implementation.
     `,
     isLarge: true,
     images: [
@@ -140,13 +142,14 @@ const projects = [
       'Cordova', 'Angular.js', 'Steroids.js', 'Agile', 'Ionic', 'CSS/HTML'
     ],
     bullets: [
-      'Data driven forms',
-      'Hybrid application design running on Supersonic',
-      'Polished the application removing dozens of browser rendering bottlenecks providing a jank free hybrid solution'
+      'Polished the app correcting dozens of browser rendering bottlenecks resulting in a jank free hybrid solution.',
+      'Worked with UX and design team to best fit solutions with the technology stack.',
+      'Extended the apps feature list and matching test coverage under time.',
+      'Provided a solution to a bug found within the hybrid framework Steroids.js'
     ]
   },
   {
-    title: 'Name game',
+    title: 'Name learning game',
     client: 'Private',
     brief: `
       We entered in a competition to imagine, design, and develop a proof of concept mobile gamification app in 3 days.
@@ -174,9 +177,7 @@ const projects = [
     bullets: [
       'Created a complete proof of concept application in 3 days.',
       'Succeeded in gaining a position on the clients project panel.',
-      'Hybrid application design.',
-      'Super agile.',
-      'Worked effectively with other JavaScript, UX and UI developers in parallel.'
+      'Worked effectively with other JavaScript, UX and UI developers in parallel streams.'
     ]
   },
   {
@@ -201,7 +202,7 @@ const projects = [
       'Created proof of concept application as presales.',
       'Contributed to the RFP solution design and estimates.',
       'Designed and implemented Google Analytics solution.',
-      'Managed UAT test handover.'
+      'Managed app support for UAT test handover.'
     ]
   },
   {
@@ -252,13 +253,11 @@ const projects = [
       'Java', 'Websphere', 'IBM Portal', 'IBM WCM', 'JQuery', 'Jenkins'
     ],
     bullets: [
-      'Implemented CI ',
-      'Quick learner',
-      'Enterprise application environments',
+      'Became a valued team member as a Junior role',
+      'Developed a developers guide supporting other developers using IBM Forms Experience Builder',
       'Integrated IBM Forms Experience Builder product with IBM Portal collaborating with IBM development team and providing product defect solutions.'
     ]
-  },
-
+  }
 ];
 
 class Bullet extends Component {

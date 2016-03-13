@@ -14,7 +14,7 @@ import s from './Interests.scss';
 
 const interests = [
   {
-    title: 'Javascript'
+    title: 'JavaScript'
   },
   {
     title: 'User Experience'

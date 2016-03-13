@@ -38,7 +38,7 @@ const jobs = [
     date: 'Nov 2011 - March 2012 ( 4 months )',
     brief: `
 
-    My second research opportunity was offered by the supervisor of my honours project to further its report towards an end goal of a published research paper.
+    My second research opportunity was offered by the supervisor of my honours project to further its final report towards an end goal of a published research paper.
     With some give and take from the wider Web Intelligence team at Victoria I managed to get the paper submitted and accepted to an Australasian Web Intelligence conference by the end of my research.
 
     `,
