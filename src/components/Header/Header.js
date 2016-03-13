@@ -22,7 +22,7 @@ class Header extends Component {
     return (
       <div className={s.root}>
         <div className={s.container}>
-          <h1>Carson Bruce (Work in progress)</h1>
+          <h1>Carson Bruce</h1>
 
           <a className={s.printButton} href="javascript:window.print()">
             <amp-img src={printer} width="20px" height="20px"></amp-img>

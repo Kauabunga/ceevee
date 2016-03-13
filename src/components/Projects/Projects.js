@@ -185,7 +185,12 @@ const projects = [
     client: 'Ministry of Business and Innovation and Employment',
     brief: `
 
-      Nearly pure client side solution (minus email).
+      The Employee Cost Calculator encourages small to medium sized New Zeland business' to hire new employee's by providing
+       an estimate as to how much a new employee will cost them.
+
+      I was involved right at the beginning of the project assisting with the RFP documented and solution design.
+
+      I was next involved right at the end of the project assisting with UAT and PROD handovers and implementing the Analytics feature.
 
     `,
     isLarge: true,
@@ -199,9 +204,9 @@ const projects = [
       'Angular', 'CSS/HTML', 'Grunt.js'
     ],
     bullets: [
-      'Created proof of concept application as presales.',
+      'Created proof of concept application used as presales collateral.',
       'Contributed to the RFP solution design and estimates.',
-      'Designed and implemented Google Analytics solution.',
+      'Researched, designed, and implemented a Google Analytics solution over a weekend.',
       'Managed app support for UAT test handover.'
     ]
   },
@@ -209,9 +214,11 @@ const projects = [
     title: 'Public website',
     client: 'Solnet',
     brief: `
-      Full-stack javascript project
 
-      Solo developer picking up JavaScript, CSS, HTML
+      In a small team with two UI designers we were given the task to redevelop Solnet's website.
+
+      I had the responsibility to select technologies to best fit our needs choosing a fullstack JavaScript solution with a static filesystem content source.
+
     `,
     isLarge: true,
     images: [
@@ -224,10 +231,9 @@ const projects = [
       'Angular', 'CSS/HTML', 'Grunt.js', 'Node.js', 'Express'
     ],
     bullets: [
-      'Self managed team.',
-      'Collaberated closely with designer and UX roles.',
-      'HTML, CSS, JS development.',
-      'Implemented Node.js SEO and decoupled static content.'
+      'Self managed ourselves and our dependencies in the team avoiding the overheads of a Project manager.',
+      'Owned the tasks of organising content from company.',
+      'Pushed and spoke to technologies from the emerging JavaScript ecosystem'
     ]
   },
   {
@@ -253,8 +259,8 @@ const projects = [
       'Java', 'Websphere', 'IBM Portal', 'IBM WCM', 'JQuery', 'Jenkins'
     ],
     bullets: [
-      'Became a valued team member as a Junior role',
-      'Developed a developers guide supporting other developers using IBM Forms Experience Builder',
+      'Became a valued team member as a Junior role.',
+      'Developed a developers guide supporting other developers using IBM Forms Experience Builder.',
       'Integrated IBM Forms Experience Builder product with IBM Portal collaborating with IBM development team and providing product defect solutions.'
     ]
   }
@@ -324,7 +330,7 @@ class Projects extends Component {
                         <em>{project.client}</em>
                       </div>
                       <div>
-                        <p>{project.brief}</p>
+                        <p className={s.projectBrief}>{project.brief}</p>
                         <Bullet bullets={project.bullets} />
                       </div>
                     </div>
