@@ -40,24 +40,26 @@ const projects = [
       'Angular', 'Node.js', 'Docker', 'Agile', 'Azure', 'Heroku', 'Jenkins'
     ],
     bullets: [
-      'Practiced BDD and TDD development processes ending up with a feature complete automated test suite',
-      'Created a reusable data-driven forms solution that would support future contract builders for MBIE',
-      'Helped sell a through and through Javascript solution internally to Solnet and externally to MBIE',
-      'Went beyond the static wireframes creating my own motion design and micro user interactions',
-      'Created a Node.js micro services implementation handles 10x expected load on low cost two node cloud infrastructure',
-      'Created a decoupled CMS component to support the application that provided more features than the Javascript CMS landscape at the time - see cmeasy.herokuapp.com',
-      'Created internal email, document, form components already reused on other projects',
-      'Created security implementation that sailed through 3rd party security review',
-      'Implemented a CI environment that performed automated testing and releases a dozen times a day avoid any manual tasks',
-      'Pushed docker solution handling node scaling, static servers and bringing build and deployment time down to minutes rather than hours'
+      'Practiced BDD and TDD development processes ending up with a feature complete automated test suite.',
+      'Created a reusable data-driven forms solution that would support future contract builders for MBIE.',
+      'Helped sell a through and through Javascript solution internally to Solnet and externally to MBIE.',
+      'Went beyond the static wireframes creating my own motion design and micro user interactions.',
+      'Created a Node.js micro services implementation handles 10x expected load on low cost two node cloud infrastructure.',
+      'Created and published a decoupled CMS component to support the application that provided more features than the Javascript CMS landscape at the time.',
+      'Created internal email, document, form components already reused on other projects.',
+      'Created security implementation that sailed through 3rd party security review.',
+      'Implemented a CI environment that performed automated testing and releases a dozen times a day avoid any manual tasks.',
+      'Pushed docker solution handling node scaling, static servers and bringing build and deployment time down to minutes rather than hours.'
     ]
   },
   {
     title: 'NEON',
     client: 'Sky TV',
     brief: `
-      NEON is Sky TV's entry into the New Zealand tv on demand market. Our project was responsible for the Web client and the
-      Web API supporting other NEON apps sitting on other platforms.
+      NEON is Sky TV's entry into the New Zealand tv on demand market. Our project was responsible for implementing the Web client
+      and the Web API supporting other NEON apps sitting on other platforms.
+
+
     `,
     isLarge: false,
     images: [
@@ -70,10 +72,10 @@ const projects = [
       'Liferay', 'Angular', 'Java', 'Spring'
     ],
     bullets: [
-      'Managed my time effectively within a time critical environment completing and communicating tasks to project managers',
-      'Collaberated with UX and design teams ensuring good usability of solution',
-      'Presented UX and design solution alternatives to client',
-      'Worked remotely for half the project while still tracking my tasks in good time'
+      'Managed my time effectively within a time critical environment completing and communicating tasks to project managers.',
+      'Collaborated with UX and design teams ensuring good usability of solution.',
+      'Owned and presented UX and design alternatives to client.',
+      'Worked remotely for half the project while still tracking my tasks in good time.'
     ]
   },
   {
@@ -81,7 +83,13 @@ const projects = [
     client: 'Westpac',
     brief: `
 
-      Originally going in as a dev ops and IBM Worklight consultant - after several months, as the teams trust grew, my role expanded.
+      I became part of the Westpac project to rewrite their online banking applications originally rolled in as an IBM Worklight consultant and dev ops engineer.
+
+      I helped keep the project oiled by mediating communications between developers from API and Client teams along with improving automation in local, developmenet, and test environments.
+      This automation helped developers become more autonomous providing an interface for logs, deployments, and environment stats.
+
+      After a couple of month went by and the teams trust in me grew I became tech lead of a team five large responsible for feature development in the middleware
+      security in the client.
 
     `,
     isLarge: false,
@@ -95,12 +103,12 @@ const projects = [
       'Websphere', 'Backbone.js', 'Worklight', 'Agile', 'Java', 'Spring', 'COBOL', 'Jenkins'
     ],
     bullets: [
-      'Presented and owned the solutions of several developer tooling and experience improvements',
-      'Technical leader and mentor of a team five large covering a wide spread of technologies and environments',
-      'Trusted as the gatekeeper of critical development and test environments relied on by a team 60 large',
-      'Designed, implemented, and tested a JavaScript middleware framework that improved the abstraction and reliability of the middleware HTTP adapters',
-      'Designed, implemented, and tested the security feature encompassing the client and middleware layers',
-      'Presented a UX review noting several usability and performance improvements for the application'
+      'Presented and owned the solutions of several developer tooling and experience improvements.',
+      'Technical leader and mentor of a team five large covering a wide spread of technologies and environments.',
+      'Trusted as the gatekeeper of critical development and test environments relied on by a team 60 large.',
+      'Designed, implemented, and tested a JavaScript middleware framework that improved the abstraction and reliability of the middleware HTTP adapters.',
+      'Designed, implemented, and tested the security feature encompassing the client and middleware layers.',
+      'Presented a UX review noting several usability and performance improvements for the application.'
     ]
   },
   {
@@ -152,11 +160,11 @@ const projects = [
       'Cordova', 'Angular', 'CSS/HTML', 'Grunt.js'
     ],
     bullets: [
-      'Created a complete proof of concept application in 3 days',
-      'Succeeded in gaining a position on the clients project panel',
-      'Hybrid application design',
-      'Super agile',
-      'Worked effectively with other JavaScript, UX and UI developers in parallel'
+      'Created a complete proof of concept application in 3 days.',
+      'Succeeded in gaining a position on the clients project panel.',
+      'Hybrid application design.',
+      'Super agile.',
+      'Worked effectively with other JavaScript, UX and UI developers in parallel.'
     ]
   },
   {
@@ -177,10 +185,10 @@ const projects = [
       'Angular', 'CSS/HTML', 'Grunt.js'
     ],
     bullets: [
-      'Created proof of concept application as presales',
-      'Contributed to the RFP solution design and estimates',
-      'Designed and implemented Google Analytics solution',
-      'Managed UAT test handover',
+      'Created proof of concept application as presales.',
+      'Contributed to the RFP solution design and estimates.',
+      'Designed and implemented Google Analytics solution.',
+      'Managed UAT test handover.'
     ]
   },
   {
@@ -202,10 +210,10 @@ const projects = [
       'Angular', 'CSS/HTML', 'Grunt.js', 'Node.js', 'Express'
     ],
     bullets: [
-      'Self managed team',
-      'Collaberated closely with designer and UX roles',
-      'HTML, CSS, JS development',
-      'Implemented Node.js SEO and decoupled static content'
+      'Self managed team.',
+      'Collaberated closely with designer and UX roles.',
+      'HTML, CSS, JS development.',
+      'Implemented Node.js SEO and decoupled static content.'
     ]
   },
   {

@@ -26,7 +26,7 @@ const text = `
 
 const text2 = `
 
-  I consider some of my key skills to include: Problem solving, Speed to learn, Open Mindedness, Being a team player, and Communication.
+  I consider some of my key skills to include: Problem solving, Speed to learn, Open mindedness, Being a team player, and Communication.
 
 `;
 
