@@ -21,10 +21,16 @@
   flex-wrap: wrap;
 
   padding: 0;
+
+  @media print {
+    display: inline-block;
+    text-align: center;
+  }
 }
 
 .chip {
   flex-grow: 1;
+  display: inline-block;
 
   width: 160px;
   text-align: center;
