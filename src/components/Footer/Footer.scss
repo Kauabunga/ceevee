@@ -16,9 +16,14 @@
 
 .container {
   margin: 0 auto;
-  padding: 20px 15px;
+  padding: 30px 15px;
   max-width: $max-content-width;
   text-align: center;
+}
+
+.socialLink {
+  margin: 12px;
+  display: inline-block;
 }
 
 .text {

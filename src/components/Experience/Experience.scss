@@ -90,12 +90,16 @@ $link-color: #bbb;
 
 .jobImage {
   width: 30%;
-  display: inline-block;
+  display: none;
   float: right;
 
   amp-img {
     margin-top: 18px;
     height: 52px;
+  }
+
+  @media(min-width: 800px){
+    display: inline-block;
   }
 }
 

@@ -36,7 +36,7 @@ const text3 = `
 I am a year-zero adopter of JavaScript technologies, Angular, React, Node.js, and Express,
 embracing the continuing shift towards simplier and more agile systems and process.
 
-I love working with JavaScript and all the technologies and process it enables.
+I love working with JavaScript and all the technologies and processes it enables.
 
 `;
 

@@ -42,18 +42,16 @@ const projects = [
       'Angular', 'Node.js', 'Docker', 'Agile', 'Azure', 'Heroku', 'Jenkins'
     ],
     bullets: [
-      'Followed BDD and TDD development processes',
-      'Data driven forms',
-      'Through and through Javascript - client, server, test suite.',
-      'Created a complete automation test suite covering close to all app features.',
-      'Node.js micro services implementation',
-      'Created a decoupled CMS component to support the application - see cmeasy.herokuapp.com',
+      'Practiced BDD and TDD development processes ending up with a feature complete automated test suite',
+      'Created a reusable data-driven forms solution that would support future contract builders for MBIE',
+      'Helped sell a through and through Javascript solution internally to Solnet and externally to MBIE',
+      'Went beyond the static wireframes creating my own motion design and micro user interactions',
+      'Created a Node.js micro services implementation handles 10x expected load on low cost two node cloud infastructure',
+      'Created a decoupled CMS component to support the application that provided more features than the Javascript CMS landscape at the time - see cmeasy.herokuapp.com',
       'Created internal email, document, form components already reused on other projects',
-      'Security implementation',
-      'Performance profiling and reviews',
-      'Automated testing and releases a dozen times a day',
-      'Docker containerised environments handling node scaling, static servers and bringing deployment time down to seconds',
-      'Angular.js front end'
+      'Created security implementation that sailed through 3rd party security review',
+      'Implemented a CI environment that performed automated testing and releases a dozen times a day avoid any manual tasks',
+      'Pushed docker solution handling node scaling, static servers and bringing build and deployment time down to minutes rather than hours'
     ]
   },
   {
@@ -75,10 +73,10 @@ const projects = [
       'Liferay', 'Angular', 'Java', 'Spring'
     ],
     bullets: [
-      'Time critical environment',
-      'Collaberation with UX and design teams ensuring good usability of solution',
+      'Managed my time effectively within a time critical environment completing and communicating tasks to project managers',
+      'Collaberated with UX and design teams ensuring good usability of solution',
       'Presented UX and design solution alternatives to client',
-      'Worked remotely for half the project',
+      'Worked remotely for half the project while still tracking my tasks without issue'
     ]
   },
   {
@@ -86,7 +84,7 @@ const projects = [
     client: 'Westpac',
     brief: `
 
-
+      Originally going in as a dev ops and IBM Worklight consulant - after several months, as the teams trust grew, my role expanded.
 
     `,
     isLarge: false,
@@ -100,21 +98,18 @@ const projects = [
       'Websphere', 'Backbone.js', 'Worklight', 'Agile', 'Java', 'Spring', 'COBOL', 'Jenkins'
     ],
     bullets: [
-      'Tech leading and mentoring of a team five large',
-      'Improved developer tooling and experience with features like livereload',
-      'Created the Client and Middleware security feature',
-      'Middleware Javascript framework design, implementation, and testing',
-      'Gatekeeper of critical environments used by a team of 60',
-      'Provided IBM Worklight and Backbone.js consulting',
-      'Hybrid and webapp application design',
-      'Performance profiling of application'
+      'Presented and owned the solutions of several developer tooling and experience improvements',
+      'Technical leader and mentor of a team five large covering a wide spread of technologies and environments',
+      'Trusted as the gatekeeper of critical development and test environments relied on by a team 60 large',
+      'Designed, implemented, and tested a JavaScript middleware framework that improved the abstraction and reliability of the middleware HTTP adaptors',
+      'Designed, implemented, and tested the security feature encompassing the client and middleware layers',
+      'Presented a UX review noting several usability and performance improvements for the application'
     ]
   },
   {
     title: 'Air Forms',
     client: 'Air New Zealand',
     brief: `
-
 
     `,
     isLarge: false,
@@ -130,12 +125,12 @@ const projects = [
     bullets: [
       'Data driven forms',
       'Hybrid application design running on Supersonic',
-      'Polished the application improving rendering performance and removing jank'
+      'Polished the application removing dozens of browser rendering bottlenecks providing a jank free hybrid solution'
     ]
   },
   {
     title: 'Learning clients name game',
-    client: 'Classified',
+    client: 'Private',
     brief: `
       We entered in a competition to imagine, design, and develop a proof of concept mobile gamification app in 3 days.
 
@@ -161,7 +156,8 @@ const projects = [
       'Created a complete proof of concept application in 3 days',
       'Succeeded in gaining a position on the clients project panel',
       'Hybrid application design',
-      'Worked efficently with other JavaScript, UX and UI developers'
+      'Super agile',
+      'Worked effectively with other JavaScript, UX and UI developers in parallel'
     ]
   },
   {
@@ -192,11 +188,9 @@ const projects = [
     title: 'Public website',
     client: 'Solnet',
     brief: `
-
       Full-stack javascript project
 
       Solo developer picking up JavaScript, CSS, HTML
-
     `,
     isLarge: false,
     images: [
@@ -299,14 +293,17 @@ class Projects extends Component {
               return (
                 <div key={i} className={i === 0 ? s.firstProject : s.project}>
                   <div className={s.projectContainer}>
-
-                    <ImageContainer images={project.images} projectIndex={i}/>
+                    {/*<ImageContainer images={project.images} projectIndex={i}/>*/}
 
                     <div className={s.projectContent}>
-                      <h2 className={s.projectTitle}>{project.title}</h2>
-                      <em>{project.client}</em>
-                      <p>{project.brief}</p>
-                      <Bullet bullets={project.bullets} />
+                      <div className={s.projectTitleContainer}>
+                        <h2 className={s.projectTitle}>{project.title}</h2>
+                        <em>{project.client}</em>
+                      </div>
+                      <div>
+                        <p>{project.brief}</p>
+                        <Bullet bullets={project.bullets} />
+                      </div>
                     </div>
                   </div>
                 </div>

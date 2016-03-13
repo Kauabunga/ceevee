@@ -74,12 +74,17 @@
 }
 
 
+.projectTitleContainer {
+  margin-bottom: 40px;
+}
+
 .projectContent {
   margin: 20px;
   display: inline-block;
 
   @media(min-width: $max-content-break){
     margin-right: 60px;
+    margin: 30px;
   }
 
   h2 {
@@ -91,10 +96,11 @@
     display: inline-block;
     padding: 0 20px;
     @media (min-width: $screen-xs-min){
-      padding: 0 0 0 40px;
+      padding: 0 0 0 20px;
     }
   }
   ul li {
+    color: $blue;
     margin-bottom: 8px;
   }
 
