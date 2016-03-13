@@ -47,6 +47,7 @@
 .headerButton {
   background-color: $background-content;
 
+  user-select: none;
   color: $blue-dark;
 
   z-index: 5;

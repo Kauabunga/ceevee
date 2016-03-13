@@ -94,7 +94,11 @@ const projects = [
       NEON is Sky TV's entry into the New Zealand tv on demand market. Our project was responsible for implementing the Web client
       and the Web API supporting other NEON apps sitting on other platforms.
 
-      I played the role of a Front end developer
+      I played the role of a Front end developer with a close interest in the Web API and UX layers that my tasks depended on.
+
+      I was tasked with designing a set of middleware REST API based on a SAAS backend that the client layers would consume.
+
+      I was also tasked at filling in gaps in the UX and design which the static wireframes designed in a separate project did not cover.
 
     `,
     isLarge: true,
@@ -109,7 +113,7 @@ const projects = [
     ],
     bullets: [
       'Managed my time effectively within a time critical environment completing and communicating tasks to project managers.',
-      'Designed REST API transforming 3rd party data sources for client',
+      'Designed REST API transforming PAAS data sources to support the multiple client layers',
       'Collaborated with UX and design teams ensuring good usability of solution.',
       'Owned and presented UX and design alternatives to client.',
       'Worked remotely for half the project while still tracking my tasks in good time.'
