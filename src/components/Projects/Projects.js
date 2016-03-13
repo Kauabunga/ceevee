@@ -56,7 +56,8 @@ const projects = [
     title: 'NEON',
     client: 'Sky TV',
     brief: `
-      NEON is Sky TV's tv on demand marketpiece.
+      NEON is Sky TV's entry into the New Zealand tv on demand market. Our project was responsible for the Web client and the
+      Web API supporting other NEON apps sitting on other platforms.
     `,
     isLarge: false,
     images: [
