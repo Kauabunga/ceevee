@@ -47,8 +47,8 @@ class Introduction extends Component {
   render() {
     return (
       <div className={s.root}>
-        <div className={s.content}>
-        <b className={s.blue}>{main}</b>
+        <div className={s.firstSentence}>
+          <b className={s.blue}>{main}</b>
         </div>
         <div className={s.content}>{text}</div>
         <div className={s.content}>{text2}</div>

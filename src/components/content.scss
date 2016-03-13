@@ -9,6 +9,10 @@
   padding: 20px 0;
   max-width: $max-content-width;
 
+  p, li {
+    line-height: 2em;
+  }
+
   @media (min-width: $screen-xs-min) {
     margin: 0 30px;
   }
