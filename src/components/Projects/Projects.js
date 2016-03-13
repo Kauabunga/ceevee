@@ -73,7 +73,7 @@ const projects = [
       'Managed my time effectively within a time critical environment completing and communicating tasks to project managers',
       'Collaberated with UX and design teams ensuring good usability of solution',
       'Presented UX and design solution alternatives to client',
-      'Worked remotely for half the project while still tracking my tasks without issue'
+      'Worked remotely for half the project while still tracking my tasks in good time'
     ]
   },
   {
@@ -284,7 +284,7 @@ class Projects extends Component {
   render() {
     return (
       <div className={s.root}>
-        <h1 className={s.projectTitle}>Projects</h1>
+        <h1 id="Projects" className={s.projectTitle}>Projects</h1>
 
         <div className={s.projectsContainer}>
           {

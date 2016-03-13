@@ -24,10 +24,9 @@ const jobs = [
     I have gained experience with several high profile clients placed first as a developer along with other roles such as devops, ux, team lead, tech lead.
 
     More recently in my time at Solnet I have been involved in mentoring others in JavaScript tooling and practices.
-
-    See the following Projects section for an overview of some of the work I've done at Solnet.
-
     `,
+    link: `Have a look at the following Projects section to see of some of the work I've done at Solnet.`,
+    linkHref: '#Projects',
     svg: {
       src: require('./solnet.svg'),
       height: '2215px',
@@ -83,7 +82,7 @@ class Experience extends Component {
   render() {
     return (
       <div className={s.root}>
-        <h1 className={s.experienceTitle}>Experience</h1>
+        <h1 id="Experience" className={s.experienceTitle}>Experience</h1>
 
         {
           jobs.map(function(job, i){
@@ -99,6 +98,9 @@ class Experience extends Component {
                        job.svg ? (<div className={s.jobImage}><amp-img src={job.svg.src} height={job.svg.height} width={job.svg.width} layout="responsive"></amp-img></div>) : null
                     }
                     <p className={s.jobBrief}>{job.brief}</p>
+                    {
+                      job.link ? (<a className={s.jobLink} href={job.linkHref}>{job.link}</a>) : null
+                    }
                   </div>
                 </div>
               </div>

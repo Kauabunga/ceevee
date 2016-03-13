@@ -123,6 +123,16 @@ $link-color: #bbb;
   }
 }
 
+.jobLink {
+  text-decoration: none;
+  color: $blue-dark;
+
+  border-bottom: 2px solid transparent;
+  transition: border-color 200ms ease;
+  &:hover {
+    border-bottom: 2px solid $blue-dark;
+  }
+}
 
 .jobContent {
   min-height: 100px;
