@@ -63,7 +63,7 @@ class Html extends Component {
         <link rel="canonical" href="http://www.carson.kiwi/" />
         <meta name="description" content={this.props.description} />
         <meta name="viewport" content="width=device-width,minimum-scale=1" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
 
         <link rel="icon" type="image/svg" href="/favicon.svg" />
         <link rel="icon" type="image/png" href="/favicon.png" />

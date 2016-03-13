@@ -53,32 +53,6 @@ const projects = [
     ]
   },
   {
-    title: 'NEON',
-    client: 'Sky TV',
-    brief: `
-      NEON is Sky TV's entry into the New Zealand tv on demand market. Our project was responsible for implementing the Web client
-      and the Web API supporting other NEON apps sitting on other platforms.
-
-
-    `,
-    isLarge: false,
-    images: [
-      {
-        main: require('./EAB-1000.jpg'),
-        thumbnail: require('./EAB-300.jpg')
-      }
-    ],
-    technologies: [
-      'Liferay', 'Angular', 'Java', 'Spring'
-    ],
-    bullets: [
-      'Managed my time effectively within a time critical environment completing and communicating tasks to project managers.',
-      'Collaborated with UX and design teams ensuring good usability of solution.',
-      'Owned and presented UX and design alternatives to client.',
-      'Worked remotely for half the project while still tracking my tasks in good time.'
-    ]
-  },
-  {
     title: 'Online Banking',
     client: 'Westpac',
     brief: `
@@ -92,7 +66,7 @@ const projects = [
       security in the client.
 
     `,
-    isLarge: false,
+    isLarge: true,
     images: [
       {
         main: require('./EAB-1000.jpg'),
@@ -108,16 +82,50 @@ const projects = [
       'Trusted as the gatekeeper of critical development and test environments relied on by a team 60 large.',
       'Designed, implemented, and tested a JavaScript middleware framework that improved the abstraction and reliability of the middleware HTTP adapters.',
       'Designed, implemented, and tested the security feature encompassing the client and middleware layers.',
-      'Presented a UX review noting several usability and performance improvements for the application.'
+      'Presented a UX review noting several usability and performance improvements for the application.',
+      'Worked with a wide spread of technology: Backbone, HTML, CSS, JavaScript, Jenkins, iOS, Android, Git, Svn, Java, Spring, IBM WebSphere, IBM Worklight, COBOL.'
     ]
   },
   {
-    title: 'Air Forms',
+    title: 'NEON',
+    client: 'Sky TV',
+    brief: `
+
+      NEON is Sky TV's entry into the New Zealand tv on demand market. Our project was responsible for implementing the Web client
+      and the Web API supporting other NEON apps sitting on other platforms.
+
+      I played the role of a Front end developer
+
+    `,
+    isLarge: true,
+    images: [
+      {
+        main: require('./EAB-1000.jpg'),
+        thumbnail: require('./EAB-300.jpg')
+      }
+    ],
+    technologies: [
+      'Liferay', 'Angular', 'Java', 'Spring'
+    ],
+    bullets: [
+      'Managed my time effectively within a time critical environment completing and communicating tasks to project managers.',
+      'Designed REST API transforming 3rd party data sources for client',
+      'Collaborated with UX and design teams ensuring good usability of solution.',
+      'Owned and presented UX and design alternatives to client.',
+      'Worked remotely for half the project while still tracking my tasks in good time.'
+    ]
+  },
+  {
+    title: 'Crew Forms',
     client: 'Air NZ',
     brief: `
 
+      Integration with an existing data source turned API.
+
+      Multiple phases.
+
     `,
-    isLarge: false,
+    isLarge: true,
     images: [
       {
         main: require('./EAB-1000.jpg'),
@@ -149,7 +157,7 @@ const projects = [
       projects followed shortly after with a winning proposal for a separate project.
 
     `,
-    isLarge: false,
+    isLarge: true,
     images: [
       {
         main: require('./EAB-1000.jpg'),
@@ -172,9 +180,10 @@ const projects = [
     client: 'Ministry of Business and Innovation and Employment',
     brief: `
 
+      Nearly pure client side solution (minus email).
 
     `,
-    isLarge: false,
+    isLarge: true,
     images: [
       {
         main: require('./EAB-1000.jpg'),
@@ -199,7 +208,7 @@ const projects = [
 
       Solo developer picking up JavaScript, CSS, HTML
     `,
-    isLarge: false,
+    isLarge: true,
     images: [
       {
         main: require('./EAB-1000.jpg'),
@@ -220,11 +229,15 @@ const projects = [
     title: 'Shared Capability',
     client: 'ACC',
     brief: `
+      Shared capability focused on developing and sharing best practices within a platform of technology to support parellel and future projects.
 
+      This was a golden opportunity to grow as a Junior cementing practices and theory acquired through university. I was exposed to a variety of technology and process
+      including CI, Agile, UX, Testing, Java, IBM, and JavaScript.
 
+      It was this project that my interest in JavaScript and UX starting spinning, thrilled by the craft and challenge resulting in the difference between something lovable or not.
 
     `,
-    isLarge: false,
+    isLarge: true,
     images: [
       {
         main: require('./EAB-1000.jpg'),
@@ -235,10 +248,10 @@ const projects = [
       'Java', 'Websphere', 'IBM Portal', 'IBM WCM', 'JQuery', 'Jenkins'
     ],
     bullets: [
-      'Java developer',
+      'Implemented CI ',
       'Quick learner',
       'Enterprise application environments',
-      'Successfully integrated IBM Forms Experience Builder product with IBM Portal collaborating with IBM development team and providing development experience solutions'
+      'Integrated IBM Forms Experience Builder product with IBM Portal collaborating with IBM development team and providing product defect solutions.'
     ]
   },
 
@@ -292,7 +305,7 @@ class Projects extends Component {
   render() {
     return (
       <div className={s.root}>
-        <h1 id="Projects" className={s.projectTitle}>Projects</h1>
+        <h1 id="Projects" className={s.projectsTitle}>Projects</h1>
 
         <div className={s.projectsContainer}>
           {
