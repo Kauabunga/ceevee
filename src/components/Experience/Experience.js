@@ -40,7 +40,7 @@ const jobs = [
     brief: `
 
     My second research opportunity was offered by the supervisor of my honours project to further its report towards an end goal of a published research paper.
-    With some give and take from the wider Web Intellegence team at Victoria I managed to get the paper submitted and accepted to an Australasian Web Intellegence conference by the end of my research.
+    With some give and take from the wider Web Intelligence team at Victoria I managed to get the paper submitted and accepted to an Australasian Web Intelligence conference by the end of my research.
 
     `,
     svg: {
@@ -55,7 +55,7 @@ const jobs = [
     brief: `
 
     I was awarded a research scholarship at the end of my 300 level university year giving me experience in planning directing a research project.
-    With support from my supervisor and his team, I contributed to development on an open source gaze tracking system helping it evolve to a level where it might benefit the university, saving an equivelant commercial product cost of  $10,000.
+    With support from my supervisor and his team, I contributed to development on an open source gaze tracking system helping it evolve to a level where it might benefit the university, saving an equivalent commercial product cost of  $10,000.
     In addition to learning about eye-tracking systems I gained experience in project practice and quickly learned C#.
 
     `,
@@ -70,7 +70,7 @@ const jobs = [
     date: 'Nov 2009 - March 2010 ( 4 months )',
     brief: `
 
-    Interning with a fellow student alongside a senior software engineer I worked on a project developing a prototype scripting parser and runtime for embeded systems.
+    Interning with a fellow student alongside a senior software engineer I worked on a project developing a prototype scripting parser and runtime for embedded systems.
     The experience helped cement my years study learning C, Agile processes, and testing practices.
     The project proved successful gaining further funding being developed into a commercial product.
 

@@ -17,15 +17,13 @@ const projects = [
     title: 'Employment Agreement Builder',
     client: 'Ministry of Business and Innovation and Employment',
     brief: `
-
       EAB is a web application realised to provide value to both front end users along with those responsible for its maintenance.
 
       Small to medium business parties are able to use the tool to step through creating a new Employment agreement while at the
       same time educating themselves about employment law with easy to digest content and links.
 
-      I lead the implementation design while mentoring a Senior Java developer transitioning to JavaScript.
+      I lead the implementation design while teaching a Senior Java developer transitioning to JavaScript.
       The project ran successfully meeting its internal and external objectives finishing in three months.
-
     `,
     isLarge: true,
     images: [
@@ -46,7 +44,7 @@ const projects = [
       'Created a reusable data-driven forms solution that would support future contract builders for MBIE',
       'Helped sell a through and through Javascript solution internally to Solnet and externally to MBIE',
       'Went beyond the static wireframes creating my own motion design and micro user interactions',
-      'Created a Node.js micro services implementation handles 10x expected load on low cost two node cloud infastructure',
+      'Created a Node.js micro services implementation handles 10x expected load on low cost two node cloud infrastructure',
       'Created a decoupled CMS component to support the application that provided more features than the Javascript CMS landscape at the time - see cmeasy.herokuapp.com',
       'Created internal email, document, form components already reused on other projects',
       'Created security implementation that sailed through 3rd party security review',
@@ -56,11 +54,9 @@ const projects = [
   },
   {
     title: 'NEON',
-    client: 'Sky Television',
+    client: 'Sky TV',
     brief: `
-
-
-
+      NEON is Sky TV's tv on demand marketpiece.
     `,
     isLarge: false,
     images: [
@@ -84,7 +80,7 @@ const projects = [
     client: 'Westpac',
     brief: `
 
-      Originally going in as a dev ops and IBM Worklight consulant - after several months, as the teams trust grew, my role expanded.
+      Originally going in as a dev ops and IBM Worklight consultant - after several months, as the teams trust grew, my role expanded.
 
     `,
     isLarge: false,
@@ -101,14 +97,14 @@ const projects = [
       'Presented and owned the solutions of several developer tooling and experience improvements',
       'Technical leader and mentor of a team five large covering a wide spread of technologies and environments',
       'Trusted as the gatekeeper of critical development and test environments relied on by a team 60 large',
-      'Designed, implemented, and tested a JavaScript middleware framework that improved the abstraction and reliability of the middleware HTTP adaptors',
+      'Designed, implemented, and tested a JavaScript middleware framework that improved the abstraction and reliability of the middleware HTTP adapters',
       'Designed, implemented, and tested the security feature encompassing the client and middleware layers',
       'Presented a UX review noting several usability and performance improvements for the application'
     ]
   },
   {
     title: 'Air Forms',
-    client: 'Air New Zealand',
+    client: 'Air NZ',
     brief: `
 
     `,
@@ -129,10 +125,12 @@ const projects = [
     ]
   },
   {
-    title: 'Learning clients name game',
+    title: 'Name game',
     client: 'Private',
     brief: `
       We entered in a competition to imagine, design, and develop a proof of concept mobile gamification app in 3 days.
+
+      The brief was to create an educational tool that would help staff learn the names of their clients.
 
       Our UX and developer streams worked well together from the start, laying foundations for one another and we managed
       to create a complete working iOS game that would quiz the user on peoples names with multiple mini-games supported by
@@ -210,11 +208,11 @@ const projects = [
     ]
   },
   {
-    title: 'ACC',
-    client: 'Shared Capability',
+    title: 'Shared Capability',
+    client: 'ACC',
     brief: `
 
-      Little bite of javascript gave me the curse
+
 
     `,
     isLarge: false,
@@ -231,7 +229,7 @@ const projects = [
       'Java developer',
       'Quick learner',
       'Enterprise application environments',
-      'Successfully integrated IBM Forms Experience Builder product with IBM Portal collaberating with IBM development team and providing development experience solutions'
+      'Successfully integrated IBM Forms Experience Builder product with IBM Portal collaborating with IBM development team and providing development experience solutions'
     ]
   },
 

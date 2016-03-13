@@ -26,7 +26,7 @@ const text = `
 
 const text2 = `
 
-  I consider some of my key skills to include: Problem solving, Speed to learn, Openmindedness, Being a team player, and Communication.
+  I consider some of my key skills to include: Problem solving, Speed to learn, Open Mindedness, Being a team player, and Communication.
 
 `;
 
@@ -34,7 +34,7 @@ const text2 = `
 const text3 = `
 
 I am a year-zero adopter of JavaScript technologies, Angular, React, Node.js, and Express,
-embracing the continuing shift towards simplier and more agile systems and process.
+embracing the continuing shift towards simpler and more agile systems and process.
 
 I love working with JavaScript and all the technologies and processes it enables.
 
