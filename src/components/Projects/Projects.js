@@ -64,7 +64,7 @@ const projects = [
       I helped keep the project oiled by mediating communications between developers from API and Client teams.
        I improved automation in local, development, and test environments, which helped developers become more autonomous providing an interface for logs, deployments, and environment stats.
 
-      After two months I was promoted to techical lead of a team five large responsible for feature development in the middleware including client security.
+      After two months I was promoted to technical lead of a team five large responsible for feature development in the middleware including client security.
 
     `,
     isLarge: true,
@@ -158,10 +158,10 @@ const projects = [
       The brief was to create an educational tool that would help staff learn the names of their clients.
 
       Our UX and developer streams worked well together from the start, laying foundations for one another and we managed
-      to create a complete working iOS game that would quiz the user on peoples' names with multiple mini-games supported by
+      to create a complete working iOS game that would quiz the user on people's names with multiple mini-games supported by
        a global leaderboard.
 
-      We were placed well in the competition winning the prize of placing in the companies' evaluation panel for future
+      We were placed well in the competition winning the prize of placing in the company's evaluation panel for future
       projects followed shortly after with a winning proposal for a separate project.
 
     `,
@@ -177,7 +177,7 @@ const projects = [
     ],
     bullets: [
       'Created a complete proof of concept application in 3 days.',
-      'Succeeded in gaining a position on the clients project panel.',
+      'Succeeded in gaining a position on the client\'s project panel.',
       'Worked effectively with other JavaScript, UX and UI developers in parallel streams.'
     ]
   },
@@ -186,7 +186,7 @@ const projects = [
     client: 'Ministry of Business and Innovation and Employment',
     brief: `
 
-      The Employee Cost Calculator encourages small to medium sized New Zeland business to hire new employees by estimating how much a new employee will cost them.
+      The Employee Cost Calculator encourages small to medium sized New Zealand business to hire new employees by estimating how much a new employee will cost them.
 
       At the beginning of the project my role was to assist with the RFP document and solution design.
 
@@ -204,7 +204,7 @@ const projects = [
       'Angular', 'CSS/HTML', 'Grunt.js'
     ],
     bullets: [
-      'Created proof of concept application used as presales collateral.',
+      'Created proof of concept application used as pre sales collateral.',
       'Contributed to the RFP solution design and estimates.',
       'Researched, designed, and implemented a Google Analytics solution over a weekend.',
       'Managed app support for UAT test handover.'
@@ -217,7 +217,7 @@ const projects = [
 
       In a small team with two UI designers we were given the task to redevelop Solnet's website.
 
-      I had the responsibility to select technologies to best fit our needs choosing a fullstack JavaScript solution with a static filesystem content source.
+      I had the responsibility to select technologies to best fit our needs choosing a fullstack JavaScript solution with a static file system content source.
 
     `,
     isLarge: true,
@@ -240,7 +240,7 @@ const projects = [
     title: 'Shared Capability',
     client: 'ACC',
     brief: `
-      Shared capability focused on developing and sharing best practices within a platform of technology to support parellel and future projects.
+      Shared capability focused on developing and sharing best practices within a platform of technology to support parallel and future projects.
 
       I was exposed to a variety of technology and process including CI, Agile, UX, Testing, Java, IBM, and JavaScript.
 
@@ -258,7 +258,7 @@ const projects = [
       'Java', 'Websphere', 'IBM Portal', 'IBM WCM', 'JQuery', 'Jenkins'
     ],
     bullets: [
-      'Developed a developers guide supporting other developers using IBM Forms Experience Builder.',
+      'Developed a developer\'s guide supporting other developers using IBM Forms Experience Builder.',
       'Integrated IBM Forms Experience Builder product with IBM Portal collaborating with IBM development team and providing product defect solutions.'
     ]
   }
