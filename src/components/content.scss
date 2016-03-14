@@ -74,7 +74,8 @@ em {
   font-size: 0.9em;
   color: #fff;
   background: $gray-lightish;
-  padding: 0 8px;
+  padding: 1px 12px;
+  letter-spacing: 0.08em;
   opacity: 0.8;
 
   @media print {
