@@ -26,6 +26,11 @@ class Footer extends Component {
             <span className={s.text}><b>hello@carson.kiwi</b></span>
           </div>
 
+
+          <div className={s.socialLinkPrint}>GitHub https://github.com/Kauabunga</div>
+          <div className={s.socialLinkPrint}>Linkedin https://nz.linkedin.com/in/carsonbruce</div>
+
+
           <a href='https://github.com/Kauabunga' target='_blank' className={s.socialLink}>
             <amp-img src={require('./github.svg')} height='40px' width='40px' />
           </a>

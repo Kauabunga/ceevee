@@ -24,7 +24,7 @@ const jobs = [
     More recently in my time at Solnet I have been involved in mentoring others in JavaScript tooling and practices.
     `,
     link: `Have a look at the following Projects section to see of some of the work I've done at Solnet.`,
-    linkHref: '#Experience',
+    linkHref: '#Projects',
     svg: {
       src: require('./solnet.svg'),
       height: '2215px',
@@ -78,7 +78,7 @@ class Experience extends Component {
   render() {
     return (
       <div className={s.root}>
-        <h1 id="Roles" className={s.experienceTitle}>Roles</h1>
+        <h1 id="Experience" className={s.experienceTitle}>Experience</h1>
 
         {
           jobs.map(function(job, i){

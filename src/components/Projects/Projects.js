@@ -122,7 +122,7 @@ const projects = [
   },
   {
     title: 'Crew Forms',
-    client: 'Air NZ',
+    client: 'Air New Zealand',
     brief: `
 
       Crew forms was a heavily digital project looking to turn a paper based form into a mobile tablet-based solution.
@@ -267,7 +267,7 @@ const projects = [
 class Bullet extends Component {
   render() {
     return (
-      <ul>
+      <ul className={s.projectBullets}>
         {
           this.props.bullets.map((bullet, i) => {
             return (
@@ -312,7 +312,7 @@ class Projects extends Component {
   render() {
     return (
       <div className={s.root}>
-        <h1 id="Experience" className={s.projectsTitle}>Experience</h1>
+        <h1 id="Projects" className={s.projectsTitle}>Projects</h1>
 
         <div className={s.projectsContainer}>
           {

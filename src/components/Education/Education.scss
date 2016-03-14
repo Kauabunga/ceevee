@@ -24,6 +24,10 @@
   }
   em {
     margin-top: 0;
+    background-color: transparent;
+    color: $gray-lightish;
+    padding: 0;
+    opacity: 1;
   }
 
   @media print {

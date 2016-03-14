@@ -21,7 +21,7 @@
   flex: 1 0 100%;
 
   @media print {
-    display: inline-block;
+    display: block;
   }
 }
 
@@ -47,6 +47,7 @@
   @media print {
     box-shadow: none;
     margin: 0;
+    display: block;
   }
 }
 
@@ -75,16 +76,50 @@
 }
 
 .projectTitleContainer {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
+}
+
+.projectBullets {
+
+  width: 90%;
+  display: block;
+  margin-top: 40px;
+
+  @media (min-width: $screen-sm-min){
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 20%;
+  }
+
+
+  @media print {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+  }
 }
 
 .projectBrief {
-  display: inline-block;
+  width: 95%;
+  display: block;
+
+  @media (min-width: $screen-sm-min){
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  @media print {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+  }
 }
 
 .projectContent {
   margin: 20px;
-  display: inline-block;
 
   @media(min-width: $max-content-break){
     margin-right: 60px;
@@ -97,7 +132,6 @@
   }
 
   ul {
-    display: inline-block;
     padding: 0 20px;
     @media (min-width: $screen-xs-min){
       padding: 0 0 0 20px;
@@ -110,6 +144,9 @@
 
   @media print {
     margin: 0;
+    ul li {
+      margin-bottom: 2px;
+    }
   }
 }
 

@@ -52,7 +52,7 @@ class Introduction extends Component {
         <div className={s.content}>{text2}</div>
         <div className={s.content}>{text3}</div>
         <div className={s.content}>
-          Come say hi at <b className={s.blue}>hello@carson.kiwi</b>
+          Get in touch at <b className={s.blue}>hello@carson.kiwi</b>
         </div>
       </div>
     );

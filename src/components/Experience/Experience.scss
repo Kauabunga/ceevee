@@ -85,7 +85,11 @@ $link-color: #bbb;
 
 .titleContainer {
   display: inline-block;
-  width: 70%;
+  width: 100%;
+
+  @media (min-width: $screen-sm-min){
+    width: 70%;
+  }
 }
 
 .jobImage {

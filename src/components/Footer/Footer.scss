@@ -21,6 +21,14 @@
   text-align: center;
 }
 
+.socialLinkPrint {
+  display: none;
+  color: $blue-dark;
+  @media print {
+    display: block;
+  }
+}
+
 .socialLink {
   user-select: none;
   margin: 26px 12px 0;
@@ -29,6 +37,10 @@
   transition: opacity 200ms ease;
   &:hover {
     opacity: 0.8;
+  }
+
+  @media print {
+    display: none;
   }
 }
 

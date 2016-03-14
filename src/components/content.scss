@@ -20,6 +20,16 @@
   @media (min-width: $max-content-break) {
     margin: 0 auto;
   }
+
+  @media print {
+    padding: 0;
+    p, li {
+      line-height: 1.4em;
+    }
+    p, ul {
+      display: block !important;
+    }
+  }
 }
 
 .blueRoot {
@@ -38,6 +48,7 @@
   }
 
   @media print {
+    padding-bottom: 0;
     h1 {
       color: $blue-dark;
     }
@@ -51,12 +62,24 @@
 h1 {
   margin: 60px 0;
   font-size: 2.2em;
+
+  @media print {
+    margin: 0;
+    font-size: 2em;
+  }
 }
 
 em {
   font-weight: 700;
-  color: $gray-lightish;
   font-size: 0.9em;
+  color: #fff;
+  background: $gray-lightish;
+  padding: 0 8px;
+  opacity: 0.8;
+
+  @media print {
+    padding: 0;
+  }
 }
 
 h1, h2, h3, h4, h5 {
