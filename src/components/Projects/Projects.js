@@ -17,13 +17,15 @@ const projects = [
     title: 'Employment Agreement Builder',
     client: 'Ministry of Business and Innovation and Employment',
     brief: `
-      EAB is a web application realised to provide value to both front end users along with those responsible for its maintenance.
 
-      Small to medium business parties are able to use the tool to step through creating a new Employment agreement while at the
-      same time educating themselves about employment law with easy to digest content and links.
+      EAB is a web application that provides value to front end users and those who maintain the backend.
 
-      I lead the implementation design while teaching a Senior Java developer transitioning to JavaScript.
-      The project ran successfully meeting its internal and external objectives finishing in three months.
+      Using the tool, small to medium businesses can step through the process of creating a new Employment agreement while learning
+      about employment law with easy-to-digest content and links.
+
+      I led the implementation design while teaching a Senior Java developer transitioning to JavaScript.
+      The project met its internal and external objectives and was finished in three months.
+
     `,
     isLarge: true,
     images: [
@@ -57,13 +59,12 @@ const projects = [
     client: 'Westpac',
     brief: `
 
-      I became part of the Westpac project to rewrite their online banking applications originally rolled in as an IBM Worklight consultant and dev ops engineer.
+      I was part of a Westpac project to rewrite their online banking applications originally rolled in as an IBM Worklight consultant and dev ops engineer.
 
-      I helped keep the project oiled by mediating communications between developers from API and Client teams along with improving automation in local, developmenet, and test environments.
-      This automation helped developers become more autonomous providing an interface for logs, deployments, and environment stats.
+      I helped keep the project oiled by mediating communications between developers from API and Client teams.
+       I improved automation in local, development, and test environments, which helped developers become more autonomous providing an interface for logs, deployments, and environment stats.
 
-      After a couple of month went by and the teams trust in me grew I became tech lead of a team five large responsible for feature development in the middleware
-      security in the client.
+      After two months I was promoted to techical lead of a team five large responsible for feature development in the middleware including client security.
 
     `,
     isLarge: true,
@@ -91,14 +92,14 @@ const projects = [
     client: 'Sky TV',
     brief: `
 
-      NEON is Sky TV's entry into the New Zealand tv on demand market. Our project was responsible for implementing the Web client
+      NEON is Sky TV's entry into the New Zealand TV on demand market. Our project was responsible for implementing the Web client
       and the Web API supporting other NEON apps sitting on other platforms.
 
-      I played the role of a Front end developer with a close interest in the Web API and UX layers that my tasks depended on.
+      My role was a front end developer with a close interest in the Web API and UX layers that my tasks depended on.
 
       I was tasked with designing a set of middleware REST API based on a SAAS backend that the client layers would consume.
 
-      I was also tasked at filling in gaps in the UX and design which the static wireframes designed in a separate project did not cover.
+      I was also asked to fill gaps in the UX and design that the static wireframes designed in a separate project did not cover.
 
     `,
     isLarge: true,
@@ -124,10 +125,10 @@ const projects = [
     client: 'Air NZ',
     brief: `
 
-      Crew forms was a heavily digital project looking to turn a currently paper based form into a more mobile tablet based solution.
+      Crew forms was a heavily digital project looking to turn a paper based form into a mobile tablet-based solution.
 
-      The experience of these forms was improved with the new techbnology and with a change in platform the forms were allowed to be reimagined
-      through UX process to create an further better user experience rather than being a clone of the paper solution.
+      The experience of these forms was improved with the new technology and with a change in platform the forms were allowed to be reimagined
+      through UX process to further better user experience rather than being a clone of the paper solution.
 
       I worked on the project in its second phase after its first release bringing in a couple of new features and polishing the first implementation.
     `,
@@ -157,10 +158,10 @@ const projects = [
       The brief was to create an educational tool that would help staff learn the names of their clients.
 
       Our UX and developer streams worked well together from the start, laying foundations for one another and we managed
-      to create a complete working iOS game that would quiz the user on peoples names with multiple mini-games supported by
+      to create a complete working iOS game that would quiz the user on peoples' names with multiple mini-games supported by
        a global leaderboard.
 
-      We placed well in the competition winning the prize of placing in the companies evaluation panel for future
+      We were placed well in the competition winning the prize of placing in the companies' evaluation panel for future
       projects followed shortly after with a winning proposal for a separate project.
 
     `,
@@ -185,12 +186,11 @@ const projects = [
     client: 'Ministry of Business and Innovation and Employment',
     brief: `
 
-      The Employee Cost Calculator encourages small to medium sized New Zeland business' to hire new employee's by providing
-       an estimate as to how much a new employee will cost them.
+      The Employee Cost Calculator encourages small to medium sized New Zeland business to hire new employees by estimating how much a new employee will cost them.
 
-      I was involved right at the beginning of the project assisting with the RFP documented and solution design.
+      At the beginning of the project my role was to assist with the RFP document and solution design.
 
-      I was next involved right at the end of the project assisting with UAT and PROD handovers and implementing the Analytics feature.
+      Towards the end of the projects I assisted with UAT and PROD handovers and implementing the Analytics feature.
 
     `,
     isLarge: true,
@@ -242,8 +242,7 @@ const projects = [
     brief: `
       Shared capability focused on developing and sharing best practices within a platform of technology to support parellel and future projects.
 
-      This was a golden opportunity to grow as a Junior cementing practices and theory acquired through university. I was exposed to a variety of technology and process
-      including CI, Agile, UX, Testing, Java, IBM, and JavaScript.
+      I was exposed to a variety of technology and process including CI, Agile, UX, Testing, Java, IBM, and JavaScript.
 
       It was this project that my interest in JavaScript and UX starting spinning, thrilled by the craft and challenge resulting in the difference between something lovable or not.
 
@@ -259,7 +258,6 @@ const projects = [
       'Java', 'Websphere', 'IBM Portal', 'IBM WCM', 'JQuery', 'Jenkins'
     ],
     bullets: [
-      'Became a valued team member as a Junior role.',
       'Developed a developers guide supporting other developers using IBM Forms Experience Builder.',
       'Integrated IBM Forms Experience Builder product with IBM Portal collaborating with IBM development team and providing product defect solutions.'
     ]
@@ -314,7 +312,7 @@ class Projects extends Component {
   render() {
     return (
       <div className={s.root}>
-        <h1 id="Projects" className={s.projectsTitle}>Projects</h1>
+        <h1 id="Experience" className={s.projectsTitle}>Experience</h1>
 
         <div className={s.projectsContainer}>
           {

@@ -12,31 +12,29 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Introduction.scss';
 
 const main = `
-  I am passionate when creating simple and beautiful apps.
+  I am passionate about creating simple and beautiful apps.
 `;
 
 
 const text = `
+  I plan and deliver throughout the entire software development process, from when a project is imagined to its end as the app is released.
 
-  I take interest in the entire software development process.
-  Through from the start when a project is imagined towards its end as a project is released. I have experienced a range of
-     roles and tasks covering its broad range.
-
+  I've worked on a number of large projects, demonstrating my experience through a range of roles. I have completed tasks that cover the length and breadth of a project.
 `;
 
 const text2 = `
 
-  I consider some of my key skills to include: Problem solving, Speed to learn, Open mindedness, Being a team player, and Communication.
+  My key attributes include: problem solving, speed to learn, open mindedness, being a team player, and communication.
 
 `;
 
 
 const text3 = `
 
-I am a year-zero adopter of JavaScript technologies, Angular, React, Node.js, and Express,
-embracing the continuing shift towards simpler and more agile systems and process.
+  I am a year-zero adopter of JavaScript technologies, Angular, React, Node.js, and Express,
+  embracing the continuing shift towards simpler and more agile systems and process.
 
-I love working with JavaScript and all the technologies and processes it enables.
+  I am at home working with JavaScript and all the technologies and processes it enables.
 
 `;
 

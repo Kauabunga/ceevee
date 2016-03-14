@@ -17,16 +17,14 @@ const jobs = [
     title: 'Solnet',
     date: 'Aug 2012 - Now ( 3.5 years )',
     brief: `
-
-    I started Solnet a week out from graduating kicking off the role straight into the delivery team of the company.
-    A year in I moved on over into the Digital team where my love for JavaScript and appreciation for UX boomed.
+    I started Solnet a week out from graduating kicking off the role straight into the delivery team of the company. A year in I moved on over into the Digital team.
 
     I have gained experience with several high profile clients placed first as a developer along with other roles such as devops, ux, team lead, tech lead.
 
     More recently in my time at Solnet I have been involved in mentoring others in JavaScript tooling and practices.
     `,
     link: `Have a look at the following Projects section to see of some of the work I've done at Solnet.`,
-    linkHref: '#Projects',
+    linkHref: '#Experience',
     svg: {
       src: require('./solnet.svg'),
       height: '2215px',
@@ -52,11 +50,9 @@ const jobs = [
     title: 'Research Project: Eye Gaze tracking',
     date: 'Nov 2010 - March 2011 ( 4 months )',
     brief: `
-
-    I was awarded a research scholarship at the end of my 300 level university year giving me experience in planning directing a research project.
-    With support from my supervisor and his team, I contributed to development on an open source gaze tracking system helping it evolve to a level where it might benefit the university, saving an equivalent commercial product cost of  $10,000.
-    In addition to learning about eye-tracking systems I gained experience in project practice and quickly learned C#.
-
+    I was awarded a research scholarship at the end of my 300 level university year.
+    With support from my supervisor and his team, I contributed to development of an open source gaze tracking system helping it evolve to a level where it could benefit the university, saving an equivalent commercial product cost of  $10,000.
+    In addition to learning about eye-tracking systems I gained experience in planning and directing a research project and project management.
     `,
     svg: {
       src: require('./vuw.png'),
@@ -82,7 +78,7 @@ class Experience extends Component {
   render() {
     return (
       <div className={s.root}>
-        <h1 id="Experience" className={s.experienceTitle}>Experience</h1>
+        <h1 id="Roles" className={s.experienceTitle}>Roles</h1>
 
         {
           jobs.map(function(job, i){
