@@ -15,7 +15,7 @@
 
 .chipList {
   list-style: none;
-  color: #fff;
+  color: $blue-dark;
 
   display: flex;
   flex-wrap: wrap;
@@ -39,6 +39,7 @@
   line-height: 40px !important;
 
   margin: 10px;
-  background-color: rgba(255,255,255,0.4);
+  background-color: rgba(255,255,255,0.48);
+
 
 }

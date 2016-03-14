@@ -10,7 +10,7 @@
 @import '../variables.scss';
 
 .root {
-  background: #333;
+  background: $grey-background;
   color: #fff;
 }
 
@@ -23,7 +23,7 @@
 
 .socialLink {
   user-select: none;
-  margin: 26px 12px 0px;
+  margin: 26px 12px 0;
   display: inline-block;
   opacity: 0.5;
   transition: opacity 200ms ease;

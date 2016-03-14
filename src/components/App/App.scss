@@ -25,12 +25,13 @@ html {
   line-height: 1.375; /* ~22px */
 
 //  background: $background;
-  background: #333;
+  background: $grey-background;
 }
 
 body {
-  background: #333;
+  background: $grey-background;
 }
+
 
 .contentContainer{
   background: $background-content;
