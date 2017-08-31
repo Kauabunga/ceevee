@@ -15,15 +15,18 @@ import s from './Experience.scss';
 const jobs = [
   {
     title: 'Solnet',
-    date: 'Aug 2012 - Now ( 3.5 years )',
+    date: 'Aug 2012 - Now ( 5 years )',
     brief: `
-    I started Solnet a week out from graduating kicking off the role straight into the delivery team of the company. A year in I moved on over into the Digital team.
+    I started Solnet a week out from graduating kicking off the role straight into the delivery team of the company.
 
-    I have gained experience with several high profile clients placed first as a developer along with other roles such as devops, ux, team lead, tech lead.
+    I have gained experience with several high profile clients placed first as a developer along with other roles such as
+     devops, ux, tech lead.
 
-    More recently in my time at Solnet I have been involved in mentoring others in JavaScript tooling and practices.
+    More recently in my time at Solnet I have been involved in mentoring team members in JavaScript tooling and practices
+     through one on one catch ups and wider group presentations.
+
     `,
-    link: `Have a look at the following Projects section to see of some of the work I've done at Solnet.`,
+    link: `Take a look at the Projects section to see some of the work I've done with Solnet.`,
     linkHref: '#Projects',
     svg: {
       src: require('./solnet.svg'),
@@ -37,7 +40,7 @@ const jobs = [
     brief: `
 
     My second research opportunity was offered by the supervisor of my honours project to further its final report towards an end goal of a published research paper.
-    With some give and take from the wider Web Intelligence team at Victoria I managed to get the paper submitted and accepted to an Australasian Web Intelligence conference by the end of my research.
+    With some give and take from the wider Web Intelligence team at Victoria I managed to get the paper submitted and accepted to an Australasian Web Intelligence conference.
 
     `,
     svg: {
@@ -51,8 +54,9 @@ const jobs = [
     date: 'Nov 2010 - March 2011 ( 4 months )',
     brief: `
     I was awarded a research scholarship at the end of my 300 level university year.
-    With support from my supervisor and his team, I contributed to development of an open source gaze tracking system helping it evolve to a level where it could benefit the university, saving an equivalent commercial product cost of  $10,000.
-    In addition to learning about eye-tracking systems I gained experience in planning and directing a research project and project management.
+    With support from my supervisor and his team,
+    I contributed to development of an open source gaze tracking system helping it evolve to a level where it could benefit the university,
+    saving an equivalent commercial product cost of  $10,000.
     `,
     svg: {
       src: require('./vuw.png'),
@@ -95,7 +99,7 @@ class Experience extends Component {
                     }
                     <p className={s.jobBrief}>{job.brief}</p>
                     {
-                      job.link ? (<a className={s.jobLink} href={job.linkHref}>{job.link}</a>) : null
+                      job.link ? (<a className={s.jobLink} href={job.linkHref}><strong>{job.link}</strong></a>) : null
                     }
                   </div>
                 </div>

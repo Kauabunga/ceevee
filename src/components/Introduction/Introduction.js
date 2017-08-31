@@ -11,13 +11,10 @@ import React, { Component, PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Introduction.scss';
 
-const main = `
-  I am passionate about creating simple and beautiful apps.
-`;
 
 
 const text = `
-  I plan and deliver throughout the entire software development process, from when a project is imagined to its end as the app is released.
+  I plan and deliver throughout the entire software development process, from when a project is imagined to its released.
 
   I've worked on a number of large projects, demonstrating my experience through a range of roles. I have completed tasks that cover the length and breadth of a project.
 `;
@@ -31,7 +28,7 @@ const text2 = `
 
 const text3 = `
 
-  I am a year-zero adopter of JavaScript technologies, Angular, React, Node.js, and Express,
+  I am an early adopter of JavaScript technologies, Angular, React, Node.js, and Express,
   embracing the continuing shift towards simpler and more agile systems and process.
 
   I am at home working with JavaScript and all the technologies and processes it enables.
@@ -46,7 +43,7 @@ class Introduction extends Component {
     return (
       <div className={s.root}>
         <div className={s.firstSentence}>
-          <b className={s.blue}>{main}</b>
+          <b className={s.blue}>I am passionate about creating simple and beautiful&nbsp;apps.</b>
         </div>
         <div className={s.content}>{text}</div>
         <div className={s.content}>{text2}</div>

@@ -115,11 +115,17 @@
   @extend .headerButton;
   &:after {
     content: 'Download';
-    left: -9px;
+    left: -18px;
   }
 }
 
 
+.onlineView {
+  display: none;
+  @media print {
+    display: block;
+  }
+}
 
 .cv {
   position: absolute;

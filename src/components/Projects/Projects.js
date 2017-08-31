@@ -14,17 +14,28 @@ import s from './Projects.scss';
 
 const projects = [
   {
+    title: 'Lending Application',
+    client: 'BNZ',
+    isDisabled: true,
+    brief: `
+
+      LENDINGNGNGNGNGNGN
+
+    `,
+    bullets: [
+      'Implemented a CI environment that performed automated testing and releases a dozen times a day avoid any manual tasks.',
+      'Pushed docker solution handling node scaling, static servers and bringing build and deployment time down to minutes rather than hours.'
+    ]
+  },
+  {
     title: 'Employment Agreement Builder',
     client: 'Ministry of Business and Innovation and Employment',
     brief: `
 
-      EAB is a web application that provides value to front end users and those who maintain the backend.
-
-      Using the tool, small to medium businesses can step through the process of creating a new Employment agreement while learning
+      Using EAB, small to medium businesses can step through the process of creating a new Employment agreement while learning
       about employment law with easy-to-digest content and links.
 
-      I led the implementation design while teaching a Senior Java developer transitioning to JavaScript.
-      The project met its internal and external objectives and was finished in three months.
+      The project met its internal and external objectives and was completed in three months.
 
     `,
     isLarge: true,
@@ -39,16 +50,14 @@ const projects = [
       }
     ],
     technologies: [
-      'Angular', 'Node.js', 'Docker', 'Agile', 'Azure', 'Heroku', 'Jenkins'
+      'Angular', 'Node.js', 'Docker', 'Agile', 'Azure', 'Heroku', 'Jenkins', 'Travis'
     ],
     bullets: [
-      'Practiced BDD and TDD development processes ending up with a feature complete automated test suite.',
-      'Created a reusable data-driven forms solution that would support future contract builders for MBIE.',
-      'Helped sell a through and through Javascript solution internally to Solnet and externally to MBIE.',
-      'Went beyond the static wireframes creating my own motion design and micro user interactions.',
-      'Created a Node.js micro services implementation handles 10x expected load on low cost two node cloud infrastructure.',
-      'Created and published a decoupled CMS component to support the application that provided more features than the Javascript CMS landscape at the time.',
-      'Created internal email, document, form components already reused on other projects.',
+      'Practiced BDD and TDD development processes ending up with a feature complete integration and unit test suite.',
+      'Created and published a decoupled CMS component.',
+      'Created a reusable data-driven forms solution reused for a second MBIE Policy builder application.',
+      'Helped sell a through and through JavaScript solution internally to Solnet and externally to MBIE.',
+      'Created a Node.js micro services implementation handling 10x expected load.',
       'Created security implementation that sailed through 3rd party security review.',
       'Implemented a CI environment that performed automated testing and releases a dozen times a day avoid any manual tasks.',
       'Pushed docker solution handling node scaling, static servers and bringing build and deployment time down to minutes rather than hours.'
@@ -62,7 +71,7 @@ const projects = [
       I was part of a Westpac project to rewrite their online banking applications originally rolled in as an IBM Worklight consultant and dev ops engineer.
 
       I helped keep the project oiled by mediating communications between developers from API and Client teams.
-       I improved automation in local, development, and test environments, which helped developers become more autonomous providing an interface for logs, deployments, and environment stats.
+      I improved automation in local, development, and test environments, which helped developers become more autonomous providing an interface for logs, deployments, and environment stats.
 
       After two months I was promoted to technical lead of a team five large responsible for feature development in the middleware including client security.
 
@@ -84,7 +93,6 @@ const projects = [
       'Designed, implemented, and tested a JavaScript middleware framework that improved the abstraction and reliability of the middleware HTTP adapters.',
       'Designed, implemented, and tested the security feature encompassing the client and middleware layers.',
       'Presented a UX review noting several usability and performance improvements for the application.',
-      'Worked with a wide spread of technology: Backbone, HTML, CSS, JavaScript, Jenkins, iOS, Android, Git, Svn, Java, Spring, IBM WebSphere, IBM Worklight, COBOL.'
     ]
   },
   {
@@ -113,11 +121,11 @@ const projects = [
       'Liferay', 'Angular', 'Java', 'Spring'
     ],
     bullets: [
-      'Managed my time effectively within a time critical environment completing and communicating tasks to project managers.',
+      'Managed my time effectively within a time pressured environment completing and communicating tasks to project managers.',
       'Designed REST API transforming PAAS data sources to support the multiple client layers',
       'Collaborated with UX and design teams ensuring good usability of solution.',
       'Owned and presented UX and design alternatives to client.',
-      'Worked remotely for half the project while still tracking my tasks in good time.'
+      'Worked remotely for half the project.'
     ]
   },
   {
@@ -181,87 +189,6 @@ const projects = [
       'Worked effectively with other JavaScript, UX and UI developers in parallel streams.'
     ]
   },
-  {
-    title: 'Employee Cost Calculator',
-    client: 'Ministry of Business and Innovation and Employment',
-    brief: `
-
-      The Employee Cost Calculator encourages small to medium sized New Zealand business to hire new employees by estimating how much a new employee will cost them.
-
-      At the beginning of the project my role was to assist with the RFP document and solution design.
-
-      Towards the end of the projects I assisted with UAT and PROD handovers and implementing the Analytics feature.
-
-    `,
-    isLarge: true,
-    images: [
-      {
-        main: require('./EAB-1000.jpg'),
-        thumbnail: require('./EAB-300.jpg')
-      }
-    ],
-    technologies: [
-      'Angular', 'CSS/HTML', 'Grunt.js'
-    ],
-    bullets: [
-      'Created proof of concept application used as pre sales collateral.',
-      'Contributed to the RFP solution design and estimates.',
-      'Researched, designed, and implemented a Google Analytics solution over a weekend.',
-      'Managed app support for UAT test handover.'
-    ]
-  },
-  {
-    title: 'Public website',
-    client: 'Solnet',
-    brief: `
-
-      In a small team with two UI designers we were given the task to redevelop Solnet's website.
-
-      I had the responsibility to select technologies to best fit our needs choosing a fullstack JavaScript solution with a static file system content source.
-
-    `,
-    isLarge: true,
-    images: [
-      {
-        main: require('./EAB-1000.jpg'),
-        thumbnail: require('./EAB-300.jpg')
-      }
-    ],
-    technologies: [
-      'Angular', 'CSS/HTML', 'Grunt.js', 'Node.js', 'Express'
-    ],
-    bullets: [
-      'Self managed ourselves and our dependencies in the team avoiding the overheads of a Project manager.',
-      'Owned the tasks of organising content from company.',
-      'Pushed and spoke to technologies from the emerging JavaScript ecosystem'
-    ]
-  },
-  {
-    title: 'Shared Capability',
-    client: 'ACC',
-    brief: `
-      Shared capability focused on developing and sharing best practices within a platform of technology to support parallel and future projects.
-
-      I was exposed to a variety of technology and process including CI, Agile, UX, Testing, Java, IBM, and JavaScript.
-
-      It was this project that my interest in JavaScript and UX starting spinning, thrilled by the craft and challenge resulting in the difference between something lovable or not.
-
-    `,
-    isLarge: true,
-    images: [
-      {
-        main: require('./EAB-1000.jpg'),
-        thumbnail: require('./EAB-300.jpg')
-      }
-    ],
-    technologies: [
-      'Java', 'Websphere', 'IBM Portal', 'IBM WCM', 'JQuery', 'Jenkins'
-    ],
-    bullets: [
-      'Developed a developer\'s guide supporting other developers using IBM Forms Experience Builder.',
-      'Integrated IBM Forms Experience Builder product with IBM Portal collaborating with IBM development team and providing product defect solutions.'
-    ]
-  }
 ];
 
 class Bullet extends Component {
@@ -316,7 +243,7 @@ class Projects extends Component {
 
         <div className={s.projectsContainer}>
           {
-            projects.map((project, i) => {
+            projects.filter(project => !project.isDisabled).map((project, i) => {
               return (
                 <div key={i} className={i === 0 ? s.firstProject : s.project}>
                   <div className={s.projectContainer}>
