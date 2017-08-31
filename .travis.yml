@@ -1,15 +1,25 @@
 sudo: false
 language: node_js
 node_js:
-- '5'
+  - '5'
 env:
-- CXX=g++-4.8
+  - CXX=g++-4.8
+
+before_deploy:
+  - npm run build
+  - ls -ltra
+  - ls ./build -ltra
+
+deploy:
+  provider: heroku
+  skip_cleanup: true
+  app: carson-ceevee
+  api_key:
+    secure: JXOM1NcER6quB5FLYpz3cvZqWYff7uGWIx4cB8bCSBGEdI5m4cmlBAtQNHZR/Jbkm4XkqZgdE1Boj96xe74+zeDunHdtAPdAsiem5pZrkn9tJecDhxm9Cs+yMpvv1tpkShOTfz16AgiBViVc1oUbsnp+bvGUFc/1fC7qLYdLJwG7QJL4g0QA0r4VyUL24bB/p/bh2kNpBxRYRk8a7H35QC0V1bEyMs7tG1ErCy1t6Fzf5o2Ja0ajNwo0J+6bnoPOLlb84ImENTj1ODeGrN/owAGTFy8s0gFpoCiObsUN0+NZbeMSzTm4hBl3O3RuC7bUTsnvTA87H0OxMD0NZoS+HujwSq/beKoVxdj6CTnfHz8ftGrChtL4vDslAaqqBTzrxDYrbnDdEiH0DQP85aKuwX65KoKC9BGKxGTGRZmYUGzzG2ARlT5Y93/ZDS6Kg90jJ/waZDmliFyDzIUwze1Rsqal7Eskv9VYDE8/r5SSzp9vYihmh7YXiZZyaR+LCTmsiYySTIILY9nguQ9q5DDgQhZKSbWinXZcAMqf4iiMYAoM6MVZNNao3+T5WWcj101XA8aExVkg9jomj5Cls//gk+aYXxZIqoYY2BxgykJWtPoY0LRHi/tIkgL/YN9+Zcw09JTIKL8SpHjaCxqM0ckABqfABCFWcNuGcA5wkAK9M54=
+
 addons:
   apt:
     sources:
-    - ubuntu-toolchain-r-test
+      - ubuntu-toolchain-r-test
     packages:
-    - g++-4.8
-deploy:
-  api_key:
-    secure: JXOM1NcER6quB5FLYpz3cvZqWYff7uGWIx4cB8bCSBGEdI5m4cmlBAtQNHZR/Jbkm4XkqZgdE1Boj96xe74+zeDunHdtAPdAsiem5pZrkn9tJecDhxm9Cs+yMpvv1tpkShOTfz16AgiBViVc1oUbsnp+bvGUFc/1fC7qLYdLJwG7QJL4g0QA0r4VyUL24bB/p/bh2kNpBxRYRk8a7H35QC0V1bEyMs7tG1ErCy1t6Fzf5o2Ja0ajNwo0J+6bnoPOLlb84ImENTj1ODeGrN/owAGTFy8s0gFpoCiObsUN0+NZbeMSzTm4hBl3O3RuC7bUTsnvTA87H0OxMD0NZoS+HujwSq/beKoVxdj6CTnfHz8ftGrChtL4vDslAaqqBTzrxDYrbnDdEiH0DQP85aKuwX65KoKC9BGKxGTGRZmYUGzzG2ARlT5Y93/ZDS6Kg90jJ/waZDmliFyDzIUwze1Rsqal7Eskv9VYDE8/r5SSzp9vYihmh7YXiZZyaR+LCTmsiYySTIILY9nguQ9q5DDgQhZKSbWinXZcAMqf4iiMYAoM6MVZNNao3+T5WWcj101XA8aExVkg9jomj5Cls//gk+aYXxZIqoYY2BxgykJWtPoY0LRHi/tIkgL/YN9+Zcw09JTIKL8SpHjaCxqM0ckABqfABCFWcNuGcA5wkAK9M54=
+      - g++-4.8

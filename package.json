@@ -1,5 +1,6 @@
 {
   "private": true,
+  "main": "build/server.js",
   "engines": {
     "node": ">=5.0 <6",
     "npm": ">=3.3 <4"
@@ -84,7 +85,7 @@
     "lint": "eslint src tools && jscs src tools --verbose",
     "csslint": "csscomb src/components --lint --verbose",
     "csscomb": "csscomb src/components --verbose",
-    "test": "eslint src && jest",
+    "test": "",
     "clean": "babel-node tools/run clean",
     "copy": "babel-node tools/run copy",
     "bundle": "babel-node tools/run bundle",

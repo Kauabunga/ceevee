@@ -17,13 +17,11 @@
 
 .project {
   display: flex;
+
   flex: 1 0 100%;
-  @media (min-width: $max-content-break){
-    flex: 1 0 50%;
-  }
 
   @media print {
-    display: inline-block;
+    display: block;
   }
 }
 
@@ -37,6 +35,7 @@
 }
 
 .projectContainer {
+  flex-grow: 1;
   margin: 40px 0;
   @media (min-width: $max-content-break){
     margin: 0 40px 60px 0;
@@ -48,6 +47,7 @@
   @media print {
     box-shadow: none;
     margin: 0;
+    display: block;
   }
 }
 
@@ -70,13 +70,60 @@
   }
 }
 
+.projectsTitle {
+  margin-top: -60px;
+  padding-top: 120px;
+}
+
+.projectTitleContainer {
+  margin-bottom: 25px;
+}
+
+.projectBullets {
+
+  width: 90%;
+  display: block;
+  margin-top: 40px;
+
+  @media (min-width: $screen-sm-min){
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 20%;
+  }
+
+
+  @media print {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+  }
+}
+
+.projectBrief {
+  width: 95%;
+  display: block;
+
+  @media (min-width: $screen-sm-min){
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  @media print {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+  }
+}
 
 .projectContent {
   margin: 20px;
-  display: inline-block;
 
   @media(min-width: $max-content-break){
     margin-right: 60px;
+    margin: 30px;
   }
 
   h2 {
@@ -85,18 +132,21 @@
   }
 
   ul {
-    display: inline-block;
     padding: 0 20px;
     @media (min-width: $screen-xs-min){
-      padding: 0 0 0 40px;
+      padding: 0 0 0 20px;
     }
   }
   ul li {
+    color: $blue;
     margin-bottom: 8px;
   }
 
   @media print {
     margin: 0;
+    ul li {
+      margin-bottom: 2px;
+    }
   }
 }
 

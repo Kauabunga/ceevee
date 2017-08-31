@@ -3,10 +3,15 @@
 @import './variables.scss';
 
 
+
 .root {
   margin: 0 12px;
   padding: 20px 0;
   max-width: $max-content-width;
+
+  p, li {
+    line-height: 2em;
+  }
 
   @media (min-width: $screen-xs-min) {
     margin: 0 30px;
@@ -15,17 +20,67 @@
   @media (min-width: $max-content-break) {
     margin: 0 auto;
   }
+
+  @media print {
+    padding: 0;
+    p, li {
+      line-height: 1.4em;
+    }
+    p, ul {
+      display: block !important;
+    }
+  }
 }
+
+.blueRoot {
+  background-color: $blue-dark;
+  padding-bottom: 70px;
+  h1 {
+    color: #fff;
+  }
+
+  h2 {
+    color: $gray-lighter;
+  }
+
+  h3 {
+    color: $gray-lightish;
+  }
+
+  @media print {
+    padding-bottom: 0;
+    h1 {
+      color: $blue-dark;
+    }
+    h2, h3 {
+      color: $gray-dark;
+    }
+  }
+}
+
 
 h1 {
   margin: 60px 0;
   font-size: 2.2em;
+
+  @media print {
+    margin: 0;
+    font-size: 2em;
+  }
 }
 
 em {
   font-weight: 700;
-  color: $gray-lightish;
   font-size: 0.9em;
+  color: #fff;
+  background: $gray-lightish;
+  padding: 1px 12px;
+  letter-spacing: 0.08em;
+  opacity: 0.8;
+
+  @media print {
+    padding: 0;
+  }
 }
 
 h1, h2, h3, h4, h5 {

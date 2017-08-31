@@ -51,7 +51,22 @@
 
 }
 
+.firstSentence {
+  @extend .blue;
+  @extend .content;
 
-.email {
-  color: $blue;
+  & > b {
+    font-size: 1.25em;
+  }
+
+  display: inline-block;
+  @media (min-width: $max-content-break) {
+    margin-top: 80px;
+  }
 }
+
+.blue {
+  color: $blue;
+
+}
+

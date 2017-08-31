@@ -4,10 +4,34 @@
 @import '../content.scss';
 
 
+.educationContent {
+  @extend .blueRoot;
+}
 
 
 .content {
 
+}
 
 
+.educationContainer {
+
+  padding-left: 20px;
+  border-left: 4px solid $gray-lightish;
+
+  h3 {
+    margin-bottom: 0;
+  }
+  em {
+    margin-top: 0;
+    background-color: transparent;
+    color: $gray-lightish;
+    padding: 0;
+    opacity: 1;
+  }
+
+  @media print {
+    border-left: none;
+    padding-left: 0;
+  }
 }
