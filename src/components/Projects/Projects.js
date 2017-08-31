@@ -19,12 +19,18 @@ const projects = [
     isDisabled: true,
     brief: `
 
-      LENDINGNGNGNGNGNGN
+      Evolve BNZs lending systems.
+
+      Front end and further
 
     `,
     bullets: [
-      'Implemented a CI environment that performed automated testing and releases a dozen times a day avoid any manual tasks.',
-      'Pushed docker solution handling node scaling, static servers and bringing build and deployment time down to minutes rather than hours.'
+      'UITOOKIT SELL, BUILD, AND PRESENTATION',
+      'ASSISTING FRONT END TEAM MEMBERS - ANGULAR 2',
+      'INTEGRATION TESTING INVOLVEMENT',
+      'PLATFORM INVOLVEMENT',
+      'API INVOLVEMENT',
+      'SUCCESSFUL DELIVERY OF FIRST RELEASE',
     ]
   },
   {
@@ -33,9 +39,9 @@ const projects = [
     brief: `
 
       Using EAB, small to medium businesses can step through the process of creating a new Employment agreement while learning
-      about employment law with easy-to-digest content and links.
+      about employment law with easy-to-digest content.
 
-      The project met its internal and external objectives and was completed in three months.
+      The project exceeded its objectives and was built, tested, and delivered in three months.
 
     `,
     isLarge: true,
@@ -49,18 +55,14 @@ const projects = [
         thumbnail: require('./EAB-300.jpg')
       }
     ],
-    technologies: [
-      'Angular', 'Node.js', 'Docker', 'Agile', 'Azure', 'Heroku', 'Jenkins', 'Travis'
-    ],
     bullets: [
-      'Practiced BDD and TDD development processes ending up with a feature complete integration and unit test suite.',
+      'Practiced BDD and TDD ending up with a feature complete integration and unit test suite.',
       'Created and published a decoupled CMS component.',
       'Created a reusable data-driven forms solution reused for a second MBIE Policy builder application.',
-      'Helped sell a through and through JavaScript solution internally to Solnet and externally to MBIE.',
-      'Created a Node.js micro services implementation handling 10x expected load.',
-      'Created security implementation that sailed through 3rd party security review.',
+      'Helped sell a full stack JavaScript solution to architects.',
+      'Implemented a Node.js micro services implementation handling 10x expected load.',
       'Implemented a CI environment that performed automated testing and releases a dozen times a day avoid any manual tasks.',
-      'Pushed docker solution handling node scaling, static servers and bringing build and deployment time down to minutes rather than hours.'
+      'Pushed a docker solution bringing build and deployment time down to minutes rather than hours.'
     ]
   },
   {
@@ -68,12 +70,12 @@ const projects = [
     client: 'Westpac',
     brief: `
 
-      I was part of a Westpac project to rewrite their online banking applications originally rolled in as an IBM Worklight consultant and dev ops engineer.
+      I was part of a Westpac team to rewrite their online banking experience, originally rolled in as an IBM Worklight consultant and dev ops engineer.
 
       I helped keep the project oiled by mediating communications between developers from API and Client teams.
-      I improved automation in local, development, and test environments, which helped developers become more autonomous providing an interface for logs, deployments, and environment stats.
+      I improved automation in local, development, and test environments helping developers become more autonomous.
 
-      After two months I was promoted to technical lead of a team five large responsible for feature development in the middleware including client security.
+      After two months my role extended to technical lead of a team five large responsible for feature development in the middleware including client security.
 
     `,
     isLarge: true,
@@ -83,15 +85,12 @@ const projects = [
         thumbnail: require('./EAB-300.jpg')
       }
     ],
-    technologies: [
-      'Websphere', 'Backbone.js', 'Worklight', 'Agile', 'Java', 'Spring', 'COBOL', 'Jenkins'
-    ],
     bullets: [
       'Presented and owned the solutions of several developer tooling and experience improvements.',
       'Technical leader and mentor of a team five large covering a wide spread of technologies and environments.',
       'Trusted as the gatekeeper of critical development and test environments relied on by a team 60 large.',
-      'Designed, implemented, and tested a JavaScript middleware framework that improved the abstraction and reliability of the middleware HTTP adapters.',
-      'Designed, implemented, and tested the security feature encompassing the client and middleware layers.',
+      'Implemented a JavaScript middleware framework that improved the abstraction and reliability of the middleware HTTP adapters.',
+      'Implemented the security feature encompassing the client and middleware layers.',
       'Presented a UX review noting several usability and performance improvements for the application.',
     ]
   },
@@ -105,10 +104,6 @@ const projects = [
 
       My role was a front end developer with a close interest in the Web API and UX layers that my tasks depended on.
 
-      I was tasked with designing a set of middleware REST API based on a SAAS backend that the client layers would consume.
-
-      I was also asked to fill gaps in the UX and design that the static wireframes designed in a separate project did not cover.
-
     `,
     isLarge: true,
     images: [
@@ -117,15 +112,12 @@ const projects = [
         thumbnail: require('./EAB-300.jpg')
       }
     ],
-    technologies: [
-      'Liferay', 'Angular', 'Java', 'Spring'
-    ],
     bullets: [
-      'Managed my time effectively within a time pressured environment completing and communicating tasks to project managers.',
+      'Worked with the Front end team to implement an angular application within Liferay',
       'Designed REST API transforming PAAS data sources to support the multiple client layers',
-      'Collaborated with UX and design teams ensuring good usability of solution.',
-      'Owned and presented UX and design alternatives to client.',
-      'Worked remotely for half the project.'
+      'Presented UX and design alternatives to client.',
+      'Worked remotely for half the project.',
+      'Managed my time effectively within a time pressured environment completing and communicating tasks to project managers.',
     ]
   },
   {
@@ -147,14 +139,11 @@ const projects = [
         thumbnail: require('./EAB-300.jpg')
       }
     ],
-    technologies: [
-      'Cordova', 'Angular.js', 'Steroids.js', 'Agile', 'Ionic', 'CSS/HTML'
-    ],
     bullets: [
       'Polished the app correcting dozens of browser rendering bottlenecks resulting in a jank free hybrid solution.',
       'Worked with UX and design team to best fit solutions with the technology stack.',
-      'Extended the apps feature list and matching test coverage under time.',
-      'Provided a solution to a bug found within the hybrid framework Steroids.js'
+      'Extended the apps feature list and matching test coverage.',
+      'Provided solutions bugs found within open source libraries'
     ]
   },
   {
@@ -164,10 +153,6 @@ const projects = [
       We entered in a competition to imagine, design, and develop a proof of concept mobile gamification app in 3 days.
 
       The brief was to create an educational tool that would help staff learn the names of their clients.
-
-      Our UX and developer streams worked well together from the start, laying foundations for one another and we managed
-      to create a complete working iOS game that would quiz the user on people's names with multiple mini-games supported by
-       a global leaderboard.
 
       We were placed well in the competition winning the prize of placing in the company's evaluation panel for future
       projects followed shortly after with a winning proposal for a separate project.
@@ -180,13 +165,10 @@ const projects = [
         thumbnail: require('./EAB-300.jpg')
       }
     ],
-    technologies: [
-      'Cordova', 'Angular', 'CSS/HTML', 'Grunt.js'
-    ],
     bullets: [
       'Created a complete proof of concept application in 3 days.',
       'Succeeded in gaining a position on the client\'s project panel.',
-      'Worked effectively with other JavaScript, UX and UI developers in parallel streams.'
+      'Worked effectively with other JavaScript, UX and UI developers in parallel streams.',
     ]
   },
 ];

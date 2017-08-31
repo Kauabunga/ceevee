@@ -16,19 +16,20 @@ import s from './Introduction.scss';
 const text = `
   I plan and deliver throughout the entire software development process, from when a project is imagined to its released.
 
-  I've worked on a number of large projects, demonstrating my experience through a range of roles. I have completed tasks that cover the length and breadth of a project.
+  I've worked on a number of large projects, demonstrating my experience through a range of roles.
+
 `;
 
 const text2 = `
 
-  My key attributes include: problem solving, speed to learn, open mindedness, being a team player, and communication.
+  My key attributes include: problem solving, speed and passion to learn, open mindedness, and being a team player.
 
 `;
 
 
 const text3 = `
 
-  I am an early adopter of JavaScript technologies, Angular, React, Node.js, and Express,
+  I am an early adopter of JavaScript technologies, React, Angular, Node.js, and Express,
   embracing the continuing shift towards simpler and more agile systems and process.
 
   I am at home working with JavaScript and all the technologies and processes it enables.
