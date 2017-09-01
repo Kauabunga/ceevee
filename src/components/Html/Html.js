@@ -60,7 +60,7 @@ class Html extends Component {
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <title>{this.props.title}</title>
-        <link rel="canonical" href="http://www.carson.kiwi/" />
+        <link rel="canonical" href="http://carson.kiwi/" />
         <meta name="description" content={this.props.description} />
         <meta name="viewport" content="width=device-width,minimum-scale=1" />
 

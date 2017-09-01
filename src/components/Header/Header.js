@@ -24,7 +24,7 @@ class Header extends Component {
         <div className={s.container}>
           <h1>Carson Bruce</h1>
 
-          <em className={s.onlineView}>View on www.carson.kiwi</em>
+          <em className={s.onlineView}>View at carson.kiwi</em>
 
         {/*
           <a className={s.printButton} href="javascript:window.print()">
