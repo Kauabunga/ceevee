@@ -16,6 +16,7 @@ import Router from './routes';
 import Html from './components/Html';
 import assets from './assets';
 import { port } from './config';
+const minify = require('html-minifier').minify;
 
 const server = global.server = express();
 
@@ -52,7 +53,11 @@ server.get('*', async (req, res, next) => {
 
     const html = ReactDOM.renderToStaticMarkup(<Html {...data} />);
     const apmHtml = prepApmStyles(html);
-    res.status(statusCode).send(`<!doctype html>\n${apmHtml}`);
+    const minifiedHtml = minify(apmHtml, {
+      preserveLineBreaks: false,
+      collapseWhitespace: true,
+    });
+    res.status(statusCode).send(`<!doctype html>\n${minifiedHtml}`);
   } catch (err) {
     next(err);
   }

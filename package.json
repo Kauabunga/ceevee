@@ -17,6 +17,7 @@
     "fbjs": "0.7.2",
     "front-matter": "2.0.6",
     "history": "2.0.0",
+    "html-minifier": "^3.5.3",
     "html-pdf": "^2.0.1",
     "isomorphic-style-loader": "0.0.10",
     "jade": "1.11.0",

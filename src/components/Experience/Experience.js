@@ -17,13 +17,14 @@ const jobs = [
     title: 'Solnet',
     date: 'Aug 2012 - Now ( 5 years )',
     brief: `
+    
     I started Solnet a week out from graduating kicking off the role in the delivery team of the company.
 
-    I have gained experience with several high profile clients placed first as a developer along with other roles such as
-     dev ops, ux, and tech lead.
+    I have gained experience with several high profile clients placed first as a front end developer along with other roles such as
+     dev ops, api developer, automation testing, and ux.
 
     More recently in my time at Solnet I have been involved in mentoring team members in JavaScript tooling and practices
-     through one on one catch ups and wider group presentations.
+     through 1-on-1 catch ups and wider group presentations.
 
     `,
     link: `Take a look at the Projects section to see some of the work I've done with Solnet.`,

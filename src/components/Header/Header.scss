@@ -14,6 +14,11 @@
   background: $blue-dark;
   color: #fff;
   height: $header-height;
+
+  @media print {
+    font-size: 2em;
+  }
+
 }
 
 

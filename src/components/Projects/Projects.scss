@@ -73,6 +73,11 @@
 .projectsTitle {
   margin-top: -60px;
   padding-top: 120px;
+
+  @media print {
+    margin-top: inherit;
+    padding-top: inherit;
+  }
 }
 
 .projectTitleContainer {

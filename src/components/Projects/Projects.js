@@ -14,23 +14,25 @@ import s from './Projects.scss';
 
 const projects = [
   {
-    title: 'Lending Application',
+    title: 'Lending and Onboarding',
     client: 'BNZ',
-    isDisabled: true,
+    isDisabled: false,
     brief: `
 
-      Evolve BNZs lending systems.
+      Joined a team at BNZ to help in transforming their Lending and Onboarding systems aiming to improve the experience 
+      for customers, bank staff. This transformation was supported by a new way of delivery, promoting more modular systems
+      design and implementation with supporting Platforms and Devops processes.
 
-      Front end and further
+      I joined as a Front End developer, sharing lead for the implementation of two major applications and a component library.
 
     `,
     bullets: [
-      'UITOOKIT SELL, BUILD, AND PRESENTATION',
-      'ASSISTING FRONT END TEAM MEMBERS - ANGULAR 2',
-      'INTEGRATION TESTING INVOLVEMENT',
-      'PLATFORM INVOLVEMENT',
-      'API INVOLVEMENT',
-      'SUCCESSFUL DELIVERY OF FIRST RELEASE',
+      'Pioneered application development seeing Angular 2 through its beta releases.',
+      'Promoted and adapted a UI component library for the projects multiple applications.',
+      'Guided Front End developers through best practices, process and tooling.',
+      'Guided UI Integration testers through best practices, process and tooling.',
+      'Followed and feed back into areas close to UI to ensure smoother transitions including UX, Platforms, Devops, and API.',
+      'Involved in successfully delivering the systems first release.',
     ]
   },
   {
@@ -44,25 +46,14 @@ const projects = [
       The project exceeded its objectives and was built, tested, and delivered in three months.
 
     `,
-    isLarge: true,
-    images: [
-      {
-        main: require('./EAB-2-1000.jpg'),
-        thumbnail: require('./EAB-2-300.jpg')
-      },
-      {
-        main: require('./EAB-1000.jpg'),
-        thumbnail: require('./EAB-300.jpg')
-      }
-    ],
     bullets: [
       'Practiced BDD and TDD ending up with a feature complete integration and unit test suite.',
       'Created and published a decoupled CMS component.',
       'Created a reusable data-driven forms solution reused for a second MBIE Policy builder application.',
-      'Helped sell a full stack JavaScript solution to architects.',
+      'Sold a full stack JavaScript solution to architects.',
       'Implemented a Node.js micro services implementation handling 10x expected load.',
       'Implemented a CI environment that performed automated testing and releases a dozen times a day avoid any manual tasks.',
-      'Pushed a docker solution bringing build and deployment time down to minutes rather than hours.'
+      'Pushed a docker solution bringing build and deployment time down to minutes rather than hours.',
     ]
   },
   {
@@ -70,7 +61,7 @@ const projects = [
     client: 'Westpac',
     brief: `
 
-      I was part of a Westpac team to rewrite their online banking experience, originally rolled in as an IBM Worklight consultant and dev ops engineer.
+      I was part of a Westpac team to evolve their online banking experience, originally rolled in as an IBM Worklight consultant and dev ops engineer.
 
       I helped keep the project oiled by mediating communications between developers from API and Client teams.
       I improved automation in local, development, and test environments helping developers become more autonomous.
@@ -78,13 +69,6 @@ const projects = [
       After two months my role extended to technical lead of a team five large responsible for feature development in the middleware including client security.
 
     `,
-    isLarge: true,
-    images: [
-      {
-        main: require('./EAB-1000.jpg'),
-        thumbnail: require('./EAB-300.jpg')
-      }
-    ],
     bullets: [
       'Presented and owned the solutions of several developer tooling and experience improvements.',
       'Technical leader and mentor of a team five large covering a wide spread of technologies and environments.',
@@ -105,13 +89,6 @@ const projects = [
       My role was a front end developer with a close interest in the Web API and UX layers that my tasks depended on.
 
     `,
-    isLarge: true,
-    images: [
-      {
-        main: require('./EAB-1000.jpg'),
-        thumbnail: require('./EAB-300.jpg')
-      }
-    ],
     bullets: [
       'Worked with the Front end team to implement an angular application within Liferay',
       'Designed REST API transforming PAAS data sources to support the multiple client layers',
@@ -132,13 +109,6 @@ const projects = [
 
       I worked on the project in its second phase after its first release bringing in a couple of new features and polishing the first implementation.
     `,
-    isLarge: true,
-    images: [
-      {
-        main: require('./EAB-1000.jpg'),
-        thumbnail: require('./EAB-300.jpg')
-      }
-    ],
     bullets: [
       'Polished the app correcting dozens of browser rendering bottlenecks resulting in a jank free hybrid solution.',
       'Worked with UX and design team to best fit solutions with the technology stack.',
@@ -158,13 +128,6 @@ const projects = [
       projects followed shortly after with a winning proposal for a separate project.
 
     `,
-    isLarge: true,
-    images: [
-      {
-        main: require('./EAB-1000.jpg'),
-        thumbnail: require('./EAB-300.jpg')
-      }
-    ],
     bullets: [
       'Created a complete proof of concept application in 3 days.',
       'Succeeded in gaining a position on the client\'s project panel.',
