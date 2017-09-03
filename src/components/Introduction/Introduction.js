@@ -13,7 +13,7 @@ import s from './Introduction.scss';
 
 
 const text = `
-  I plan and deliver throughout the entire software development process, from when a project is imagined to its released.
+  I plan and deliver throughout the entire software development process, from when a project is imagined to its release.
 
   I've worked on a number of large projects, demonstrating my experience through a range of roles.
 
@@ -28,14 +28,15 @@ const text2 = `
 
 const text3 = `
 
-  I am an early adopter of JavaScript technologies, React, Angular, Node.js, and Express,
-  embracing the continuing shift towards simpler and more agile systems and process.
+  I am an early adopter of JavaScript, React, Angular, Node.js, and Express,
+  embracing the continuing shift towards simpler and more agile systems and processes.
 
 `;
 
 const text4 = `
 
-  I am at home working and sharing JavaScript along with all the technologies and processes it enables.
+  I am at home when working with and sharing JavaScript along with 
+  all the technologies and processes it enables.
 
 `;
 
