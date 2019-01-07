@@ -11,11 +11,58 @@ import React, { Component, PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Experience.scss';
 
+function monthDiff(d1, d2) {
+  var months;
+  months = (d2.getFullYear() - d1.getFullYear()) * 12;
+  months -= d1.getMonth() + 1;
+  months += d2.getMonth();
+  return months <= 0 ? 0 : months;
+}
+
+function prettyPrintMonths(months){
+
+  const year = Math.floor(months / 12);
+  const month = months % 12;
+
+  const yearPlural = (year / 2) >= 1;
+  const monthPlural = (month / 2) >= 1;
+
+  const yearString = year + ' ' + (yearPlural ? 'years' : 'year');
+  const monthDisplay = ' ' + month + ' ' + (monthPlural ? 'months' : 'month');
+  const monthString = month !== 0 ? monthDisplay : '';
+
+  return yearString + monthString;
+}
+
+
+const properlyMonths = monthDiff(new Date('2017-11-01'), new Date());
+const properlyDatePretty = prettyPrintMonths(properlyMonths);
+
 
 const jobs = [
   {
+    title: 'Properly',
+    date: 'Nov 2017 - Now',
+    brief: `
+    
+    Joining Properly with a team of 18, we've now grown to 50, working across the world to provide tools and people
+    to property owners and managers.
+
+    After achieving our Series A funding I became the lead for a small frontend team of 3, together owning the multiple web apps of Properly.
+
+    Beyond this role, I was also heavily involved in several other parts of the wider engineering and design teams:
+    Solution architecture, Fullstack development, UI test automation, Continuous Integration pipelines, and AWS Infrastructure development as code.
+
+    `,
+    svg: {
+      src: require('./properly.svg'),
+      height: '2215px',
+      width: '770px'
+    }
+  },
+  {
     title: 'Solnet',
-    date: 'Aug 2012 - Now ( 5 years )',
+    date: 'Aug 2012 - Nov 2017 ( 5 years 3 months )',
     brief: `
     
     I started at Solnet a week out from graduating, kicking off the role in the delivery team of the company.
@@ -108,10 +155,13 @@ class Experience extends Component {
                       <h2 className={s.jobTitle}>{job.title}</h2>
                       <em>{job.date}</em>
                     </div>
+                    
                     {
                        job.svg ? (<div className={s.jobImage}><amp-img src={job.svg.src} height={job.svg.height} width={job.svg.width} layout="responsive"></amp-img></div>) : null
                     }
+                    
                     <p className={s.jobBrief}>{job.brief}</p>
+
                     {
                       job.link ? (<a className={s.jobLink} href={job.linkHref}><strong>{job.link}</strong></a>) : null
                     }
