@@ -74,26 +74,28 @@ async function start() {
       // For other settings see
       // https://webpack.github.io/docs/webpack-dev-middleware
     });
-    const hotMiddlewares = bundler.compilers
-      .filter(compiler => compiler.options.target !== 'node')
-      .map(compiler => webpackHotMiddleware(compiler));
+    // const hotMiddlewares = bundler.compilers
+    //   .filter(compiler => compiler.options.target !== 'node')
+    //   .map(compiler => webpackHotMiddleware(compiler));
 
     let handleServerBundleComplete = () => {
       runServer((err, host) => {
-        if (!err) {
-          const bs = Browsersync.create();
-          bs.init({
-            proxy: {
-              target: host,
-              middleware: [wpMiddleware, ...hotMiddlewares],
-            },
 
-            // no need to watch '*.js' here, webpack will take care of it for us,
-            // including full page reloads if HMR won't work
-            files: ['build/content/**/*.*'],
-          }, resolve);
-          handleServerBundleComplete = runServer;
-        }
+        resolve()
+        // if (!err) {
+        //   const bs = Browsersync.create();
+        //   bs.init({
+        //     proxy: {
+        //       target: host,
+        //       middleware: [wpMiddleware, ...hotMiddlewares],
+        //     },
+
+        //     // no need to watch '*.js' here, webpack will take care of it for us,
+        //     // including full page reloads if HMR won't work
+        //     files: ['build/content/**/*.*'],
+        //   }, resolve);
+        //   handleServerBundleComplete = runServer;
+        // }
       });
     };
 
