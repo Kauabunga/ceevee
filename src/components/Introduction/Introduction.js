@@ -59,8 +59,9 @@ class Introduction extends Component {
         <div className={s.content}>{text3}</div>
         <div className={s.content}>{text4}</div>
         <div className={s.content}>
+          Get in touch at
           <a href="mailto:hello@carson.kiwi" className={s.introLink}>
-            Get in touch at <b className={s.blue}>hello@carson.kiwi</b>
+            <b className={s.blue}>&nbsp;hello@carson.kiwi</b>
           </a>
         </div>
         <div style={{ display: "block", height: 72 }} />

@@ -55,7 +55,7 @@ const projects = [
     `,
     bullets: [
       "Practiced BDD and TDD creating a suite of feature-complete integration and unit tests.",
-      "Created a reusable data-driven forms solution, reused for a second MBIE Policy Builder app.",
+      "Created a reusable forms solution, reused for a second MBIE Policy Builder app.",
       "Promoted a full stack Javascript solution supported by docker.",
       "Implemented Node.js micro service handling 10x expected load.",
       "Implemented a CI pipeline that performed automated testing and releasing dozenes of times a day."
@@ -75,9 +75,9 @@ const projects = [
 
     `,
     bullets: [
+      "Trusted as the gatekeeper of environments relied on by a team of 60+.",
+      "Lead and mentor of a team of five.",
       "Proposed and owned developer tooling and experience improvements.",
-      "Technical leader and mentor of a team of five covering a wide spread of technologies and environments.",
-      "Trusted as the gatekeeper of critical development and test environments relied on by a team of 60+.",
       "Implemented a Javascript framework that supported other teams.",
       "Implemented the security feature of the client.",
       "Created and implemented a UX review noting usability and performance improvements for the application."
