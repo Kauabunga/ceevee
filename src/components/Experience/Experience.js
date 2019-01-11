@@ -50,21 +50,21 @@ const jobs = [
     Beyond this role, I was involved with more of our engineering, design, and test team activities. This included:
     Web/Service implementation design, Full stack development, UX design, UI test automation, CI pipelines, Infrastructure design, and Infrastructure as code.
 
-    `
-    // svg: {
-    //   src: require("./properly.svg"),
-    //   height: "2215px",
-    //   width: "770px"
-    // }
+    `,
+    svg: {
+      src: require("./properly.svg"),
+      height: "2215px",
+      width: "770px"
+    }
   },
   {
     title: "Solnet",
     date: "Aug 2012 - Nov 2017 ( 5 years 3 months )",
     brief: `
     
-    I started with Solnet a week after graduating, joining the delivery team.
+    I started with Solnet after graduating, joining the delivery team.
 
-    I gained experience with a variety of clients, first as a front end developer along with other roles:
+    I gained experience with a variety of clients, first as a front end developer, then as others:
      Devops developer, API developer, Automation tester, and UX designer.
 
     Later at my time in Solnet I mentored team members in Javascript 
@@ -72,12 +72,12 @@ const jobs = [
 
     `,
     link: `See the Projects section and some of the work I've done with Solnet.`,
-    linkHref: "#Projects"
-    // svg: {
-    //   src: require("./solnet.svg"),
-    //   height: "2215px",
-    //   width: "770px"
-    // }
+    linkHref: "#Projects",
+    svg: {
+      src: require("./solnet.svg"),
+      height: "2215px",
+      width: "770px"
+    }
   },
   {
     title: "Research Project: Query Expansion",
@@ -92,12 +92,12 @@ const jobs = [
     With Victoria's Web Intelligence team, I managed to get the my thesis submitted and accepted to an 
     Australasian Web Intelligence conference.
 
-    `
-    // svg: {
-    //   src: require("./vuw.png"),
-    //   height: "792px",
-    //   width: "192px"
-    // }
+    `,
+    svg: {
+      src: require("./vuw.png"),
+      height: "792px",
+      width: "192px"
+    }
   },
   {
     title: "Research Project: Eye Gaze tracking",
@@ -108,12 +108,12 @@ const jobs = [
     With the support of my supervisor and his team,
     I contributed to the development of an open source gaze tracking system.
 
-    `
-    // svg: {
-    //   src: require("./vuw.png"),
-    //   height: "792px",
-    //   width: "192px"
-    // }
+    `,
+    svg: {
+      src: require("./vuw.png"),
+      height: "792px",
+      width: "192px"
+    }
   },
   {
     title: "Cool Bananas",

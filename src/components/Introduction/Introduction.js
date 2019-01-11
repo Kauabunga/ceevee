@@ -12,7 +12,7 @@ import withStyles from "isomorphic-style-loader/lib/withStyles";
 import s from "./Introduction.scss";
 
 const text = `
-  I plan and deliver throughout a products development process.
+  I plan and deliver throughout product development process.
 
   I have experienced a range of teams, roles, and achievements.
 
