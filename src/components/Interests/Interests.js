@@ -7,68 +7,62 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-import React, { Component, PropTypes } from 'react';
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './Interests.scss';
-
+import React, { Component, PropTypes } from "react";
+import withStyles from "isomorphic-style-loader/lib/withStyles";
+import s from "./Interests.scss";
 
 const interests = [
   {
-    title: 'JavaScript'
+    title: "Javascript"
   },
   {
-    title: 'User Experience'
+    title: "User experience"
   },
   {
-    title: 'Netball'
+    title: "Netball"
   },
   {
-    title: 'Running'
+    title: "Running"
   },
   {
-    title: 'Cycling'
+    title: "Cycling"
   },
   {
-    title: 'Photography'
+    title: "Photography"
   },
   {
-    title: 'Gaming'
+    title: "Gaming"
   },
   {
-    title: 'Sound systems'
+    title: "Sound systems"
   },
   {
-    title: 'Beer brewing'
+    title: "Beer brewing"
   },
   {
-    title: 'Stenciling'
+    title: "Stenciling"
   }
 ];
 
-
-
 class Interests extends Component {
-
-
   render() {
     return (
       <div className={s.interestsContainer}>
         <div className={s.root}>
           <h1>Interests</h1>
           <ul className={s.chipList}>
-            {
-              interests.map((interest, i) => {
-                return (
-                  <li key={i} className={s.chip}>{interest.title}</li>
-                );
-              })
-            }
+            {interests.map((interest, i) => {
+              return (
+                <li key={i} className={s.chip}>
+                  {interest.title}
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>
     );
   }
-
 }
 
 export default withStyles(Interests, s);

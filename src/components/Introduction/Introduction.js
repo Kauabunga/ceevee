@@ -7,60 +7,66 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-import React, { Component, PropTypes } from 'react';
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './Introduction.scss';
-
+import React, { Component } from "react";
+import withStyles from "isomorphic-style-loader/lib/withStyles";
+import s from "./Introduction.scss";
 
 const text = `
-  I plan and deliver throughout the entire software development process, from when a project is imagined to its release.
+  I plan and deliver throughout a products development process.
 
-  I've worked on a number of large projects, demonstrating my experience through a range of roles.
+  I have experienced a range of teams, roles, and achievements.
 
 `;
 
 const text2 = `
 
-  My key attributes include: problem solving, speed and passion to learn, open mindedness, and being a team player.
+  My key attributes include: problem solving, passion to learn and share, open mindedness, and being a team player.
 
 `;
-
 
 const text3 = `
 
-  I am an early adopter of JavaScript, React, Angular, Node.js, and Express,
-  embracing the continuing shift towards simpler and more agile systems and processes.
+  I am at home when working and sharing Javascript.
 
 `;
 
-const text4 = `
+const text4 = "";
 
-  I am at home when working with and sharing JavaScript along with 
-  all the technologies and processes it enables.
+// const text3 = `
 
-`;
+//   I am an early adopter of Fullstack Javascript,
+//   embracing a shift towards simpler and more agile systems and processes.
 
+// `;
+
+// const text4 = `
+
+//   I am at home when working and sharing Javascript.
+
+// `;
 
 class Introduction extends Component {
-
-
   render() {
     return (
       <div className={s.root}>
         <div className={s.firstSentence}>
-          <b className={s.blue}>I am passionate about creating simple and beautiful&nbsp;apps.</b>
+          <b className={s.blue}>
+            I am passionate about creating simple and beautiful&nbsp;apps.
+          </b>
         </div>
         <div className={s.content}>{text}</div>
         <div className={s.content}>{text2}</div>
         <div className={s.content}>{text3}</div>
         <div className={s.content}>{text4}</div>
         <div className={s.content}>
-          Get in touch at <b className={s.blue}>hello@carson.kiwi</b>
+          <a href="mailto:hello@carson.kiwi" className={s.introLink}>
+            Get in touch at <b className={s.blue}>hello@carson.kiwi</b>
+          </a>
         </div>
+        <div style={{ display: "block", height: 72 }} />
       </div>
     );
   }
-
 }
 
 export default withStyles(Introduction, s);

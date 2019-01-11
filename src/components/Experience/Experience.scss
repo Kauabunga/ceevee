@@ -1,7 +1,5 @@
-
-
-@import '../variables.scss';
-@import '../content.scss';
+@import "../variables.scss";
+@import "../content.scss";
 
 $job-margin-bottom: 40px;
 $bullet-height: 40%;
@@ -20,13 +18,11 @@ $link-color: #bbb;
   padding-bottom: 20px;
   margin-bottom: $job-margin-bottom;
 
-
-
-  @media(min-width: $bullet-break){
+  @media (min-width: $bullet-break) {
     &:before {
       display: inline-block;
       position: absolute;
-      content: '';
+      content: "";
 
       top: $bullet-height;
 
@@ -40,20 +36,18 @@ $link-color: #bbb;
 
     &:after {
       z-index: 1;
-      content: '';
+      content: "";
       background: $link-color;
       width: 4px;
       height: calc(100% + $job-margin-bottom);
-      display:inline-block;
+      display: inline-block;
       position: absolute;
       left: 6px;
       top: calc($bullet-height + 16px);
-
     }
   }
 
-  @media(min-width: $max-content-break){
-
+  @media (min-width: $max-content-break) {
     &:after {
       left: 46px;
     }
@@ -75,19 +69,42 @@ $link-color: #bbb;
   @extend .job;
 
   &:after {
-    background: -webkit-linear-gradient($link-color, $link-color, transparent, transparent, transparent); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient($link-color, $link-color, transparent, transparent,transparent); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient($link-color, $link-color, transparent, transparent, transparent); /* For Firefox 3.6 to 15 */
-    background: linear-gradient($link-color, $link-color, transparent, transparent, transparent);
+    background: -webkit-linear-gradient(
+      $link-color,
+      $link-color,
+      transparent,
+      transparent,
+      transparent
+    ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(
+      $link-color,
+      $link-color,
+      transparent,
+      transparent,
+      transparent
+    ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(
+      $link-color,
+      $link-color,
+      transparent,
+      transparent,
+      transparent
+    ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(
+      $link-color,
+      $link-color,
+      transparent,
+      transparent,
+      transparent
+    );
   }
 }
-
 
 .titleContainer {
   display: inline-block;
   width: 100%;
 
-  @media (min-width: $screen-sm-min){
+  @media (min-width: $screen-sm-min) {
     width: 70%;
   }
 }
@@ -102,19 +119,18 @@ $link-color: #bbb;
     height: 52px;
   }
 
-  @media(min-width: 800px){
+  @media (min-width: 800px) {
     display: inline-block;
   }
 }
 
-
 .jobContentContainer {
   min-height: 100px;
-  @media(min-width: $bullet-break){
+  @media (min-width: $bullet-break) {
     margin: 0 20px 0 50px;
   }
 
-  @media(min-width: $max-content-break){
+  @media (min-width: $max-content-break) {
     margin: 0 80px 0 120px;
   }
 
@@ -145,7 +161,7 @@ $link-color: #bbb;
 
   line-height: 1.8em;
 
-  @media (min-width: $screen-xs-min){
+  @media (min-width: $screen-xs-min) {
     padding: 20px 0 40px;
     margin: 0 40px;
   }
@@ -162,7 +178,6 @@ $link-color: #bbb;
     margin-top: 20px;
   }
 }
-
 
 .jobTitle {
   color: $gray-dark;

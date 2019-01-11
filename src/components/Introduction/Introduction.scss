@@ -1,11 +1,6 @@
-
-
-@import '../variables.scss';
-
-
+@import "../variables.scss";
 
 .root {
-
   margin: 40px 40px;
   padding: 20px 0;
 
@@ -25,12 +20,14 @@
     margin: 20px 20px;
     font-size: 1.4em;
   }
-
 }
 
+.introLink {
+  text-decoration: none;
+  color: #222;
+}
 
 .content {
-
   margin: 40px 0;
 
   font-size: 1.3em;
@@ -42,14 +39,12 @@
     line-height: 2em;
   }
 
-
   @media print {
     margin: 20px 0;
 
     font-size: 1.2em;
     line-height: 1.6em;
   }
-
 }
 
 .firstSentence {
@@ -68,6 +63,4 @@
 
 .blue {
   color: $blue;
-
 }
-

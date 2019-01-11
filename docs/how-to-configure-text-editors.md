@@ -13,7 +13,7 @@ Make sure that **JSX** support is enabled in your project. This is set by defaul
 
 ![jsx-support-in-webstorm](https://dl.dropboxusercontent.com/u/16006521/react-starter-kit/webstorm-jsx.png)
 
-Configure JavaScript libraries for **auto-complete**
+Configure Javascript libraries for **auto-complete**
 
 ![javascript-libraries-in-webstorm](https://dl.dropboxusercontent.com/u/16006521/react-starter-kit/webstorm-libraries.png)
 
@@ -64,7 +64,7 @@ Set Babel as default syntax for a particular extension:
 
 * Open a file with that extension,
 * Select `View` from the menu,
-* Then `Syntax` `->` `Open all with current extension as...` `->` `Babel` `->` `JavaScript (Babel)`.
+* Then `Syntax` `->` `Open all with current extension as...` `->` `Babel` `->` `Javascript (Babel)`.
 * Repeat this for each extension (e.g.: .js and .jsx).
 
 Install local npm packages

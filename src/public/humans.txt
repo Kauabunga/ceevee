@@ -11,5 +11,5 @@
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5, JavaScript
+    CSS3, HTML5, Javascript
     React, Flux, SuperAgent

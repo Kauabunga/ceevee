@@ -65,7 +65,7 @@ visit our sponsors:
 ### Related Projects
 
   * [React Static Boilerplate](https://github.com/koistya/react-static-boilerplate) — Generates static websites from React components
-  * [Babel Starter Kit](https://github.com/kriasoft/babel-starter-kit) — Boilerplate for authoring JavaScript/React.js libraries
+  * [Babel Starter Kit](https://github.com/kriasoft/babel-starter-kit) — Boilerplate for authoring Javascript/React.js libraries
   * [React Decorators](https://github.com/kriasoft/react-decorators) — A collection of higher-order React components
 
 ### Learn More
@@ -76,7 +76,7 @@ visit our sponsors:
   * [React.js Discussion Board](https://discuss.reactjs.org/)
   * [Flux Architecture for Building User Interfaces](http://facebook.github.io/flux/)
   * [Jest - Painless Unit Testing](http://facebook.github.io/jest/)
-  * [Flow - A static type checker for JavaScript](http://flowtype.org/)
+  * [Flow - A static type checker for Javascript](http://flowtype.org/)
   * [The Future of React](https://github.com/reactjs/react-future)
   * [Learn ES6](https://babeljs.io/docs/learn-es6/), [ES6 Features](https://github.com/lukehoban/es6features#readme)
 
