@@ -7,21 +7,17 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-import React, { Component, PropTypes } from 'react';
-import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './Education.scss';
-
+import React, { Component, PropTypes } from "react";
+import withStyles from "isomorphic-style-loader/lib/withStyles";
+import s from "./Education.scss";
 
 const education = {
-  year: '2007-2012',
+  year: "2007-2012",
   title: `Victoria University of Wellington`,
-  university: `Bachelor of Engineering (BE), Software Engineering, First Class Honours`
+  university: `Bachelor of Engineering, Software Engineering, First Class Honours`
 };
 
-
-
 class Education extends Component {
-
   render() {
     return (
       <div className={s.educationContent}>
@@ -37,7 +33,6 @@ class Education extends Component {
       </div>
     );
   }
-
 }
 
 export default withStyles(Education, s);
