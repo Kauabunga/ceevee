@@ -1,0 +1,180 @@
+@import "./variables.scss";
+@import "./content.scss";
+
+$link-color: #bbb;
+
+.experienceTitle {
+  page-break-before: always;
+}
+
+.job {
+  position: relative;
+
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+
+  @media (min-width: 500px) {
+    &:before {
+      display: inline-block;
+      position: absolute;
+      content: "";
+
+      top: 40%;
+
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: $blue;
+
+      z-index: 2;
+    }
+
+    &:after {
+      z-index: 1;
+      content: "";
+      background: $link-color;
+      width: 4px;
+      height: calc(100% + 40px);
+      display: inline-block;
+      position: absolute;
+      left: 6px;
+      top: calc(40% + 16px);
+    }
+  }
+
+  @media (min-width: $max-content-break) {
+    &:after {
+      left: 46px;
+    }
+    &:before {
+      left: 40px;
+    }
+  }
+
+  @media print {
+    padding: 0;
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.lastJob {
+  @extend .job;
+
+  &:after {
+    background: -webkit-linear-gradient(
+      $link-color,
+      $link-color,
+      transparent,
+      transparent,
+      transparent
+    ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(
+      $link-color,
+      $link-color,
+      transparent,
+      transparent,
+      transparent
+    ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(
+      $link-color,
+      $link-color,
+      transparent,
+      transparent,
+      transparent
+    ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(
+      $link-color,
+      $link-color,
+      transparent,
+      transparent,
+      transparent
+    );
+  }
+}
+
+.titleContainer {
+  display: inline-block;
+  width: 100%;
+
+  @media (min-width: $screen-sm-min) {
+    width: 70%;
+  }
+}
+
+.jobImage {
+  width: 30%;
+  display: none;
+  float: right;
+
+  amp-img {
+    margin-top: 18px;
+    height: 52px;
+  }
+
+  @media (min-width: 800px) {
+    display: inline-block;
+  }
+}
+
+.jobContentContainer {
+  min-height: 100px;
+  @media (min-width: 500px) {
+    margin: 0 20px 0 50px;
+  }
+
+  @media (min-width: $max-content-break) {
+    margin: 0 80px 0 120px;
+  }
+
+  background: white;
+  box-shadow: $box-shadow;
+
+  @media print {
+    margin: 0;
+    box-shadow: none;
+  }
+}
+
+.jobLink {
+  text-decoration: none;
+  color: $blue-dark;
+
+  border-bottom: 2px solid transparent;
+  transition: border-color 200ms ease;
+  &:hover {
+    border-bottom: 2px solid $blue-dark;
+  }
+}
+
+.jobContent {
+  min-height: 100px;
+  margin: 0 20px;
+  padding: 10px 0 40px;
+
+  line-height: 1.8em;
+
+  @media (min-width: $screen-xs-min) {
+    padding: 20px 0 40px;
+    margin: 0 40px;
+  }
+
+  @media print {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.jobBrief {
+  margin-top: 40px;
+  @media print {
+    margin-top: 20px;
+  }
+}
+
+.jobTitle {
+  color: $gray-dark;
+  margin-bottom: 0;
+}

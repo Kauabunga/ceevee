@@ -1,0 +1,24 @@
+@import "./App.scss";
+
+.header-container {
+  @import "./Header.scss";
+}
+.introduction-container {
+  @import "./Introduction.scss";
+}
+.experience-container {
+  @import "./Experience.scss";
+}
+.education-container {
+  @import "./Education.scss";
+}
+
+.project-container {
+  @import "./Projects.scss";
+}
+.interests-container {
+  @import "./Interests.scss";
+}
+.footer-container {
+  @import "./Footer.scss";
+}

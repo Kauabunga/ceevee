@@ -1,0 +1,127 @@
+@import "./variables.scss";
+
+.root {
+  background: $blue-dark;
+  color: #fff;
+  height: $header-height;
+
+  @media print {
+    font-size: 2em;
+  }
+}
+
+.container {
+  margin: 0 40px;
+  padding: 138px 0 20px;
+  max-width: $max-content-width;
+
+  position: relative;
+
+  @media (min-width: $max-content-break) {
+    padding: 148px 0 20px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    color: #fff;
+    margin: 0;
+  }
+
+  @media print {
+    margin: 0 20px;
+  }
+}
+
+.headerButton {
+  background-color: $background-content;
+
+  user-select: none;
+  color: $blue-dark;
+
+  z-index: 5;
+
+  float: right;
+
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+  top: 46px;
+  margin-left: 30px;
+
+  @media (min-width: $max-content-break) {
+    top: 36px;
+  }
+
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+
+  amp-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &:hover {
+    &:after {
+      opacity: 1;
+      transform: translateY(5px);
+    }
+  }
+
+  &:after {
+    transition: opacity 200ms ease, transform 200ms ease;
+    position: absolute;
+    top: 55px;
+    opacity: 0;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.printButton {
+  @extend .headerButton;
+
+  &:after {
+    content: "Print";
+    left: 11px;
+  }
+
+  display: none;
+  @media (min-width: $max-content-break) {
+    display: flex;
+  }
+}
+
+.downloadButton {
+  @extend .headerButton;
+  &:after {
+    content: "Download";
+    left: -9px;
+  }
+}
+
+.onlineView {
+  display: none;
+  @media print {
+    display: block;
+  }
+}
+
+.cv {
+  position: absolute;
+
+  top: 51px;
+  right: 5px;
+  font-size: 12em;
+  opacity: 0.075;
+
+  @media (min-width: $screen-sm-min) {
+    font-size: 16em;
+    top: 0;
+  }
+}
