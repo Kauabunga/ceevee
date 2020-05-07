@@ -1,34 +1,37 @@
-import React, { Component } from "react";
+import React from "react";
 
-function monthDiff(d1, d2) {
-  var months;
-  months = (d2.getFullYear() - d1.getFullYear()) * 12;
-  months -= d1.getMonth() + 1;
-  months += d2.getMonth();
-  return months <= 0 ? 0 : months;
-}
-
-function prettyPrintMonths(months) {
-  const year = Math.floor(months / 12);
-  const month = months % 12;
-
-  const yearPlural = year / 2 >= 1;
-  const monthPlural = month / 2 >= 1;
-
-  const yearString = year + " " + (yearPlural ? "years" : "year");
-  const monthDisplay = " " + month + " " + (monthPlural ? "months" : "month");
-  const monthString = month !== 0 ? monthDisplay : "";
-
-  return yearString + monthString;
-}
-
-const properlyMonths = monthDiff(new Date("2017-11-01"), new Date());
-const properlyDatePretty = prettyPrintMonths(properlyMonths);
+const properlyLogo = require("./properly.svg");
+const solnetLogo = require("./solnet.svg");
+const victoriaLogo = require("./vuw.png");
+const middlewareLogo = require("./mwnz.png");
 
 const jobs = [
   {
+    title: "Middleware NZ",
+    date: "Mar 2019 - Now",
+    brief: `
+    
+    I started Middleware NZ as an API developer and have been learning lots. 
+
+
+
+    `,
+    svg: {
+      src: middlewareLogo,
+      height: "132px",
+      width: "135px",
+
+      style: {
+        width: 52,
+        float: "right",
+        padding: 4,
+        backgroundColor: "#282940",
+      },
+    },
+  },
+  {
     title: "Properly",
-    date: "Nov 2017 - Now",
+    date: "Nov 2017 - Mar 2019",
     brief: `
     
     I joined Properly with a team of 14, working across the world to provide tools and people
@@ -41,7 +44,7 @@ const jobs = [
 
     `,
     svg: {
-      src: require("./properly.svg"),
+      src: properlyLogo,
       height: "2215px",
       width: "770px",
     },
@@ -63,7 +66,7 @@ const jobs = [
     link: `See the Projects section and some of the work I've done with Solnet.`,
     linkHref: "#Projects",
     svg: {
-      src: require("./solnet.svg"),
+      src: solnetLogo,
       height: "2215px",
       width: "770px",
     },
@@ -83,7 +86,7 @@ const jobs = [
 
     `,
     svg: {
-      src: require("./vuw.png"),
+      src: victoriaLogo,
       height: "792px",
       width: "192px",
     },
@@ -99,7 +102,7 @@ const jobs = [
 
     `,
     svg: {
-      src: require("./vuw.png"),
+      src: victoriaLogo,
       height: "792px",
       width: "192px",
     },
@@ -118,48 +121,50 @@ const jobs = [
   },
 ];
 
-export default class Experience extends Component {
-  render() {
-    return (
-      <div className="root">
-        <h1 id="Experience" className="experienceTitle">
-          Experience
-        </h1>
+export default () => {
+  return (
+    <div className="root">
+      <h1 id="Experience" className="experienceTitle">
+        Experience
+      </h1>
 
-        {jobs.map(function (job, i) {
-          return (
-            <div key={i} className={i !== jobs.length - 1 ? "job" : "lastJob"}>
-              <div className="jobContentContainer">
-                <div className="jobContent">
-                  <div className="titleContainer">
-                    <h2 className="jobTitle">{job.title}</h2>
-                    <em>{job.date}</em>
-                  </div>
-
-                  {job.svg ? (
-                    <div className="jobImage">
-                      <amp-img
-                        src={job.svg.src}
-                        height={job.svg.height}
-                        width={job.svg.width}
-                        layout="responsive"
-                      />
-                    </div>
-                  ) : null}
-
-                  <p className="jobBrief">{job.brief}</p>
-
-                  {job.link ? (
-                    <a className="jobLink" href={job.linkHref}>
-                      <strong>{job.link}</strong>
-                    </a>
-                  ) : null}
+      {jobs.map((job, i) => {
+        return (
+          <div
+            key={job.title}
+            className={i !== jobs.length - 1 ? "job" : "lastJob"}
+          >
+            <div className="jobContentContainer">
+              <div className="jobContent">
+                <div className="titleContainer">
+                  <h2 className="jobTitle">{job.title}</h2>
+                  <em>{job.date}</em>
                 </div>
+
+                {job.svg ? (
+                  <div className="jobImage">
+                    <amp-img
+                      style={job.svg.style}
+                      src={job.svg.src}
+                      height={job.svg.height}
+                      width={job.svg.width}
+                      layout="responsive"
+                    />
+                  </div>
+                ) : null}
+
+                <p className="jobBrief">{job.brief}</p>
+
+                {job.link ? (
+                  <a className="jobLink" href={job.linkHref}>
+                    <strong>{job.link}</strong>
+                  </a>
+                ) : null}
               </div>
             </div>
-          );
-        })}
-      </div>
-    );
-  }
-}
+          </div>
+        );
+      })}
+    </div>
+  );
+};

@@ -1,3 +1,4 @@
+import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 const analyticsConfig = {
@@ -25,16 +26,16 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <title>Carson Bruce CV</title>
+
           <link rel="canonical" href="http://carson.kiwi/" />
           <meta name="description" content="Online CV of Carson Bruce" />
           <meta name="viewport" content="width=device-width,minimum-scale=1" />
 
           <link rel="icon" type="image/svg" href="/favicon.svg" />
           <link rel="icon" type="image/png" href="/favicon.png" />
-          <meta name="theme-color" content="#3F51B5"></meta>
+          <meta name="theme-color" content="#3F51B5" />
 
-          <script async src="https://cdn.ampproject.org/v0.js"></script>
+          <script async src="https://cdn.ampproject.org/v0.js" />
 
           <link
             href="https://fonts.googleapis.com/css?family=Roboto:400,700"
@@ -53,7 +54,7 @@ export default class MyDocument extends Document {
               dangerouslySetInnerHTML={{
                 __html: JSON.stringify(analyticsConfig).replace(/&quot;/g, '"'),
               }}
-            ></script>
+            />
           </amp-analytics>
         </body>
       </Html>

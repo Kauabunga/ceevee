@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const projects = [
   {
@@ -131,88 +131,48 @@ const projects = [
   },
 ];
 
-class Bullet extends Component {
-  render() {
-    return (
-      <ul className="projectBullets">
-        {this.props.bullets.map((bullet, i) => {
-          return <li key={i}>{bullet}</li>;
-        })}
-      </ul>
-    );
-  }
+function Bullet({ bullets }) {
+  return (
+    <ul className="projectBullets">
+      {bullets.map((bullet) => {
+        return <li key={bullet}>{bullet}</li>;
+      })}
+    </ul>
+  );
 }
 
-class ImageContainer extends Component {
-  render() {
-    return (
-      <div className="imageContainer">
-        {this.props.images.map((image, i) => {
-          var imageId = `project-${this.props.projectIndex}-image-${i}`;
-          var onOpenAction = "tap:" + imageId;
-          var onCloseAction = "tap:" + imageId + ".close";
-          return (
-            <div key={i} className="projectImage">
-              <amp-img
-                width="2880"
-                height="1610"
-                role="button"
-                tabindex="0"
-                on={onOpenAction}
-                layout="responsive"
-                src={image.thumbnail}
-              />
-              <amp-lightbox id={imageId} layout="nodisplay">
-                <div className="projectLightbox">
-                  <amp-img
-                    src={image.main}
-                    width="2880"
-                    height="1610"
-                    tabindex="-1"
-                    role="button"
-                    on={onCloseAction}
-                  />
-                </div>
-              </amp-lightbox>
-            </div>
-          );
-        })}
-      </div>
-    );
-  }
-}
+export default () => {
+  return (
+    <div className="root">
+      <h1 id="Projects" className="projectsTitle">
+        Projects
+      </h1>
 
-export default class Projects extends Component {
-  render() {
-    return (
-      <div className="root">
-        <h1 id="Projects" className="projectsTitle">
-          Projects
-        </h1>
-
-        <div className="projectsContainer">
-          {projects
-            .filter((project) => !project.isDisabled)
-            .map((project, i) => {
-              return (
-                <div key={i} className={i === 0 ? "firstProject" : "project"}>
-                  <div className="projectContainer">
-                    <div className="projectContent">
-                      <div className="projectTitleContainer">
-                        <h2 className="projectTitle">{project.title}</h2>
-                        <em>{project.client}</em>
-                      </div>
-                      <div>
-                        <p className="projectBrief">{project.brief}</p>
-                        <Bullet bullets={project.bullets} />
-                      </div>
+      <div className="projectsContainer">
+        {projects
+          .filter((project) => !project.isDisabled)
+          .map((project, i) => {
+            return (
+              <div
+                key={project.title}
+                className={i === 0 ? "firstProject" : "project"}
+              >
+                <div className="projectContainer">
+                  <div className="projectContent">
+                    <div className="projectTitleContainer">
+                      <h2 className="projectTitle">{project.title}</h2>
+                      <em>{project.client}</em>
+                    </div>
+                    <div>
+                      <p className="projectBrief">{project.brief}</p>
+                      <Bullet bullets={project.bullets} />
                     </div>
                   </div>
                 </div>
-              );
-            })}
-        </div>
+              </div>
+            );
+          })}
       </div>
-    );
-  }
-}
+    </div>
+  );
+};

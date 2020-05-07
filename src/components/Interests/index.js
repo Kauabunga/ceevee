@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const interests = [
   {
@@ -33,23 +33,21 @@ const interests = [
   },
 ];
 
-export default class Interests extends Component {
-  render() {
-    return (
-      <div className="interestsContainer">
-        <div className="root">
-          <h1>Interests</h1>
-          <ul className="chipList">
-            {interests.map((interest, i) => {
-              return (
-                <li key={i} className="chip">
-                  {interest.title}
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+export default () => {
+  return (
+    <div className="interestsContainer">
+      <div className="root">
+        <h1>Interests</h1>
+        <ul className="chipList">
+          {interests.map((interest) => {
+            return (
+              <li key={interest.title} className="chip">
+                {interest.title}
+              </li>
+            );
+          })}
+        </ul>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};

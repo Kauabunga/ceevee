@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const text = `
 I plan and deliver throughout the entire software development process, from when a project is imagined to its release. 
@@ -19,27 +19,25 @@ const text3 = `
 
 `;
 
-export default class Introduction extends Component {
-  render() {
-    return (
-      <div className="root">
-        <div className="firstSentence">
-          <b className="blue">
-            I am passionate about creating simple and beautiful&nbsp;apps.
-          </b>
-        </div>
-
-        <div className="content">{text}</div>
-        <div className="content">{text2}</div>
-        <div className="content">{text3}</div>
-        <div className="content">
-          Get in touch at
-          <a href="mailto:hello@carson.kiwi" className="introLink">
-            <b className="blue">&nbsp;hello@carson.kiwi</b>
-          </a>
-        </div>
-        <div style={{ display: "block", height: 72 }} />
+export default () => {
+  return (
+    <div className="root">
+      <div className="firstSentence">
+        <b className="blue">
+          I am passionate about creating simple and beautiful&nbsp;apps.
+        </b>
       </div>
-    );
-  }
-}
+
+      <div className="content">{text}</div>
+      <div className="content">{text2}</div>
+      <div className="content">{text3}</div>
+      <div className="content">
+        Get in touch at
+        <a href="mailto:hello@carson.kiwi" className="introLink">
+          <b className="blue">&nbsp;hello@carson.kiwi</b>
+        </a>
+      </div>
+      <div style={{ display: "block", height: 72 }} />
+    </div>
+  );
+};
