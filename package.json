@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && cp carson.bruce_cv.pdf ./out/carson.bruce_cv.pdf",
+    "build": "next build && next export && npm run build:cp",
+    "build:cp": "cp carson.bruce_cv.pdf ./out/carson.bruce_cv.pdf && cp CNAME ./out/CNAME",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "deploy:clone": "git clone git@github.com:Kauabunga/kauabunga.github.io.git",
+    "deploy:cp": "cp -Rv out/ kauabunga.github.io/"
   },
   "dependencies": {
     "next": "^9.3.6",
