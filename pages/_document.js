@@ -27,9 +27,8 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
-          <link rel="canonical" href="http://carson.kiwi/" />
-          <meta name="description" content="Online CV of Carson Bruce" />
-          <meta name="viewport" content="width=device-width,minimum-scale=1" />
+          <link rel="canonical" href="https://carson.kiwi/" />
+          <meta name="description" content="CV of Carson Bruce" />
 
           <link rel="icon" type="image/svg" href="/favicon.svg" />
           <link rel="icon" type="image/png" href="/favicon.png" />
@@ -61,22 +60,3 @@ export default class MyDocument extends Document {
     );
   }
 }
-
-// export default class MyDocument extends Document {
-//   static async getInitialProps(ctx) {
-//     const initialProps = await Document.getInitialProps(ctx);
-//     return { ...initialProps };
-//   }
-
-//   render() {
-//     return (
-//       <Html>
-//         <Head />
-//         <body>
-//           <Main />
-//           <NextScript />
-//         </body>
-//       </Html>
-//     );
-//   }
-// }

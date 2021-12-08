@@ -5,9 +5,6 @@ const interests = [
     title: "Javascript",
   },
   {
-    title: "User experience",
-  },
-  {
     title: "Netball",
   },
   {
@@ -33,21 +30,19 @@ const interests = [
   },
 ];
 
-export default () => {
+export default function Interests() {
   return (
     <div className="interestsContainer">
       <div className="root">
         <h1>Interests</h1>
         <ul className="chipList">
-          {interests.map((interest) => {
-            return (
-              <li key={interest.title} className="chip">
-                {interest.title}
-              </li>
-            );
-          })}
+          {interests.map((interest) => (
+            <li key={interest.title} className="chip">
+              {interest.title}
+            </li>
+          ))}
         </ul>
       </div>
     </div>
   );
-};
+}

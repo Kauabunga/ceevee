@@ -1,15 +1,13 @@
 import React from "react";
 
-const text = ``;
-const githubLogo = require("./github.svg");
-const linkedInLogo = require("./linkedin.svg");
+import githubLogo from "./image.github";
+import linkedInLogo from "./image.linkedin";
 
-export default () => {
+export default function Footer() {
   return (
     <div className="root">
       <div className="container">
         <div>
-          <span className="text">{text}</span>
           <span className="text">
             <b>hello@carson.kiwi</b>
           </span>
@@ -41,4 +39,4 @@ export default () => {
       </div>
     </div>
   );
-};
+}

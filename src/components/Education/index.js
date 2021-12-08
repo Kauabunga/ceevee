@@ -6,7 +6,7 @@ const education = {
   university: `Bachelor of Engineering, Software Engineering, First Class Honours`,
 };
 
-export default () => {
+export default function Education() {
   return (
     <div className="educationContent">
       <div className="root">
@@ -20,4 +20,4 @@ export default () => {
       </div>
     </div>
   );
-};
+}

@@ -1,8 +1,8 @@
 import React from "react";
 
-const arrow = require("./arrow.svg");
+import arrow from "./image.arrow";
 
-export default () => {
+export default function Header() {
   return (
     <div className="root">
       <div className="container">
@@ -20,4 +20,4 @@ export default () => {
       </div>
     </div>
   );
-};
+}

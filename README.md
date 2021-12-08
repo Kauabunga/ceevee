@@ -1,1 +1,6 @@
-## My CV using Next js
+# Carson Bruce CV
+
+## Get started
+
+1. `npm install`
+2. `npm run dev`

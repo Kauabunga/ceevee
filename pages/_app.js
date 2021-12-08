@@ -7,6 +7,7 @@ export function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Carson Bruce CV</title>
+        <meta name="viewport" content="width=device-width,minimum-scale=1" />
       </Head>
       <Component {...pageProps} />
     </>

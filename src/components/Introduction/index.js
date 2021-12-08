@@ -19,7 +19,7 @@ const text3 = `
 
 `;
 
-export default () => {
+export default function Introduction() {
   return (
     <div className="root">
       <div className="firstSentence">
@@ -40,4 +40,4 @@ export default () => {
       <div style={{ display: "block", height: 72 }} />
     </div>
   );
-};
+}
