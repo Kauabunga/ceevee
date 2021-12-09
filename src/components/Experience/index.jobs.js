@@ -9,9 +9,12 @@ export default [
     date: "Mar 2019 - Feb 2022 ( 2 years 11 months )",
     brief: `
       
-      I started Middleware NZ as an API developer and have been learning lots. 
-  
-  
+      I started Middleware NZ as a Senior Developer moving from a frontend development focus towards more API and microservice development.
+
+      Several projects gave me experience across a variety of teams, technology and process. I was able to adapt to each challenge 
+
+      A large portion of my time spent at Middeware NZ was focused delivering an internal product, the Open Banking Accelerator and Engagement Platform.
+      This product provides values to banks, enabling their Open Banking API platforms. While working on the product I was 
   
       `,
     svg: {
