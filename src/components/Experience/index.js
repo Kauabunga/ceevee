@@ -3,16 +3,20 @@ import React from "react";
 import jobs from "./index.jobs";
 
 export default function Experience() {
+  const filteredJobs = React.useMemo(
+    () => jobs.filter((job) => !job.isDisabled),
+    []
+  );
   return (
     <div className="root">
       <h1 id="Experience" className="experienceTitle">
         Experience
       </h1>
 
-      {jobs.map((job, i) => (
+      {filteredJobs.map((job, i) => (
         <div
           key={job.title}
-          className={i !== jobs.length - 1 ? "job" : "lastJob"}
+          className={i !== filteredJobs.length - 1 ? "job" : "lastJob"}
         >
           <div className="jobContentContainer">
             <div className="jobContent">

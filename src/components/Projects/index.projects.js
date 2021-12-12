@@ -1,17 +1,51 @@
 export default [
   {
-    title: "Openbanking Accelerator",
+    title: "Open Banking Accelerator Product",
     client: "Glueware",
-    isDisabled: true,
+    isDisabled: false,
     brief: `
-  
-  
-      `,
-    bullets: [],
+
+        The Open Banking Accelerator (OBA) product provides a standards conformant set of APIs banks can publish.
+
+        With a small internal team, we created the product building on previous years experience within the Open Banking domain.
+
+        My role included delegating design, implementation and testing tasks along with reviewing and supporting other work in the team. 
+
+        `,
+    // The second piece of the product enables a sandbox environment that still adheres to the standards but completely isolates the data a third party interacts with.
+    // The last piece of the product presents a conformance test suite that verifies that an API implementation is conforming to the Open Banking standards with or without OBA.
+    bullets: [
+      "Owned technical leadership of microservice development and testing.",
+      "Promoted strong testing culture throughout team.",
+      "Succeeded to prove value through multiple trials with banks.",
+      "Applied feedback from customers to improve experience and quality of the product.",
+      "Worked closely with Product Owners to ensure team tasks and focus was aligned.",
+      "Designed scalable and modular application using cloud and microservice patterns.",
+    ],
   },
   {
-    title: "Covid Pass",
+    title: "NZ COVID Pass Integration",
     client: "MoH",
+    isDisabled: false,
+    brief: `
+        
+        This project was part of the Ministries COVID response to bring a verifiable COVID pass to people living or visiting New Zealand.
+        
+        Challenges included ensuring forecasted demand was handled and ensuring the APIs were appropriately secured given their sensitive nature.
+
+        My role involved helping support more junior members of the team and aligning the work of the team with the delivery. 
+  
+      `,
+    bullets: [
+      "Balanced quality of development under high time pressures.",
+      "Enabled other developers and testers within the team by code reviews and pair programming.",
+      "Communicated with client and other venders to ensure alignment of delivery.",
+      "Supported design and achieved implementation of a highly available solution.",
+    ],
+  },
+  {
+    title: "ForgeRock CDR Accelerator",
+    client: "ForgeRock",
     isDisabled: true,
     brief: `
   
@@ -20,7 +54,7 @@ export default [
     bullets: [],
   },
   {
-    title: "Visa 3DS",
+    title: "Visa 3DS Integration",
     client: "Kiwibank",
     isDisabled: true,
     brief: `
@@ -30,8 +64,8 @@ export default [
     bullets: [],
   },
   {
-    title: "FHIR API integration",
-    client: "RymanHealthcare",
+    title: "FHIR Integration",
+    client: "Ryman Healthcare",
     isDisabled: true,
     brief: `
   
@@ -40,7 +74,7 @@ export default [
     bullets: [],
   },
   {
-    title: "Openbanking Sandbox",
+    title: "Open Banking Sandbox Product",
     client: "Payments New Zealand",
     isDisabled: true,
     brief: `
@@ -74,7 +108,8 @@ export default [
   
       `,
     bullets: [
-      "Lead app development seeing Angular 2 through its beta releases.",
+      // "Lead app design and development seeing Angular 2 through its beta releases.",
+      "Lead app design and development using a new front end technology.",
       "Promoted and adapted a UI component library for multiple applications.",
       "Guided Front-end developers through best practices, process and tooling.",
       "Guided UI Integration testers through best practices, process and tooling.",
@@ -83,6 +118,7 @@ export default [
   {
     title: "Employment Agreement Builder",
     client: "Ministry of Business and Innovation and Employment",
+    isDisabled: false,
     brief: `
   
         EAB is an application for small to medium businesses to create new Employment agreements while learning
@@ -96,34 +132,36 @@ export default [
       "Created a reusable forms solution, reused for a second MBIE Policy Builder app.",
       "Promoted a full stack Javascript solution supported by docker.",
       "Implemented Node.js micro service handling 10x expected load.",
-      "Implemented a CI pipeline that performed automated testing and releasing dozenes of times a day.",
+      "Implemented a pipeline that performed automated testing and releases.",
     ],
   },
   {
     title: "Online Banking",
     client: "Westpac",
+    isDisabled: true,
     brief: `
   
-        I was part of a Westpac team with a goal to better their online banking experience.
+        I was part of a Westpac team with a goal to improve their online banking experience.
   
-        I helped keep the developers of the project, mediating communications between development teams.
+        I supported the developers of the project, mediating communications between development teams.
         I improved automation in local, development, and test environments helping developers become more autonomous.
   
         After two months my role extended to a technical lead of a team of five, responsible for feature development in the middleware.
   
       `,
     bullets: [
-      "Trusted as the gatekeeper of environments relied on by a team of 60+.",
+      "Trusted as the custodian of environments relied on by a team of 60+.",
       "Lead and mentor of a team of five.",
       "Proposed and owned developer tooling and experience improvements.",
       "Implemented a Javascript framework that supported other teams.",
-      "Implemented the security feature of the client.",
-      "Created and implemented a UX review noting usability and performance improvements for the application.",
+      "Took ownership for the security feature of the client.",
+      // "Created and implemented a UX review noting usability and performance improvements for the application.",
     ],
   },
   {
     title: "NEON",
     client: "Sky TV",
+    isDisabled: true,
     brief: `
   
         NEON is Sky TV's entry into the New Zealand TV on demand market. Our project's team was responsible for 
@@ -133,9 +171,9 @@ export default [
   
       `,
     bullets: [
-      "With the team, implement Neon's web application using angular.",
-      "Integrated with a Salesforce API.",
-      "Worked remotely for a thrid of the time.",
+      "With the team, implemented Neon's web app using angular.",
+      "Integrated with Salesforce API.",
+      "Worked remotely for a third of the project.",
     ],
   },
   {

@@ -7,16 +7,20 @@ export default [
   {
     title: "Middleware NZ",
     date: "Mar 2019 - Feb 2022 ( 2 years 11 months )",
+    isDisabled: false,
     brief: `
       
-      I started Middleware NZ as a Senior Developer moving from a frontend development focus towards more API and microservice development.
+      I worked at Middleware NZ as a Senior Developer. My focus shifted more towards API and microservice development aiming to broaden my technical experience.
 
-      Several projects gave me experience across a variety of teams, technology and process. I was able to adapt to each challenge 
+      Many projects gave me practice across a variety of teams, technology and process. 
+      I was able to adapt to each unique challenge and achieve positive outcomes for internal and external clients.
 
-      A large portion of my time spent at Middeware NZ was focused delivering an internal product, the Open Banking Accelerator and Engagement Platform.
-      This product provides values to banks, enabling their Open Banking API platforms. While working on the product I was 
+      A good part of my time at Middleware NZ was focused delivering an internal product, 
+      the Open Banking Accelerator and Engagement Platform, which was successfully sold and implemented within multiple banking clients.
   
       `,
+    link: `See the Projects section and some of the work I was apart of with Middleware NZ.`,
+    linkHref: "#Projects",
     svg: {
       src: middlewareLogo,
       height: "132px",
@@ -33,6 +37,7 @@ export default [
   {
     title: "Properly",
     date: "Nov 2017 - Mar 2019 ( 1 year 4 months )",
+    isDisabled: false,
     brief: `
       
       I joined Properly with a team of 14, working across the world to provide tools and people
@@ -53,6 +58,7 @@ export default [
   {
     title: "Solnet",
     date: "Aug 2012 - Nov 2017 ( 5 years 3 months )",
+    isDisabled: false,
     brief: `
       
       I started with Solnet after graduating, joining the delivery team.
@@ -75,6 +81,7 @@ export default [
   {
     title: "Research Project: Query Expansion",
     date: "Nov 2011 - March 2012 ( 4 months )",
+    isDisabled: true,
     brief: `
   
       My second research opportunity was offered by the supervisor of my honours project.
@@ -95,6 +102,7 @@ export default [
   {
     title: "Research Project: Eye Gaze tracking",
     date: "Nov 2010 - March 2011 ( 4 months )",
+    isDisabled: true,
     brief: `
       At the end of my 300 level university year I was awarded a research scholarship.
       
@@ -111,6 +119,7 @@ export default [
   {
     title: "Cool Bananas",
     date: "Nov 2009 - March 2010 ( 4 months )",
+    isDisabled: true,
     brief: `
   
       During an internship with another student and senior

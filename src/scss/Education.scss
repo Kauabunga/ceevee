@@ -4,6 +4,7 @@
 .educationContent {
   @extend .blueRoot;
   page-break-after: always;
+  page-break-before: always;
 }
 
 .content {
