@@ -13,12 +13,8 @@ export default function Footer() {
           </span>
         </div>
 
-        <div className="socialLinkPrint">
-          GitHub https://github.com/Kauabunga
-        </div>
-        <div className="socialLinkPrint">
-          Linkedin https://nz.linkedin.com/in/carsonbruce
-        </div>
+        <div className="socialLinkPrint">github.com/Kauabunga</div>
+        <div className="socialLinkPrint">nz.linkedin.com/in/carsonbruce</div>
 
         <a
           href="https://github.com/Kauabunga"

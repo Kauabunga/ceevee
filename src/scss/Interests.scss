@@ -3,6 +3,10 @@
 
 .interestsContainer {
   @extend .blueRoot;
+
+  @media print {
+    display: none;
+  }
 }
 
 .content {

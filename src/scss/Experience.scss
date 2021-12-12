@@ -147,6 +147,10 @@ $link-color: #bbb;
   &:hover {
     border-bottom: 2px solid $blue-dark;
   }
+
+  @media print {
+    display: none;
+  }
 }
 
 .jobContent {

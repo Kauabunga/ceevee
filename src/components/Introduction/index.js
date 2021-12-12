@@ -36,6 +36,7 @@ export default function Introduction() {
         <a href="mailto:hello@carson.kiwi" className="introLink">
           <b className="blue">&nbsp;hello@carson.kiwi</b>
         </a>
+        <b className="blue introLinkPrint">hello@carson.kiwi</b>
       </div>
       <div style={{ display: "block", height: 72 }} />
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-import jobs from "./index.jobs";
+import { jobs } from "../../content";
 
 export default function Experience() {
   const filteredJobs = React.useMemo(

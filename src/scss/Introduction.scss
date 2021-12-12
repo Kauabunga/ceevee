@@ -25,6 +25,16 @@
 .introLink {
   text-decoration: none;
   color: #222;
+  @media print {
+    display: none;
+  }
+}
+
+.introLinkPrint {
+  display: none;
+  @media print {
+    display: block;
+  }
 }
 
 .content {

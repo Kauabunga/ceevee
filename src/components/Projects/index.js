@@ -1,6 +1,6 @@
 import React from "react";
 
-import projects from "./index.projects";
+import { projects } from "../../content";
 
 export default function Projects() {
   return (

@@ -1,11 +1,5 @@
 import React from "react";
 
-const education = {
-  year: "2007-2012",
-  title: `Victoria University of Wellington`,
-  university: `Bachelor of Engineering, Software Engineering, First Class Honours`,
-};
-
 export default function Education() {
   return (
     <div className="educationContent">
@@ -13,9 +7,12 @@ export default function Education() {
         <h1>Education</h1>
 
         <div className="educationContainer">
-          <h2 className="content">{education.university}</h2>
-          <h3 className="content">{education.title}</h3>
-          <em className="content">{education.year}</em>
+          <h2 className="content">
+            Bachelor of Engineering, Software Engineering,
+            First&nbsp;Class&nbsp;Honours
+          </h2>
+          <h3 className="content">Victoria University of&nbsp;Wellington</h3>
+          <em className="content">2007-2012</em>
         </div>
       </div>
     </div>

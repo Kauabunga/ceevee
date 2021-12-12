@@ -19,6 +19,10 @@
   padding: 30px 15px;
   max-width: $max-content-width;
   text-align: center;
+
+  @media print {
+    padding-top: 128px;
+  }
 }
 
 .socialLinkPrint {
