@@ -1,4 +1,6 @@
 import React from "react";
+import format from "date-fns/format";
+import formatDistanceStrict from "date-fns/formatDistanceStrict";
 
 import { jobs } from "../../content";
 
@@ -22,7 +24,9 @@ export default function Experience() {
             <div className="jobContent">
               <div className="titleContainer">
                 <h2 className="jobTitle">{job.title}</h2>
-                <em>{job.date}</em>
+                <em>
+                  <Date startDate={job.startDate} endDate={job.endDate} />
+                </em>
               </div>
 
               {job.svg ? (
@@ -50,4 +54,16 @@ export default function Experience() {
       ))}
     </div>
   );
+}
+
+function Date({ startDate, endDate }) {
+  const startString = startDate ? format(startDate, "MMM yyyy") : "";
+  const endString = endDate ? format(endDate, "MMM yyyy") : "Current";
+
+  const difference =
+    startDate && endDate ? `(${formatDistanceStrict(endDate, startDate)})` : "";
+
+  const dates = `${startString} - ${endString}`;
+
+  return [dates, difference].join(" ");
 }
