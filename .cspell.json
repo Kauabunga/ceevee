@@ -16,7 +16,9 @@
     "fhir",
     "solnet",
     "lightbox",
-    // Misc
+    "airnz",
+    // Tech/Misc
+    "eventbridge",
     "polyline",
     "rgba",
     "noopener",
