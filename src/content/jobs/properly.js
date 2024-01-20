@@ -1,10 +1,9 @@
 import properlyLogo from "../../components/Experience/image.properly";
 
-export default [
+const properly = [
   {
     title: "Properly",
     website: "https://getproperly.com/",
-    date: "Nov 2017 - Mar 2019 ( 1 year 4 months )",
     startDate: new Date("2017-11-01"),
     endDate: new Date("2019-03-01"),
     isDisabled: false,
@@ -26,3 +25,5 @@ export default [
     },
   },
 ];
+
+export default properly;

@@ -9,6 +9,10 @@ export const interests = [
   },
   {
     title: "Running",
+    isDisabled: true,
+  },
+  {
+    title: "Hiking",
     isDisabled: false,
   },
   {
@@ -24,12 +28,12 @@ export const interests = [
     isDisabled: false,
   },
   {
-    title: "Sound systems",
-    isDisabled: true,
+    title: "Sound Systems",
+    isDisabled: false,
   },
   {
-    title: "Beer brewing",
-    isDisabled: true,
+    title: "Brewing Beer",
+    isDisabled: false,
   },
   {
     title: "Stenciling",

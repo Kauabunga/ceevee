@@ -59,7 +59,7 @@ hr {
 }
 
 /*
- * Remove the gap between audio, canvas, iframes,
+ * Remove the gap between audio, canvas, iframe,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
@@ -112,10 +112,10 @@ textarea {
   *,
   *:before,
   *:after {
-    /* background: transparent !moimportant;
-    /*color: #000 !moimportant; /* Black prints faster: http://www.sanbeiji.com/archives/953 */
-    /*box-shadow: none !moimportant;
-    /*text-shadow: none !moimportant; */
+    /* background: transparent !important;
+    /*color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */
+    /*box-shadow: none !important;
+    /*text-shadow: none !important; */
   }
 
   li {
@@ -166,7 +166,7 @@ textarea {
   }
 
   img {
-    /* max-width: 100% !moimportant; */
+    /* max-width: 100% !important; */
   }
 
   p,

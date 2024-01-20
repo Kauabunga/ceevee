@@ -1,9 +1,10 @@
 {
-  "extends": ["airbnb", "prettier"],
+  "extends": ["next", "prettier"],
+  "plugins": ["prettier"],
   "globals": {
     "__DEV__": true
   },
-  "plugins": ["prettier"],
+  "ignorePatterns": ["out/**"],
   "rules": {
     "prettier/prettier": 2,
     "react/function-component-definition": [

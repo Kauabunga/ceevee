@@ -1,9 +1,8 @@
 import victoriaLogo from "../../components/Experience/image.vuw";
 
-export default [
+const archive = [
   {
     title: "Research Project: Query Expansion",
-    date: "Nov 2011 - March 2012 ( 4 months )",
     startDate: new Date("2011-11-01"),
     endDate: new Date("2012-03-01"),
     isDisabled: true,
@@ -26,7 +25,6 @@ export default [
   },
   {
     title: "Research Project: Eye Gaze tracking",
-    date: "Nov 2010 - March 2011 ( 4 months )",
     startDate: new Date("2010-11-01"),
     endDate: new Date("2011-03-01"),
     isDisabled: true,
@@ -45,7 +43,6 @@ export default [
   },
   {
     title: "Cool Bananas",
-    date: "Nov 2009 - March 2010 ( 4 months )",
     startDate: new Date("2009-11-01"),
     endDate: new Date("2010-03-01"),
     isDisabled: true,
@@ -59,3 +56,5 @@ export default [
       `,
   },
 ];
+
+export default archive;

@@ -1,13 +1,14 @@
 import solnetLogo from "../../components/Experience/image.solnet";
 
-export default [
+const solnet = [
   {
     title: "Solnet",
     website: "https://solnet.co.nz/",
-    date: "Aug 2012 - Nov 2017 ( 5 years 3 months )",
     startDate: new Date("2012-08-01"),
     endDate: new Date("2017-11-01"),
     isDisabled: false,
+    link: `See here for some of the work I've done with Solnet.`,
+    linkHref: "#Products-and-Products",
     brief: `
       
       I started with Solnet after graduating, joining the delivery team.
@@ -19,8 +20,6 @@ export default [
       tooling and practices, through 1-on-1's and group presentations.
   
       `,
-    link: `See the Projects section for some of the work I've done with Solnet.`,
-    linkHref: "#Projects",
     svg: {
       src: solnetLogo,
       height: "2215px",
@@ -28,3 +27,5 @@ export default [
     },
   },
 ];
+
+export default solnet;

@@ -1,0 +1,38 @@
+{
+  // Version of the setting file.  Always 0.2
+  "version": "0.2",
+  // language - current active spelling language
+  "language": "en",
+  // words - list of words to be always considered correct
+  "words": [
+    "ceevee",
+    "kauabunga",
+    "carsonbruce",
+    "glueware",
+    "kiwibank",
+    "mbie",
+    "ryman",
+    "mwnz",
+    "fhir",
+    "solnet",
+    "lightbox",
+    // Misc
+    "polyline",
+    "rgba",
+    "noopener",
+    "noreferrer",
+    "xlink",
+    "capa",
+    "textareas",
+    "browserupgrade",
+    "gamification",
+    "googleanalytics",
+    "pageview",
+    "evenodd",
+    "pageview"
+  ],
+  // flagWords - list of words to be always considered incorrect
+  // This is useful for offensive words and common spelling errors.
+  // For example "hte" should be "the"
+  "flagWords": []
+}

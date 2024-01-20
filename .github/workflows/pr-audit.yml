@@ -1,0 +1,28 @@
+name: PR Audit
+
+on:
+  pull_request:
+    branches-ignore:
+      - master
+
+jobs:
+  pr-lint-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "yarn"
+
+      - name: Install
+        run: |
+          yarn
+
+      - name: Audit
+        run: |
+          yarn npm audit

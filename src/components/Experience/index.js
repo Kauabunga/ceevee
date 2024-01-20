@@ -7,7 +7,7 @@ import { jobs } from "../../content";
 export default function Experience() {
   const filteredJobs = React.useMemo(
     () => jobs.filter((job) => !job.isDisabled),
-    []
+    [],
   );
   return (
     <div className="root">
@@ -41,7 +41,11 @@ export default function Experience() {
                 </div>
               ) : null}
 
-              <p className="jobBrief">{job.brief}</p>
+              {[].concat(job.brief).map((brief) => (
+                <p key={brief} className="jobBrief">
+                  {brief}
+                </p>
+              ))}
 
               {job.link ? (
                 <a className="jobLink" href={job.linkHref}>

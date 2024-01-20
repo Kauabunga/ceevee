@@ -1,17 +1,55 @@
 export const projects = [
   {
+    id: "platform",
+    title: "Platform",
+    client: "Forsyth Barr",
+    isDisabled: false,
+    brief: `
+  
+          TODO: Platform Summary
+  
+          `,
+    bullets: [
+      "Designed Security.",
+      "Integration and Performance testing.",
+      "AWS tech - cdk, cloudformation, lambda, apigateway, sqs, ses, eventbridge, dynamodb",
+      "...",
+    ],
+  },
+  {
+    id: "tempo",
+    title: "Tempo",
+    client: "Trove",
+    isDisabled: false,
+    brief: `
+  
+          TODO: Tempo Summary
+  
+          `,
+    bullets: [
+      "Python.",
+      "Integration and Performance testing.",
+      "Built Web version of native app.",
+      "...",
+    ],
+  },
+  {
+    id: "oba",
     title: "Open Banking Accelerator Product",
     client: "Glueware",
     isDisabled: false,
     brief: `
   
-          The Open Banking Accelerator (OBA) product provides a standards conformant set of APIs banks can publish.
+          The Open Banking Accelerator provides a standards conformant set of APIs banks can publish.
   
           With a small internal team, we created the product building on previous years experience within the Open Banking domain.
   
           My role included delegating design, implementation and testing tasks along with reviewing and supporting other work in the team. 
   
           `,
+    // ////////
+    // Extra //
+    // ////////
     // The second piece of the product enables a sandbox environment that still adheres to the standards but completely isolates the data a third party interacts with.
     // The last piece of the product presents a conformance test suite that verifies that an API implementation is conforming to the Open Banking standards with or without OBA.
     bullets: [
@@ -24,6 +62,7 @@ export const projects = [
     ],
   },
   {
+    id: "covid",
     title: "NZ COVID Pass Integration",
     client: "MoH",
     isDisabled: false,
@@ -44,6 +83,7 @@ export const projects = [
     ],
   },
   {
+    id: "cdr",
     title: "ForgeRock CDR Accelerator",
     client: "ForgeRock",
     isDisabled: true,
@@ -54,6 +94,7 @@ export const projects = [
     bullets: [],
   },
   {
+    id: "3ds",
     title: "Visa 3DS Integration",
     client: "Kiwibank",
     isDisabled: true,
@@ -64,6 +105,7 @@ export const projects = [
     bullets: [],
   },
   {
+    id: "fhir",
     title: "FHIR Integration",
     client: "Ryman Healthcare",
     isDisabled: true,
@@ -74,6 +116,7 @@ export const projects = [
     bullets: [],
   },
   {
+    id: "pnz",
     title: "Open Banking Sandbox Product",
     client: "Payments New Zealand",
     isDisabled: true,
@@ -85,6 +128,7 @@ export const projects = [
   },
 
   {
+    id: "properly",
     title: "Properly",
     client: "Properly",
     isDisabled: true,
@@ -95,6 +139,7 @@ export const projects = [
     bullets: [],
   },
   {
+    id: "bnz",
     title: "Lending and Onboarding",
     client: "BNZ",
     isDisabled: false,
@@ -116,6 +161,7 @@ export const projects = [
     ],
   },
   {
+    id: "eab",
     title: "Employment Agreement Builder",
     client: "Ministry of Business and Innovation and Employment",
     isDisabled: false,
@@ -136,6 +182,7 @@ export const projects = [
     ],
   },
   {
+    id: "westpac",
     title: "Online Banking",
     client: "Westpac",
     isDisabled: false,
@@ -159,6 +206,7 @@ export const projects = [
     ],
   },
   {
+    id: "sky",
     title: "NEON",
     client: "Sky TV",
     isDisabled: true,
@@ -177,6 +225,7 @@ export const projects = [
     ],
   },
   {
+    id: "airnz",
     title: "Crew Forms",
     client: "Air New Zealand",
     isDisabled: true,
@@ -191,13 +240,14 @@ export const projects = [
     
         `,
     bullets: [
-      "Polished up the app correcting dozens of rendering bottlenecks, resulting in a jank-free hybrid solution.",
+      "Polished the app correcting several rendering bottlenecks, resulting in a smooth hybrid solution.",
       "Worked with the UX and Design team to best fit solutions with the technology stack.",
       "Extended the apps feature list and matching test coverage.",
       "Provided solutions to bugs found within open source libraries",
     ],
   },
   {
+    id: "airnz-name-game",
     title: "Name learning game",
     client: "Private",
     isDisabled: true,

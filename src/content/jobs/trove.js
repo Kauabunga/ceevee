@@ -1,20 +1,23 @@
 import troveLogo from "../../components/Experience/image.trove";
 
-export default [
+const trove = [
   {
     title: "Trove",
     website: "https://www.linkedin.com/company/trove-nz",
-    date: "Feb 2022 - Feb 2022 ( 2 years 11 months )",
     startDate: new Date("2022-02-01"),
     endDate: new Date("2022-12-01"),
     isDisabled: false,
-    brief: `
+    link: `See here for some of the work I've done with Trove.`,
+    linkHref: "#Products-and-Products",
+    brief: [
+      `
       
-      I worked at Trove as a Senior Financial Engineer, developing API services to support a product.
+      I worked with Trove as a Senior Financial Engineer. At Trove i helped develop API services and tooling to support Tempo, a FinTech product launched in New Zealand.
 
-      Development was serverless using AWS.
-  
+      Development was centered around a serverless design using AWS services. 
+
       `,
+    ],
     svg: {
       src: troveLogo,
       height: "132px",
@@ -28,3 +31,5 @@ export default [
     },
   },
 ];
+
+export default trove;
