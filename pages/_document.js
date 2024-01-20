@@ -37,7 +37,7 @@ export default class MyDocument extends Document {
           <script async src="https://cdn.ampproject.org/v0.js" />
 
           <link
-            href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+            href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=optional"
             rel="stylesheet"
             type="text/css"
           />

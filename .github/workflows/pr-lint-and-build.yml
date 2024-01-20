@@ -1,12 +1,12 @@
-name: Build and Deploy
+name: PR Lint and Build
 
 on:
-  push:
-    branches:
+  pull_request:
+    branches-ignore:
       - master
 
 jobs:
-  build-and-deploy:
+  pr-lint-and-build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -27,9 +27,3 @@ jobs:
       - name: Lint and Build 🔧
         run: |
           yarn build
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out

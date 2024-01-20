@@ -1,150 +1,55 @@
-import properlyLogo from "./components/Experience/image.properly";
-import solnetLogo from "./components/Experience/image.solnet";
-import victoriaLogo from "./components/Experience/image.vuw";
-import middlewareLogo from "./components/Experience/image.mwnz";
-
-export const jobs = [
-  {
-    title: "Middleware NZ",
-    date: "Mar 2019 - Feb 2022 ( 2 years 11 months )",
-    isDisabled: false,
-    brief: `
-      
-      I worked at Middleware NZ as a Senior Developer. My focus shifted more towards API and microservice development aiming to broaden my technical experience.
-
-      Many projects gave me practice across a variety of teams, technology and process. 
-      I was able to adapt to each unique challenge and achieve positive outcomes for internal and external clients.
-
-      A good part of my time at Middleware NZ was focused delivering an internal product, 
-      the Open Banking Accelerator and Engagement Platform, which was successfully implemented within multiple banking clients.
-  
-      `,
-    link: `See the Projects section and some of the work I was apart of with Middleware NZ.`,
-    linkHref: "#Projects",
-    svg: {
-      src: middlewareLogo,
-      height: "132px",
-      width: "135px",
-
-      style: {
-        width: 52,
-        float: "right",
-        padding: 4,
-        backgroundColor: "#282940",
-      },
-    },
-  },
-  {
-    title: "Properly",
-    date: "Nov 2017 - Mar 2019 ( 1 year 4 months )",
-    isDisabled: false,
-    brief: `
-      
-      I joined Properly with a team of 14, working across the world to provide tools and people
-      to property owners and managers.
-  
-      After achieving our Series-A funding I became the lead for the frontend team, together owning the multiple web apps of Properly.
-  
-      Beyond this role, I was involved with more of our engineering, design, and test team activities. This included:
-      Web/Service implementation design, Full stack development, UX design, UI test automation, CI pipelines, Infrastructure design, and Infrastructure as code.
-  
-      `,
-    svg: {
-      src: properlyLogo,
-      height: "2215px",
-      width: "770px",
-    },
-  },
-  {
-    title: "Solnet",
-    date: "Aug 2012 - Nov 2017 ( 5 years 3 months )",
-    isDisabled: false,
-    brief: `
-      
-      I started with Solnet after graduating, joining the delivery team.
-  
-      I gained experience with a variety of clients, first as a front end developer, then as others:
-       Devops developer, API developer, Automation tester, and UX designer.
-  
-      Later at my time in Solnet I mentored team members in Javascript 
-      tooling and practices, through 1-on-1's and group presentations.
-  
-      `,
-    link: `See the Projects section and some of the work I've done with Solnet.`,
-    linkHref: "#Projects",
-    svg: {
-      src: solnetLogo,
-      height: "2215px",
-      width: "770px",
-    },
-  },
-  {
-    title: "Research Project: Query Expansion",
-    date: "Nov 2011 - March 2012 ( 4 months )",
-    isDisabled: true,
-    brief: `
-  
-      My second research opportunity was offered by the supervisor of my honours project.
-      
-      The project looked at ways that Wikipedia and its hyperlinks could be used to support 
-      Query Expansion.  
-      
-      With Victoria's Web Intelligence team, I got my thesis submitted and accepted to an 
-      Australasian Web Intelligence conference.
-  
-      `,
-    svg: {
-      src: victoriaLogo,
-      height: "792px",
-      width: "192px",
-    },
-  },
-  {
-    title: "Research Project: Eye Gaze tracking",
-    date: "Nov 2010 - March 2011 ( 4 months )",
-    isDisabled: true,
-    brief: `
-      At the end of my 300 level university year I was awarded a research scholarship.
-      
-      With the support of my supervisor and his team,
-      I contributed to the development of an open source gaze tracking system.
-  
-      `,
-    svg: {
-      src: victoriaLogo,
-      height: "792px",
-      width: "192px",
-    },
-  },
-  {
-    title: "Cool Bananas",
-    date: "Nov 2009 - March 2010 ( 4 months )",
-    isDisabled: true,
-    brief: `
-  
-      During an internship with another student and senior
-       our team prototyped a scripting interpreter and runtime for embedded systems.
-       
-      The experience helped cement the past year study learning C, Agile processes, and Testing practices.
-      
-      `,
-  },
-];
-
 export const projects = [
   {
+    id: "platform",
+    title: "Platform",
+    client: "Forsyth Barr",
+    isDisabled: false,
+    brief: `
+  
+          TODO: Platform Summary
+  
+          `,
+    bullets: [
+      "Designed Security.",
+      "Integration and Performance testing.",
+      "AWS tech - cdk, cloudformation, lambda, apigateway, sqs, ses, eventbridge, dynamodb",
+      "...",
+    ],
+  },
+  {
+    id: "tempo",
+    title: "Tempo",
+    client: "Trove",
+    isDisabled: false,
+    brief: `
+  
+          TODO: Tempo Summary
+  
+          `,
+    bullets: [
+      "Python.",
+      "Integration and Performance testing.",
+      "Built Web version of native app.",
+      "...",
+    ],
+  },
+  {
+    id: "oba",
     title: "Open Banking Accelerator Product",
     client: "Glueware",
     isDisabled: false,
     brief: `
   
-          The Open Banking Accelerator (OBA) product provides a standards conformant set of APIs banks can publish.
+          The Open Banking Accelerator provides a standards conformant set of APIs banks can publish.
   
           With a small internal team, we created the product building on previous years experience within the Open Banking domain.
   
           My role included delegating design, implementation and testing tasks along with reviewing and supporting other work in the team. 
   
           `,
+    // ////////
+    // Extra //
+    // ////////
     // The second piece of the product enables a sandbox environment that still adheres to the standards but completely isolates the data a third party interacts with.
     // The last piece of the product presents a conformance test suite that verifies that an API implementation is conforming to the Open Banking standards with or without OBA.
     bullets: [
@@ -157,6 +62,7 @@ export const projects = [
     ],
   },
   {
+    id: "covid",
     title: "NZ COVID Pass Integration",
     client: "MoH",
     isDisabled: false,
@@ -177,6 +83,7 @@ export const projects = [
     ],
   },
   {
+    id: "cdr",
     title: "ForgeRock CDR Accelerator",
     client: "ForgeRock",
     isDisabled: true,
@@ -187,6 +94,7 @@ export const projects = [
     bullets: [],
   },
   {
+    id: "3ds",
     title: "Visa 3DS Integration",
     client: "Kiwibank",
     isDisabled: true,
@@ -197,6 +105,7 @@ export const projects = [
     bullets: [],
   },
   {
+    id: "fhir",
     title: "FHIR Integration",
     client: "Ryman Healthcare",
     isDisabled: true,
@@ -207,6 +116,7 @@ export const projects = [
     bullets: [],
   },
   {
+    id: "pnz",
     title: "Open Banking Sandbox Product",
     client: "Payments New Zealand",
     isDisabled: true,
@@ -218,6 +128,7 @@ export const projects = [
   },
 
   {
+    id: "properly",
     title: "Properly",
     client: "Properly",
     isDisabled: true,
@@ -228,6 +139,7 @@ export const projects = [
     bullets: [],
   },
   {
+    id: "bnz",
     title: "Lending and Onboarding",
     client: "BNZ",
     isDisabled: false,
@@ -249,6 +161,7 @@ export const projects = [
     ],
   },
   {
+    id: "eab",
     title: "Employment Agreement Builder",
     client: "Ministry of Business and Innovation and Employment",
     isDisabled: false,
@@ -269,6 +182,7 @@ export const projects = [
     ],
   },
   {
+    id: "westpac",
     title: "Online Banking",
     client: "Westpac",
     isDisabled: false,
@@ -292,6 +206,7 @@ export const projects = [
     ],
   },
   {
+    id: "sky",
     title: "NEON",
     client: "Sky TV",
     isDisabled: true,
@@ -310,6 +225,7 @@ export const projects = [
     ],
   },
   {
+    id: "airnz",
     title: "Crew Forms",
     client: "Air New Zealand",
     isDisabled: true,
@@ -324,13 +240,14 @@ export const projects = [
     
         `,
     bullets: [
-      "Polished up the app correcting dozens of rendering bottlenecks, resulting in a jank-free hybrid solution.",
+      "Polished the app correcting several rendering bottlenecks, resulting in a smooth hybrid solution.",
       "Worked with the UX and Design team to best fit solutions with the technology stack.",
       "Extended the apps feature list and matching test coverage.",
       "Provided solutions to bugs found within open source libraries",
     ],
   },
   {
+    id: "airnz-name-game",
     title: "Name learning game",
     client: "Private",
     isDisabled: true,
@@ -348,44 +265,5 @@ export const projects = [
       "Succeeded in gaining a position on the client's project panel.",
       "Worked effectively with other Javascript, UX and UI developers in parallel streams.",
     ],
-  },
-];
-
-export const interests = [
-  {
-    title: "Javascript",
-    isDisabled: true,
-  },
-  {
-    title: "Netball",
-    isDisabled: false,
-  },
-  {
-    title: "Running",
-    isDisabled: false,
-  },
-  {
-    title: "Cycling",
-    isDisabled: false,
-  },
-  {
-    title: "Photography",
-    isDisabled: false,
-  },
-  {
-    title: "Gaming",
-    isDisabled: false,
-  },
-  {
-    title: "Sound systems",
-    isDisabled: true,
-  },
-  {
-    title: "Beer brewing",
-    isDisabled: true,
-  },
-  {
-    title: "Stenciling",
-    isDisabled: true,
   },
 ];
