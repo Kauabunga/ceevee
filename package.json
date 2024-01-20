@@ -7,7 +7,9 @@
     "start": "echo y | npx http-server out -c-1 -p 0 -o -e html",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "spellcheck": "cspell . --gitignore"
+    "spellcheck": "cspell . --gitignore",
+    "deploy:clone": "git clone git@github.com:Kauabunga/kauabunga.github.io.git",
+    "deploy": "npm_config_yes=true npx copyfiles -a -u 1 -V out/**/* kauabunga.github.io"
   },
   "dependencies": {
     "date-fns": "3.2.0",

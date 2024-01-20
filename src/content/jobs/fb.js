@@ -17,8 +17,8 @@ const fb = [
       This product would accelerate the development of new FinTech products by supporting
       several sets of APIs commonly appearing in the industry.
 
-      I took on several responsibilities in the team including design and implementation of
-      several components including Identity and Access, SDK, Event framework, and API Gateway.
+      I took on design and implementation responsibilities in the team of several components
+      including Identity and Access, SDK, Event framework, and API Gateway.
       `,
     svg: {
       src: fbLogo,
