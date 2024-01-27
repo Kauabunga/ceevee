@@ -8,7 +8,7 @@ const middleware = [
     endDate: new Date("2022-02-01"),
     isDisabled: false,
     link: `See here for some of the work I've done with Middleware NZ.`,
-    linkHref: "#Products-and-Products",
+    linkHref: "#project-oba",
     brief: [
       `
       I worked with Middleware NZ as a Senior Developer. My focus shifted more towards API 

@@ -36,7 +36,7 @@ export const projects = [
   {
     id: "oba",
     title: "Open Banking Accelerator Product",
-    client: "Glueware",
+    client: "Glueware (MWNZ)",
     isDisabled: false,
     brief: `
   
@@ -64,7 +64,7 @@ export const projects = [
   {
     id: "covid",
     title: "NZ COVID Pass Integration",
-    client: "MoH",
+    client: "MoH (MWNZ)",
     isDisabled: false,
     brief: `
           
@@ -85,7 +85,7 @@ export const projects = [
   {
     id: "cdr",
     title: "ForgeRock CDR Accelerator",
-    client: "ForgeRock",
+    client: "ForgeRock (MWNZ)",
     isDisabled: true,
     brief: `
     
@@ -96,7 +96,7 @@ export const projects = [
   {
     id: "3ds",
     title: "Visa 3DS Integration",
-    client: "Kiwibank",
+    client: "Kiwibank (MWNZ)",
     isDisabled: true,
     brief: `
     
@@ -107,7 +107,7 @@ export const projects = [
   {
     id: "fhir",
     title: "FHIR Integration",
-    client: "Ryman Healthcare",
+    client: "Ryman Healthcare (MWNZ)",
     isDisabled: true,
     brief: `
     
@@ -118,7 +118,7 @@ export const projects = [
   {
     id: "pnz",
     title: "Open Banking Sandbox Product",
-    client: "Payments New Zealand",
+    client: "Payments New Zealand (MWNZ)",
     isDisabled: true,
     brief: `
     
@@ -141,7 +141,7 @@ export const projects = [
   {
     id: "bnz",
     title: "Lending and Onboarding",
-    client: "BNZ",
+    client: "BNZ (Solnet)",
     isDisabled: false,
     brief: `
     
@@ -163,7 +163,7 @@ export const projects = [
   {
     id: "eab",
     title: "Employment Agreement Builder",
-    client: "Ministry of Business and Innovation and Employment",
+    client: "Ministry of Business and Innovation and Employment (Solnet)",
     isDisabled: false,
     brief: `
     
@@ -184,7 +184,7 @@ export const projects = [
   {
     id: "westpac",
     title: "Online Banking",
-    client: "Westpac",
+    client: "Westpac (Solnet)",
     isDisabled: false,
     brief: `
     
@@ -208,7 +208,7 @@ export const projects = [
   {
     id: "sky",
     title: "NEON",
-    client: "Sky TV",
+    client: "Sky TV (Solnet)",
     isDisabled: true,
     brief: `
     
@@ -227,7 +227,7 @@ export const projects = [
   {
     id: "airnz",
     title: "Crew Forms",
-    client: "Air New Zealand",
+    client: "Air New Zealand (Solnet)",
     isDisabled: true,
     brief: `
     

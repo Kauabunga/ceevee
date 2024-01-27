@@ -8,7 +8,7 @@ const solnet = [
     endDate: new Date("2017-11-01"),
     isDisabled: false,
     link: `See here for some of the work I've done with Solnet.`,
-    linkHref: "#Products-and-Products",
+    linkHref: "#project-bnz",
     brief: `
       
       I started with Solnet after graduating, joining the delivery team.

@@ -5,7 +5,7 @@ import { projects } from "../../content";
 export default function Projects() {
   return (
     <div className="root">
-      <h1 id="Products-and-Products" className="projectsTitle">
+      <h1 id="Products-and-Projects" className="projectsTitle">
         Products and Projects
       </h1>
 
@@ -20,7 +20,7 @@ export default function Projects() {
               <div className="projectContainer">
                 <div className="projectContent">
                   <div className="projectTitleContainer">
-                    <h2 id={project.id} className="projectTitle">
+                    <h2 id={`project-${project.id}`} className="projectTitle">
                       {project.title}
                     </h2>
                     <em>{project.client}</em>
