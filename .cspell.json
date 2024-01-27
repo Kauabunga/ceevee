@@ -16,7 +16,10 @@
     "fhir",
     "solnet",
     "lightbox",
-    // Misc
+    "airnz",
+    // Tech/Misc
+    "copyfiles",
+    "eventbridge",
     "polyline",
     "rgba",
     "noopener",
