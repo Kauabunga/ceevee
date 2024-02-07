@@ -9,7 +9,11 @@
     "lint:fix": "eslint . --fix",
     "spellcheck": "cspell . --gitignore",
     "deploy:clone": "git clone git@github.com:Kauabunga/kauabunga.github.io.git",
-    "deploy": "npm_config_yes=true npx copyfiles -a -u 1 -V out/**/* kauabunga.github.io"
+    "deploy:copy": "npm_config_yes=true npx copyfiles -a -u 1 -V out/**/* kauabunga.github.io",
+    "deploy:add": "git -C kauabunga.github.io add -A ",
+    "deploy:commit": "git -C kauabunga.github.io commit -m \"Deploy commit\"",
+    "deploy:push": "git -C kauabunga.github.io push",
+    "deploy": "yarn deploy:copy && yarn deploy:add && yarn deploy:commit && yarn deploy:push"
   },
   "dependencies": {
     "date-fns": "^3.1.1",
