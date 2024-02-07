@@ -6,15 +6,16 @@ export const projects = [
     isDisabled: false,
     brief: `
   
-          Forsyth Barr is a leading investment firm in New Zealand.
+          Forsyth Barr is a New Zealand leading investment firm who is dedicated
+          to investing in its own technology capability.
+
+          
           
           `,
     bullets: [
-      "Lead the delivery of the Javascript and Python SDKs",
-      "Collaborated in the the platforms Security, API and eventing architectures.",
-      "...",
-      "AWS tech - cdk, cloudformation, lambda, apigateway, sqs, ses, eventbridge, dynamodb",
-      "...",
+      "Lead the delivery of Javascript and Python SDKs.",
+      "Collaborated in The Platforms Security, API and Eventing architectures.",
+      "Rooted myself in AWS thinking and its ecosystem.",
     ],
   },
   {
@@ -27,7 +28,7 @@ export const projects = [
           Tempo is New Zealand's first guided retail investment app. A detached subsidiary of Forsyth Barr aimed to delivery
           this product to open a new set of customers and cement their technology capacity.
 
-          This product successfully went to market and is now serving public New Zealand customers.
+          This product successfully went to market and is now serving New Zealand.
 
           My role was flexible and included implementation design, mentoring, on call support and generally filling needs of the team and product.
   
@@ -61,7 +62,7 @@ export const projects = [
     // The last piece of the product presents a conformance test suite that verifies that an API implementation is conforming to the Open Banking standards with or without OBA.
     bullets: [
       "Owned technical leadership of microservice development and testing.",
-      "Succeeded to prove value through delivery into one bank along with trials in other banks.",
+      "Succeeded to prove value through delivery into multiple banks.",
       "Promoted strong testing culture throughout team.",
       "Applied feedback from customers to improve experience and quality of the product.",
       "Worked closely with Product Owners to ensure team tasks and focus was aligned.",
@@ -110,7 +111,9 @@ export const projects = [
         Integration with Visa with strict security and performance constraints.
     
         `,
-    bullets: [],
+    bullets: [
+      "Integration with Visa with strict security and performance constraints",
+    ],
   },
   {
     id: "fhir",

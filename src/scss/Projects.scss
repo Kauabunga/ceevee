@@ -56,7 +56,9 @@
   width: 50%;
   float: right;
   > amp-img {
-    transition: box-shadow 200ms ease, transform 200ms ease;
+    transition:
+      box-shadow 200ms ease,
+      transform 200ms ease;
     &:hover {
       box-shadow: $box-shadow;
       transform: translateY(-5px) scale(1.05);

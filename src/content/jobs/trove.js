@@ -12,16 +12,17 @@ const trove = [
     brief: [
       `
       
-      I worked with Trove as a Senior Financial Engineer. At Trove I helped launch Tempo, a FinTech product in New Zealand, 
-      by developing Financial Services and tooling to support the mobile product.
+      I worked with Trove as a Senior Financial Engineer. At Trove I helped launch Tempo, a FinTech product, 
+      by developing Financial Services and tooling to support the mobile application.
 
       The system centered around utilising AWS services, where I was able to quickly up skill in both Python and serverless development.
       
       `,
       `
-      One of my early achievements at Trove included creating a performance testing suite that helped significantly improve confidence knowing the system was capable of handling loads well beyond launch expectations.
-      This suite highlighted parts of the system that required attention which was able to feed into design and development 
-      for teams to improvement their designs and processes.
+      One of my early achievements at Trove included creating a performance testing suite that significantly improved confidence knowing
+      the system was capable of handling loads well beyond launch expectations.
+      This suite highlighted areas requiring attention which was able to feed into design and development 
+      for teams to improvement their designs, processes and implementations.
 
       `,
     ],

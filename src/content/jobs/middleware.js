@@ -14,11 +14,11 @@ const middleware = [
       I worked with Middleware NZ as a Senior Developer. My focus shifted more towards API 
       and microservice development aiming to broaden my technical experience.
 
-      Many projects gave me practice across a variety of teams, technology and process. 
+      Numerous projects gave me practice across a variety of teams, technology and process. 
       I adapted to each challenge and achieved positive outcomes for internal and external clients.
       `,
       `
-      A good part of my time at Middleware NZ was focused delivering a product, 
+      A core part of my time at Middleware NZ was focused delivering a product, 
       the Open Banking Accelerator, which continues to be successfully implemented within 
       multiple New Zealand banking clients. This product helps bank implement APIs and Security Profiles aligned
       with the New Zealand Open Banking specification.

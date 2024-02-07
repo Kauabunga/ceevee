@@ -9,7 +9,7 @@ const properly = [
     isDisabled: false,
     brief: `
       
-      I joined Properly with a team of 14, working across the world to provide tools and people
+      I joined Properly to a team of 14, working across the world to provide tools and people
       to property owners and managers.
   
       After achieving our Series-A funding I saw the the company grow to over 50 members. 

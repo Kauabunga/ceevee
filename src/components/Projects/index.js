@@ -1,6 +1,7 @@
 import React from "react";
 
 import { projects } from "../../content";
+import Text from "../Text";
 
 export default function Projects() {
   return (
@@ -46,7 +47,9 @@ function Bullet({ bullets }) {
   return (
     <ul className="projectBullets">
       {bullets.map((bullet) => (
-        <li key={bullet}>{bullet}</li>
+        <li key={bullet}>
+          <Text>{bullet}</Text>
+        </li>
       ))}
     </ul>
   );

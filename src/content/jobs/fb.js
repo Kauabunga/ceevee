@@ -17,7 +17,7 @@ const fb = [
       This product would accelerate the development of FinTech products by supporting
       a suite of commonly used services by the industry.
 
-      I took on design and implementation responsibilities in the team across several components
+      I managed design and implementation responsibilities in the team across several components
       including Identity and Access, SDK, Event framework, and API Gateway.
       `,
     svg: {

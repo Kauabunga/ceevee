@@ -9,7 +9,7 @@ I've worked on a number of large projects, demonstrating my experience through a
 
 const text2 = `
 
-  My key attributes include: problem solving, passion to learn and share, open mindedness, and being a team player.
+  My key attributes include: problem solving, passion to learn and share, open mindedness, listening, and being a team player.
 
 `;
 
