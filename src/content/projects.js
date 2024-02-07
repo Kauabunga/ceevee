@@ -6,12 +6,13 @@ export const projects = [
     isDisabled: false,
     brief: `
   
-          TODO: Platform Summary
-  
+          Forsyth Barr is a leading investment firm in New Zealand.
+          
           `,
     bullets: [
-      "Designed Security.",
-      "Integration and Performance testing.",
+      "Lead the delivery of the Javascript and Python SDKs",
+      "Collaborated in the the platforms Security, API and eventing architectures.",
+      "...",
       "AWS tech - cdk, cloudformation, lambda, apigateway, sqs, ses, eventbridge, dynamodb",
       "...",
     ],
@@ -23,14 +24,20 @@ export const projects = [
     isDisabled: false,
     brief: `
   
-          TODO: Tempo Summary
+          Tempo is New Zealand's first guided retail investment app. A detached subsidiary of Forsyth Barr aimed to delivery
+          this product to open a new set of customers and cement their technology capacity.
+
+          This product successfully went to market and is now serving public New Zealand customers.
+
+          My role was flexible and included implementation design, mentoring, on call support and generally filling needs of the team and product.
   
           `,
     bullets: [
-      "Python.",
-      "Integration and Performance testing.",
-      "Built Web version of native app.",
-      "...",
+      "Rapidly up-skilled in Python and AWS development.",
+      "Assisted with hiring phases of new recruits.",
+      "Championed a performance testing suite steering the direction of several optimizations.",
+      "Delivered the foundation of a Web version of the native apps.",
+      "Mentored junior and intermediate team members.",
     ],
   },
   {
@@ -44,7 +51,7 @@ export const projects = [
   
           With a small internal team, we created the product building on previous years experience within the Open Banking domain.
   
-          My role included delegating design, implementation and testing tasks along with reviewing and supporting other work in the team. 
+          My role included owning and delegating design, implementation and testing tasks along with reviewing and supporting other work in the team. 
   
           `,
     // ////////
@@ -54,8 +61,8 @@ export const projects = [
     // The last piece of the product presents a conformance test suite that verifies that an API implementation is conforming to the Open Banking standards with or without OBA.
     bullets: [
       "Owned technical leadership of microservice development and testing.",
+      "Succeeded to prove value through delivery into one bank along with trials in other banks.",
       "Promoted strong testing culture throughout team.",
-      "Succeeded to prove value through multiple trials with banks.",
       "Applied feedback from customers to improve experience and quality of the product.",
       "Worked closely with Product Owners to ensure team tasks and focus was aligned.",
       "Designed scalable and modular application using cloud and microservice patterns.",
@@ -100,6 +107,7 @@ export const projects = [
     isDisabled: true,
     brief: `
     
+        Integration with Visa with strict security and performance constraints.
     
         `,
     bullets: [],
@@ -201,7 +209,7 @@ export const projects = [
       "Lead and mentor of a team of five.",
       "Proposed and owned developer tooling and experience improvements.",
       "Implemented a Javascript framework that supported other teams.",
-      "Took ownership for the security feature of the client.",
+      "Took ownership for the security features of the client.",
       // "Created and implemented a UX review noting usability and performance improvements for the application.",
     ],
   },

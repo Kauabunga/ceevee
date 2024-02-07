@@ -12,7 +12,7 @@ const fb = [
     brief: `
       
       I transitioned into Trove's parent company Forsyth Barr as a Senior Platform Engineer, 
-      joining a team focused on delivering a new platform product.
+      joining a team focused on delivering a new platform.
 
       This product would accelerate the development of FinTech products by supporting
       a suite of commonly used services by the industry.

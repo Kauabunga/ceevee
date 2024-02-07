@@ -20,7 +20,7 @@ const middleware = [
       `
       A good part of my time at Middleware NZ was focused delivering a product, 
       the Open Banking Accelerator, which continues to be successfully implemented within 
-      multiple New Zealand banking clients. This product helps bank implement APIs aligned
+      multiple New Zealand banking clients. This product helps bank implement APIs and Security Profiles aligned
       with the New Zealand Open Banking specification.
       `,
     ],
