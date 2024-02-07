@@ -24,7 +24,7 @@ export default function Introduction() {
     <div className="root">
       <div className="firstSentence">
         <b className="blue">
-          I am passionate about creating simple and beautiful&nbsp;apps.
+          I am passionate about creating simple beautiful&nbsp;apps.
         </b>
       </div>
 

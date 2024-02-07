@@ -6,16 +6,22 @@ export const projects = [
     isDisabled: false,
     brief: `
   
-          Forsyth Barr is a New Zealand leading investment firm who is dedicated
+          Forsyth Barr is a New Zealand leading investment firm who is also dedicated
           to investing in its own technology capability.
 
-          
-          
+          Using the experience gained during the development of Tempo, the team implemented a platform product going
+          live with its first integration within 8 months.
+
+          My role involved design, direction, implementation focused on the delivery of The Platform with the majority
+          of my time done working in a separate timezone between Canada and New Zealand.
+
           `,
     bullets: [
       "Lead the delivery of Javascript and Python SDKs.",
+      "Moved rapidly from conception to first integration.",
       "Collaborated in The Platforms Security, API and Eventing architectures.",
       "Rooted myself in AWS thinking and its ecosystem.",
+      "Provided feedback on product direction and scope.",
     ],
   },
   {

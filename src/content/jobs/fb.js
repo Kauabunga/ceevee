@@ -14,11 +14,11 @@ const fb = [
       I transitioned into Trove's parent company Forsyth Barr as a Senior Platform Engineer, 
       joining a team focused on delivering a new platform.
 
-      This product would accelerate the development of FinTech products by supporting
+      This product accelerates the development of FinTech products by supporting
       a suite of commonly used services by the industry.
 
       I managed design and implementation responsibilities in the team across several components
-      including Identity and Access, SDK, Event framework, and API Gateway.
+      including Identity and Access, SDK, Event Framework, and API Gateway.
       `,
     svg: {
       src: fbLogo,
