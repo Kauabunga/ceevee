@@ -1,6 +1,6 @@
 {
   "name": "@kauabunga/ceevee",
-  "version": "0.1.0",
+  "version": "3.6.9",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
