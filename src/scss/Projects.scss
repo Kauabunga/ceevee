@@ -4,10 +4,10 @@
 .projectsContainer {
   display: flex;
   flex-wrap: wrap;
+}
 
-  @media print {
-    display: inline-block;
-  }
+.projectsTitle {
+  page-break-before: always;
 }
 
 .project {
