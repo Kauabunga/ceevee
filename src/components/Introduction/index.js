@@ -10,7 +10,7 @@ const years = formatDistanceStrict(new Date("2012-08-01"), new Date(), {
 });
 
 const text = `
-I plan and deliver throughout the entire software development process, from when a project is imagined to its release. 
+I plan and deliver throughout the entire software development lifecycle, from when a project is imagined to its release. 
 
 For the past ${years}, I've worked on a number of large solutions, demonstrating my experience through a range of roles.
 
