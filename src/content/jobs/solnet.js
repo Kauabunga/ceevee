@@ -9,7 +9,7 @@ const solnet = [
     isDisabled: false,
     link: `See here for my key achievements with Solnet.`,
     linkHref: "#project-bnz",
-    brief: `
+    briefOriginal: `
       
       I started with Solnet after graduating, joining the delivery team.
   
@@ -20,6 +20,19 @@ const solnet = [
       tooling and practices, through 1-on-1's and group presentations.
   
       `,
+
+    brief: [
+      `
+    I began my career at Solnet, where I joined the delivery team after graduating.
+    
+    Over time, I gained diverse experience working with various clients, initially as a 
+    frontend developer and later transitioning into roles such as DevOps developer, API developer, and Automation Tester. 
+    
+    During my tenure, I also took on the responsibility of mentoring team members in 
+    JavaScript tooling and best practices through one-on-one sessions and group presentations.
+
+    `,
+    ],
     svg: {
       src: solnetLogo,
       height: "2215px",

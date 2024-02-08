@@ -9,7 +9,7 @@ const middleware = [
     isDisabled: false,
     link: `See here for my key achievements with Middleware NZ.`,
     linkHref: "#project-oba",
-    brief: [
+    briefOriginal: [
       `
       I worked with Middleware NZ as a Senior Developer. My focus shifted more towards API 
       and microservice development aiming to broaden my technical experience.
@@ -22,6 +22,18 @@ const middleware = [
       the Open Banking Accelerator, which continues to be successfully implemented within 
       multiple New Zealand banking clients. This product helps bank implement APIs and Security Profiles aligned
       with the New Zealand Open Banking specification.
+      `,
+    ],
+    brief: [
+      `
+      
+      As a Senior Developer at Middleware NZ, I transitioned my focus towards API and microservice development to diversify my technical expertise. Working on multiple projects across different teams, technologies, and processes, I adeptly tackled each challenge, delivering positive outcomes for both internal and external clients.
+      
+      `,
+      `
+
+      While at Middleware NZ, a primary focus of my role involved spearheading the delivery of the Open Banking Accelerator. This product has been effectively integrated across several New Zealand banking clients, streamlining the implementation of APIs and Security Profiles in alignment with the New Zealand Open Banking specification.
+
       `,
     ],
     svg: {

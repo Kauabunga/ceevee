@@ -8,7 +8,7 @@ export default function Header() {
       <div className="container">
         <h1>Carson Bruce</h1>
 
-        <em className="onlineView">View at carson.kiwi</em>
+        <em className="onlineView">View at https://carson.kiwi</em>
 
         <a
           className="downloadButton"
