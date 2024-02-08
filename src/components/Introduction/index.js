@@ -47,9 +47,9 @@ export default function Introduction() {
         <Text>{text3}</Text>
       </div>
       <div className="content">
-        Get in touch at
+        Get in touch at&nbsp;
         <a href="mailto:hello@carson.kiwi" className="introLink">
-          <b className="blue">&nbsp;hello@carson.kiwi</b>
+          <b className="blue">hello@carson.kiwi</b>
         </a>
         <b className="blue introLinkPrint">hello@carson.kiwi</b>
       </div>
