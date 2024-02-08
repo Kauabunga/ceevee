@@ -11,7 +11,7 @@ const solnet = [
     linkHref: "#project-bnz",
     briefOriginal: `
       
-      I started with Solnet after graduating, joining the delivery team.
+      I started with Solnet after graduating, joining their delivery team.
   
       I gained experience with a variety of clients, first as a front end developer, then as others:
        Devops developer, API developer and Automation tester.
@@ -23,7 +23,7 @@ const solnet = [
 
     brief: [
       `
-    I began my career at Solnet, where I joined the delivery team after graduating.
+    I began my career at Solnet, where I joined their delivery team after graduating.
     
     Over time, I gained diverse experience working with various clients, initially as a 
     frontend developer and later transitioning into roles such as DevOps developer, API developer, and Automation Tester. 

@@ -23,7 +23,7 @@ export const projects = [
     I applied my experience from developing Tempo to contribute to the implementation of a new platform product. Within just 8 months, our team successfully launched the platform, marking its first integration. My role primarily involved design, direction, and implementation of the platform, with a significant portion of my time dedicated to remote collaboration across time zones between Canada and New Zealand.
     `,
     bullets: [
-      "Lead the delivery of Javascript and Python SDKs.",
+      "Lead the delivery of JavaScript and Python SDKs.",
       "Moved rapidly from conception to first integration.",
       "Collaborated in The Platforms Security, API and Eventing architectures.",
       "Rooted myself in AWS thinking and its ecosystem.",
@@ -247,7 +247,7 @@ export const projects = [
     bullets: [
       "Practiced BDD and TDD creating a suite of feature-complete integration and unit tests.",
       "Created a reusable forms solution, reused for a second MBIE Policy Builder app.",
-      "Promoted a full stack Javascript solution supported by docker.",
+      "Promoted a full stack JavaScript solution supported by docker.",
       "Implemented Node.js micro service handling 10x expected load.",
       "Implemented a pipeline that performed automated testing and releases.",
     ],
@@ -282,7 +282,7 @@ export const projects = [
       "Trusted as the custodian of environments relied on by a team of 60+.",
       "Lead and mentor of a team of five.",
       "Proposed and owned developer tooling and experience improvements.",
-      "Implemented a Javascript framework that supported other teams.",
+      "Implemented a JavaScript framework that supported other teams.",
       "Took ownership for the security features of the client.",
       // "Created and implemented a UX review noting usability and performance improvements for the application.",
     ],
@@ -345,7 +345,7 @@ export const projects = [
     bullets: [
       "Created a proof of concept application in 3 days.",
       "Succeeded in gaining a position on the client's project panel.",
-      "Worked effectively with other Javascript, UX and UI developers in parallel streams.",
+      "Worked effectively with other JavaScript, UX and UI developers in parallel streams.",
     ],
   },
 ];
