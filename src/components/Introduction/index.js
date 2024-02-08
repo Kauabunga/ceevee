@@ -32,7 +32,7 @@ For the past ${years}, I've worked on a number of large solutions, demonstrating
 
 const introRewrite = `
   
-  I am a seasoned software developer with ${years} of experience, passionate about creating simple beautiful applications.
+  I am a seasoned software engineer with ${years} of experience, passionate about creating simple beautiful applications.
   
 `;
 

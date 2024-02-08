@@ -55,7 +55,7 @@ export const projects = [
     bullets: [
       "Rapidly up-skilled in Python and AWS development.",
       "Assisted with hiring phases of new recruits.",
-      "Championed a performance testing suite steering the direction of several optimizations.",
+      "Championed performance testing steering the direction of several optimizations.",
       "Delivered the foundation of a Web version of the native apps.",
       "Mentored junior and intermediate team members.",
     ],

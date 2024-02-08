@@ -13,7 +13,8 @@
     "deploy:add": "git -C kauabunga.github.io add -A ",
     "deploy:commit": "git -C kauabunga.github.io commit -m \"Deploy commit\"",
     "deploy:push": "git -C kauabunga.github.io push",
-    "deploy": "yarn deploy:copy && yarn deploy:add && yarn deploy:commit && yarn deploy:push"
+    "deploy": "yarn deploy:copy && yarn deploy:add && yarn deploy:commit && yarn deploy:push",
+    "print": "chrome --headless --disable-gpu --print-to-pdf http://localhost:3000"
   },
   "dependencies": {
     "date-fns": "^3.3.1",
