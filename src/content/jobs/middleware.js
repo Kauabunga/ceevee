@@ -7,7 +7,7 @@ const middleware = [
     startDate: new Date("2019-03-01"),
     endDate: new Date("2022-02-01"),
     isDisabled: false,
-    link: `See here for some of the work I've done with Middleware NZ.`,
+    link: `See here for my key achievements with Middleware NZ.`,
     linkHref: "#project-oba",
     brief: [
       `

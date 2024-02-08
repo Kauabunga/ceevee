@@ -1,9 +1,18 @@
 import React from "react";
 
+import formatDistanceStrict from "date-fns/formatDistanceStrict";
+
+import Text from "../Text";
+
+const years = formatDistanceStrict(new Date("2012-08-01"), new Date(), {
+  unit: "year",
+  roundingMethod: "ceil",
+});
+
 const text = `
 I plan and deliver throughout the entire software development process, from when a project is imagined to its release. 
 
-I've worked on a number of large projects, demonstrating my experience through a range of roles.
+For the past ${years}, I've worked on a number of large solutions, demonstrating my experience through a range of roles.
 
 `;
 
@@ -24,13 +33,19 @@ export default function Introduction() {
     <div className="root">
       <div className="firstSentence">
         <b className="blue">
-          I am passionate about creating simple beautiful&nbsp;apps.
+          <Text>I am passionate about creating simple beautiful apps.</Text>
         </b>
       </div>
 
-      <div className="content">{text}</div>
-      <div className="content">{text2}</div>
-      <div className="content">{text3}</div>
+      <div className="content">
+        <Text>{text}</Text>
+      </div>
+      <div className="content">
+        <Text>{text2}</Text>
+      </div>
+      <div className="content">
+        <Text>{text3}</Text>
+      </div>
       <div className="content">
         Get in touch at
         <a href="mailto:hello@carson.kiwi" className="introLink">

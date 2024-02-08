@@ -7,7 +7,7 @@ const fb = [
     startDate: new Date("2022-12-01"),
     endDate: new Date("2024-03-03"),
     isDisabled: false,
-    link: `See here for some of the work I've done with Forsyth Barr.`,
+    link: `See here for my key achievements with Forsyth Barr.`,
     linkHref: "#project-platform",
     brief: `
       

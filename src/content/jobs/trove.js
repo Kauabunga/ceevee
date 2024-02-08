@@ -7,7 +7,7 @@ const trove = [
     startDate: new Date("2022-02-01"),
     endDate: new Date("2022-12-01"),
     isDisabled: false,
-    link: `See here for some of the work I've done with Trove.`,
+    link: `See here for my key achievements with Trove.`,
     linkHref: "#project-trove",
     brief: [
       `

@@ -29,7 +29,7 @@ export default function Projects() {
                   <div>
                     {[].concat(project.brief).map((brief) => (
                       <p key={brief} className="projectBrief">
-                        {brief}
+                        <Text>{brief}</Text>
                       </p>
                     ))}
                     <Bullet bullets={project.bullets} />
