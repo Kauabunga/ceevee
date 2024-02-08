@@ -46,7 +46,7 @@ export const projects = [
   
           `,
     brief: `
-    Tempo, New Zealand's pioneering guided retail investment app, emerged as a detached subsidiary of Forsyth Barr with the aim of expanding its customer base and fortifying its technological capabilities. 
+    Tempo, New Zealand's pioneering guided retail investment app, emerged with the aim of expanding the customer base and fortifying the technological capabilities of its parent company, Forsyth Barr.
     
     Successfully launched to market, Tempo now serves customers across New Zealand. 
     
