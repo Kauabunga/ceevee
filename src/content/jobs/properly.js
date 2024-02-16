@@ -14,7 +14,7 @@ const properly = [
       I joined Properly to a team of 14, working across the world to provide tools and people
       to property owners and managers.
   
-      After achieving our series A funding I saw the the company grow to over 50 members. 
+      After achieving our Series-A funding I saw the the company grow to over 50 members. 
       I became the lead for the front-end team, together responsible for the multiple web apps of Properly.
   
       Beyond this role, I was involved with more of our engineering, design, and test team
