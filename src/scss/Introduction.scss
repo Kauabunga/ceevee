@@ -25,6 +25,16 @@
 .introLink {
   text-decoration: none;
   color: #222;
+
+  user-select: all;
+
+  border-bottom: 2px solid transparent;
+  transition: border-color 200ms ease;
+
+  &:hover {
+    border-bottom: 2px solid $blue-dark;
+  }
+
   @media print {
     display: none;
   }

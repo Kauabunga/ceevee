@@ -4,16 +4,35 @@ export const projects = [
     title: "Platform",
     client: "Forsyth Barr",
     isDisabled: false,
-    brief: `
-  
-          TODO: Platform Summary
-  
+    briefOriginal: `
+
+          Forsyth Barr is a New Zealand leading investment firm who is also dedicated
+          to investing in its own technology capability.
+
+          Using the experience gained during the development of Tempo, the team implemented a platform product going
+          live with its first integration within 8 months.
+
+          My role involved design, direction, implementation focused on the delivery of The Platform with the majority
+          of my time done working in a separate timezone between Canada and New Zealand.
+
           `,
+    brief: `
+
+    Forsyth Barr is a leading investment firm in New Zealand and committed to advancing its technology capabilities.
+    
+    I applied my experience from developing Tempo to contribute to the implementation of a new platform product.
+    
+    Within 8 months, our team successfully launched the platform, marking its first integration. 
+    
+    My role primarily involved design, direction, and implementation of the platform, with a significant portion
+    of my time dedicated to remote collaboration across time zones between Canada and New Zealand.
+    `,
     bullets: [
-      "Designed Security.",
-      "Integration and Performance testing.",
-      "AWS tech - cdk, cloudformation, lambda, apigateway, sqs, ses, eventbridge, dynamodb",
-      "...",
+      "Lead the delivery of JavaScript and Python SDKs.",
+      "Moved rapidly from conception to first integration.",
+      "Collaborated in The Platforms Security, API and eventing architectures.",
+      "Rooted myself in AWS thinking and its ecosystem.",
+      "Provided feedback on product direction and scope.",
     ],
   },
   {
@@ -21,32 +40,61 @@ export const projects = [
     title: "Tempo",
     client: "Trove",
     isDisabled: false,
-    brief: `
+    briefOriginal: `
   
-          TODO: Tempo Summary
+          Tempo is New Zealand's first guided retail investment app. A detached subsidiary of Forsyth Barr aimed to delivery
+          this product to open a new set of customers and cement their technology capacity.
+
+          This product successfully went to market and is now serving New Zealand.
+
+          My role was flexible and included implementation design, mentoring, on call support and generally filling needs of the team and product.
   
           `,
+    brief: `
+
+    Tempo, New Zealand's pioneering guided retail investment app, emerged with the
+    goal of expanding the customer base and fortifying the technological capabilities of its parent company, Forsyth Barr.
+    
+    Successfully launched to market, Tempo now serves customers across New Zealand. 
+    
+    In this role, my responsibilities were diverse and adaptable, encompassing 
+    implementation design, mentoring, providing on-call support, and addressing various needs of the team and product.
+    
+    `,
     bullets: [
-      "Python.",
-      "Integration and Performance testing.",
-      "Built Web version of native app.",
-      "...",
+      "Rapidly up-skilled in Python and AWS development.",
+      "Assisted with hiring phases of new recruits.",
+      "Championed performance testing steering the direction of several optimizations.",
+      "Delivered the foundation of a web version of the native apps.",
+      "Mentored junior and intermediate team members.",
     ],
   },
   {
     id: "oba",
     title: "Open Banking Accelerator Product",
-    client: "Glueware",
+    client: "Glueware (MWNZ)",
     isDisabled: false,
-    brief: `
+    briefOriginal: `
   
           The Open Banking Accelerator provides a standards conformant set of APIs banks can publish.
   
           With a small internal team, we created the product building on previous years experience within the Open Banking domain.
   
-          My role included delegating design, implementation and testing tasks along with reviewing and supporting other work in the team. 
+          My role included owning and delegating design, implementation and testing tasks along with reviewing and supporting other work in the team. 
   
           `,
+
+    brief: `
+    
+    The Open Banking Accelerator offers a standardized set of APIs that banks can leverage to make conformance simpler.
+    
+    Developed by a compact internal team, the product builds upon years of prior experience within the open banking domain. 
+    
+    In my role, I took ownership of design, implementation, and testing tasks, while also delegating additional responsibilities within the team. 
+    
+    Additionally, I provided reviews and support for other team members' work.
+
+    `,
     // ////////
     // Extra //
     // ////////
@@ -54,38 +102,47 @@ export const projects = [
     // The last piece of the product presents a conformance test suite that verifies that an API implementation is conforming to the Open Banking standards with or without OBA.
     bullets: [
       "Owned technical leadership of microservice development and testing.",
+      "Succeeded to prove value through delivery into multiple banks.",
       "Promoted strong testing culture throughout team.",
-      "Succeeded to prove value through multiple trials with banks.",
       "Applied feedback from customers to improve experience and quality of the product.",
-      "Worked closely with Product Owners to ensure team tasks and focus was aligned.",
+      "Worked closely with product owners to ensure team tasks and focus was aligned.",
       "Designed scalable and modular application using cloud and microservice patterns.",
     ],
   },
   {
     id: "covid",
     title: "NZ COVID Pass Integration",
-    client: "MoH",
+    client: "MoH (MWNZ)",
     isDisabled: false,
-    brief: `
+    briefOriginal: `
           
-          This project was part of the Ministries COVID response to bring a verifiable COVID pass to people living or visiting New Zealand.
+          This project was part of the ministry's COVID response to bring a verifiable COVID pass to people living or visiting New Zealand.
           
           Challenges included ensuring forecasted demand was handled and ensuring the APIs were appropriately secured given their sensitive nature.
   
           My role involved helping support more junior members of the team and aligning the work of the team with the delivery. 
     
         `,
+    brief: `
+    
+    As part of the ministry's COVID response, this project aimed to provide a verifiable COVID pass to residents and visitors in New Zealand. 
+    
+    Challenges included managing forecasted demand and ensuring the security of sensitive APIs. 
+    
+    In my role, I supported team members and ensured alignment of our work with project delivery objectives.
+    
+    `,
     bullets: [
-      "Balanced quality of development under high time pressures.",
+      "Balanced quality of development under extreme time pressures.",
       "Enabled other developers and testers within the team by code reviews and pair programming.",
-      "Communicated with client and other venders to ensure alignment of delivery.",
+      "Communicated with ministry teams and other vendors to ensure alignment of delivery.",
       "Supported design and achieved implementation of a highly available solution.",
     ],
   },
   {
     id: "cdr",
     title: "ForgeRock CDR Accelerator",
-    client: "ForgeRock",
+    client: "ForgeRock (MWNZ)",
     isDisabled: true,
     brief: `
     
@@ -95,19 +152,33 @@ export const projects = [
   },
   {
     id: "3ds",
-    title: "Visa 3DS Integration",
-    client: "Kiwibank",
+    title: "WIP: Visa 3DS Integration",
+    client: "Kiwibank (MWNZ)",
     isDisabled: true,
     brief: `
+
+        Critical component of the banks payment system, used to verify payments challenged by visa. 
+
+        Sensitive information
     
+        Integration with Visa with strict security and performance constraints.
+
+        Collaborate with multiple participants including Visa, KiwiBank and another consultancies.
+
+        Tooling to improve testing and development experience avoiding certificate and PI issues.
     
         `,
-    bullets: [],
+    bullets: [
+      "Integration with Visa with strict security and performance constraints.",
+      "Trusted part of deployment to production.",
+      "Contracted to Auckland to up skill others in the hosting system used by the bank.",
+      "Quickly up-skilled in C# development.",
+    ],
   },
   {
     id: "fhir",
     title: "FHIR Integration",
-    client: "Ryman Healthcare",
+    client: "Ryman Healthcare (MWNZ)",
     isDisabled: true,
     brief: `
     
@@ -118,7 +189,7 @@ export const projects = [
   {
     id: "pnz",
     title: "Open Banking Sandbox Product",
-    client: "Payments New Zealand",
+    client: "Payments New Zealand (MWNZ)",
     isDisabled: true,
     brief: `
     
@@ -129,64 +200,99 @@ export const projects = [
 
   {
     id: "properly",
-    title: "Properly",
+    title: "WIP: Properly",
     client: "Properly",
     isDisabled: true,
     brief: `
-    
-    
+
+    Part of the team that helped achieve our Series-A funding.
+
+    Unified a scattered set of front-end technologies into a composed, maintainable package.
+
+    Rapid prototyping with product and ux designers delivering a rewrite of the application within a two week design sprint??
+
+    Worked globally, directing members in New Zealand, India, and UK.
+
+    Several performance improvements to the api layer.
+
         `,
-    bullets: [],
+    bullets: [
+      "Unified front-end technologies into a manageable package.",
+      "Enabled test team with tooling and frameworks.",
+      "...",
+      "...",
+    ],
   },
   {
     id: "bnz",
     title: "Lending and Onboarding",
-    client: "BNZ",
+    client: "BNZ (Solnet)",
     isDisabled: false,
-    brief: `
+    briefOriginal: `
     
           I joined a product team at BNZ to help transform their Lending and Onboarding systems, aiming to improve the experience
           for customers and bank users. This transformation was supported by a new way of delivery, promoting more modular systems
           design and implementation with supporting platforms and dev-ops processes.
     
-          I shared the lead for the Front-end implementation of two major applications and a component library.
+          I shared the lead for the front-end implementation of two major applications and a component library.
     
         `,
+
+    brief: `
+    
+    I joined BNZ's product team to contribute to the transformation of their Lending and Onboarding systems, 
+    with the goal of enhancing the experience for both customers and bank users. 
+    
+    This transformation embraced a new delivery approach, emphasizing modular system design and implementation, 
+    supported by platform development and DevOps processes. 
+    
+    Within the team, I co-led the front-end implementation of two significant applications and a component library.
+    
+    `,
     bullets: [
       // "Lead app design and development seeing Angular 2 through its beta releases.",
-      "Lead app design and development using a new front end technology.",
+      "Lead app design and development using a new front-end technology.",
       "Promoted and adapted a UI component library for multiple applications.",
-      "Guided Front-end developers through best practices, process and tooling.",
+      "Guided front-end developers through best practices, process and tooling.",
       "Guided UI Integration testers through best practices, process and tooling.",
     ],
   },
   {
     id: "eab",
-    title: "Employment Agreement Builder",
-    client: "Ministry of Business and Innovation and Employment",
+    title: "Employment Agreement Builder (EAB)",
+    client: "Ministry of Business and Innovation and Employment (Solnet)",
     isDisabled: false,
-    brief: `
+    briefOriginal: `
     
-          EAB is an application for small to medium businesses to create new Employment agreements while learning
+          EAB is an application for small to medium businesses to create new employment agreements while learning
           about employment law with easy-to-digest content.
             
           EAB exceeded its objectives and was built, tested, and delivered in three months.
     
         `,
+    brief: `
+        
+        EAB is an application designed for small to medium businesses to generate new employment agreements 
+        while providing educational content on employment law in an easily understandable format. 
+        
+        EAB successfully surpassed its objectives and was developed, tested, 
+        and deployed within a three-month time frame.
+
+        `,
     bullets: [
       "Practiced BDD and TDD creating a suite of feature-complete integration and unit tests.",
-      "Created a reusable forms solution, reused for a second MBIE Policy Builder app.",
-      "Promoted a full stack Javascript solution supported by docker.",
-      "Implemented Node.js micro service handling 10x expected load.",
+      "Created a reusable forms solution, reused for a second MBIE policy builder app.",
+      "Promoted a full-stack JavaScript solution supported by docker.",
+      "Implemented NodeJS micro service handling 10x expected load.",
       "Implemented a pipeline that performed automated testing and releases.",
     ],
   },
   {
     id: "westpac",
     title: "Online Banking",
-    client: "Westpac",
+    client: "Westpac (Solnet)",
     isDisabled: false,
-    brief: `
+    briefOriginal: `
     
           I was part of a Westpac team with a goal to improve their online banking experience.
     
@@ -196,26 +302,37 @@ export const projects = [
           After two months my role extended to a technical lead of a team of five, responsible for feature development in the middleware.
     
         `,
+    brief: `
+        
+        I was a member of a Westpac team dedicated to enhancing their online banking experience. 
+        
+        Initially, I supported project developers by facilitating communication between development teams 
+        and enhancing automation in local, development, and test environments, fostering developer autonomy. 
+        
+        After two months, I transitioned into a technical leadership role, 
+        overseeing a team of five and spearheading feature development within the middleware.
+        
+        `,
     bullets: [
       "Trusted as the custodian of environments relied on by a team of 60+.",
       "Lead and mentor of a team of five.",
       "Proposed and owned developer tooling and experience improvements.",
-      "Implemented a Javascript framework that supported other teams.",
-      "Took ownership for the security feature of the client.",
+      "Implemented a JavaScript framework that supported other teams.",
+      "Took ownership for the security features of the client.",
       // "Created and implemented a UX review noting usability and performance improvements for the application.",
     ],
   },
   {
     id: "sky",
     title: "NEON",
-    client: "Sky TV",
+    client: "Sky TV (Solnet)",
     isDisabled: true,
     brief: `
     
           NEON is Sky TV's entry into the New Zealand TV on demand market. Our project's team was responsible for 
-          implementing the Front-end and API supporting other NEON product sitting on different platforms.
+          implementing the front-end and API supporting other NEON product sitting on different platforms.
     
-          My role was a Front-end developer with close contact to the Web API and UX layers.
+          My role was a front-end developer with close contact to the web API and UX layers.
     
         `,
     bullets: [
@@ -227,7 +344,7 @@ export const projects = [
   {
     id: "airnz",
     title: "Crew Forms",
-    client: "Air New Zealand",
+    client: "Air New Zealand (Solnet)",
     isDisabled: true,
     brief: `
     
@@ -243,7 +360,7 @@ export const projects = [
       "Polished the app correcting several rendering bottlenecks, resulting in a smooth hybrid solution.",
       "Worked with the UX and Design team to best fit solutions with the technology stack.",
       "Extended the apps feature list and matching test coverage.",
-      "Provided solutions to bugs found within open source libraries",
+      "Provided solutions to bugs found within open source libraries.",
     ],
   },
   {
@@ -263,7 +380,7 @@ export const projects = [
     bullets: [
       "Created a proof of concept application in 3 days.",
       "Succeeded in gaining a position on the client's project panel.",
-      "Worked effectively with other Javascript, UX and UI developers in parallel streams.",
+      "Worked effectively with other JavaScript, UX and UI developers in parallel streams.",
     ],
   },
 ];

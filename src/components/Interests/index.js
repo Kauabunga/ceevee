@@ -6,7 +6,8 @@ export default function Interests() {
   return (
     <div className="interestsContainer">
       <div className="root">
-        <h1>Interests</h1>
+        <h1 className="interestsTitle">Interests</h1>
+
         <ul className="chipList">
           {interests
             .filter((interest) => !interest.isDisabled)

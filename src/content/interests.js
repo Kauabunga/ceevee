@@ -32,7 +32,15 @@ export const interests = [
     isDisabled: false,
   },
   {
-    title: "Brewing Beer",
+    title: "Beer Brewing",
+    isDisabled: false,
+  },
+  {
+    title: "Adventure",
+    isDisabled: false,
+  },
+  {
+    title: "Pets",
     isDisabled: false,
   },
   {

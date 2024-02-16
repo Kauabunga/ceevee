@@ -5,8 +5,13 @@
   @extend .blueRoot;
 
   @media print {
-    display: none;
+    display: block;
+    margin-top: 40px;
   }
+}
+
+.interestsTitle {
+  page-break-before: always;
 }
 
 .content {
@@ -39,4 +44,8 @@ li.chip {
 
   margin: 10px;
   background-color: rgba(255, 255, 255, 0.48);
+
+  @media print {
+    border: 2px solid $blue;
+  }
 }

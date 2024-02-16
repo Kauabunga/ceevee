@@ -3,6 +3,7 @@ import format from "date-fns/format";
 import formatDistanceStrict from "date-fns/formatDistanceStrict";
 
 import { jobs } from "../../content";
+import Text from "../Text";
 
 export default function Experience() {
   const filteredJobs = React.useMemo(
@@ -43,7 +44,7 @@ export default function Experience() {
 
               {[].concat(job.brief).map((brief) => (
                 <p key={brief} className="jobBrief">
-                  {brief}
+                  <Text>{brief}</Text>
                 </p>
               ))}
 

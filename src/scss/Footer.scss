@@ -16,6 +16,14 @@
   }
 }
 
+.emailContainer {
+  user-select: none;
+}
+
+.email {
+  user-select: all;
+}
+
 .socialLinkPrint {
   display: none;
   color: $blue-dark;

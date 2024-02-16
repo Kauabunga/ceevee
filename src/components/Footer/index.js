@@ -7,9 +7,9 @@ export default function Footer() {
   return (
     <div className="root">
       <div className="container">
-        <div>
+        <div className="emailContainer">
           <span className="text">
-            <b>hello@carson.kiwi</b>
+            <b className="email">hello@carson.kiwi</b>
           </span>
         </div>
 
