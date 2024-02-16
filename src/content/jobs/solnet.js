@@ -13,8 +13,8 @@ const solnet = [
       
       I started with Solnet after graduating, joining their delivery team.
   
-      I gained experience with a variety of clients, first as a front end developer, then as others:
-       Devops developer, API developer and Automation tester.
+      I gained experience with a variety of clients, first as a front-end developer, then as others:
+       DevOps developer, API developer and automation tester.
   
       Later at my time in Solnet I mentored team members in JavaScript 
       tooling and practices, through 1-on-1's and group presentations.
@@ -25,8 +25,8 @@ const solnet = [
       `
     I began my career at Solnet, where I joined their delivery team after graduating.
     
-    Over time, I gained diverse experience working with various clients, initially as a 
-    frontend developer and later transitioning into roles such as DevOps developer, API developer, and Automation Tester. 
+    While there, I gained diverse experience working with various clients, primarily as a front-end developer. 
+    However, I also frequently ventured into other roles such as DevOps, API developer, and automation tester.
     
     During my tenure, I also took on the responsibility of mentoring team members in 
     JavaScript tooling and best practices through one-on-one sessions and group presentations.

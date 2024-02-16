@@ -24,7 +24,7 @@ const fb = [
     
       As a Senior Platform Engineer at Forsyth Barr, I played a key role in developing a new platform aimed at accelerating FinTech product development. 
 
-      This platform facilitated the integration of commonly used industry services, enhancing efficiency and functionality. 
+      This platform eases the integration of commonly used industry services, enhancing efficiency and functionality. 
       
       My responsibilities included managing the design and implementation of critical components such as Identity and Access, SDK, Event Framework, and API Gateway.
     `,

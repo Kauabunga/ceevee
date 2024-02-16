@@ -26,12 +26,14 @@ export default function Projects() {
                     </h2>
                     <em>{project.client}</em>
                   </div>
+
                   <div>
                     {[].concat(project.brief).map((brief) => (
                       <p key={brief} className="projectBrief">
                         <Text>{brief}</Text>
                       </p>
                     ))}
+
                     <Bullet bullets={project.bullets} />
                   </div>
                 </div>

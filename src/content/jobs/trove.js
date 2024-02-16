@@ -34,7 +34,7 @@ const trove = [
       `
       One notable achievement was the creation of a performance testing suite, which significantly enhanced our confidence in the system's ability to handle loads well beyond launch expectations.
 
-      This suite identified areas for improvement, informing design decisions and enhancing team processes.
+      This suite not only pinpointed areas for enhancement but also provided valuable insights that informed design decisions within and between teams.
 
       `,
     ],

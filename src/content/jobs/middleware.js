@@ -27,12 +27,16 @@ const middleware = [
     brief: [
       `
       
-      As a Senior Developer at Middleware NZ, I transitioned my focus towards API and microservice development to diversify my technical expertise. Working on multiple projects across different teams, technologies, and processes, I adeptly tackled each challenge, delivering positive outcomes for both internal and external clients.
+      As a Senior Developer at Middleware NZ, I transitioned my focus towards API and microservice development to
+      diversify my technical expertise. Working on multiple projects across different teams, technologies, and processes, 
+      I adeptly tackled each challenge, delivering positive outcomes for both internal and external clients.
       
       `,
       `
 
-      While at Middleware NZ, a primary focus of my role involved spearheading the delivery of the Open Banking Accelerator. This product has been effectively integrated across several New Zealand banking clients, streamlining the implementation of APIs and Security Profiles in alignment with the New Zealand Open Banking specification.
+      While at Middleware NZ, a significant focus of my role involved spearheading the delivery of the Open Banking Accelerator. 
+      This product has been effectively integrated across several New Zealand banking clients, streamlining the implementation 
+      of APIs and Security Profiles in alignment with the New Zealand Open Banking specification.
 
       `,
     ],

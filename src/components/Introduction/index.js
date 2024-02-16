@@ -46,7 +46,7 @@ const textsRewrite = [
 
   My diverse roles have equipped me with valuable problem-solving skills and a passion for continuous learning and collaboration. 
   
-  I excel in JavaScript development, leveraging its capabilities and exploring new technologies and processes.
+  I excel in JavaScript development, leveraging its capabilities to explore new technologies and processes.
 
   `,
   `
