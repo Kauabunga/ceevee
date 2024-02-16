@@ -18,7 +18,7 @@ const fb = [
       a suite of commonly used services by the industry.
 
       I managed design and implementation responsibilities in the team across several components
-      including Identity and Access, SDK, Event Framework, and API Gateway.
+      including Identity and Access, SDKs, Event Framework, and API Gateway.
       `,
     brief: `
     
@@ -26,7 +26,7 @@ const fb = [
 
       This platform eases the integration of commonly used industry services, enhancing efficiency and functionality. 
       
-      My responsibilities included managing the design and implementation of critical components such as Identity and Access, SDK, Event Framework, and API Gateway.
+      My responsibilities included managing the design and implementation of critical components such as Identity and Access, SDKs, Event Framework, and API Gateway.
     `,
     svg: {
       src: fbLogo,

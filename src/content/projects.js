@@ -65,7 +65,7 @@ export const projects = [
       "Rapidly up-skilled in Python and AWS development.",
       "Assisted with hiring phases of new recruits.",
       "Championed performance testing steering the direction of several optimizations.",
-      "Delivered the foundation of a Web version of the native apps.",
+      "Delivered the foundation of a web version of the native apps.",
       "Mentored junior and intermediate team members.",
     ],
   },
@@ -282,7 +282,7 @@ export const projects = [
     bullets: [
       "Practiced BDD and TDD creating a suite of feature-complete integration and unit tests.",
       "Created a reusable forms solution, reused for a second MBIE policy builder app.",
-      "Promoted a full stack JavaScript solution supported by docker.",
+      "Promoted a full-stack JavaScript solution supported by docker.",
       "Implemented NodeJS micro service handling 10x expected load.",
       "Implemented a pipeline that performed automated testing and releases.",
     ],
@@ -332,7 +332,7 @@ export const projects = [
           NEON is Sky TV's entry into the New Zealand TV on demand market. Our project's team was responsible for 
           implementing the front-end and API supporting other NEON product sitting on different platforms.
     
-          My role was a front-end developer with close contact to the Web API and UX layers.
+          My role was a front-end developer with close contact to the web API and UX layers.
     
         `,
     bullets: [

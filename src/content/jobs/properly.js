@@ -20,8 +20,8 @@ const properly = [
       Beyond this role, I was involved with more of our engineering, design, and test team
       activities. This included:
 
-      Web/Service implementation design, Full stack development, UX design, UI test automation, 
-      CI pipelines, Infrastructure design, and Infrastructure as code.
+      Web/Service implementation design, full-stack development, UX design, UI test automation, 
+      CI pipelines, infrastructure design, and infrastructure as code.
   
       `,
 

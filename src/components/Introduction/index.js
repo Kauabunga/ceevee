@@ -9,7 +9,7 @@ const years = formatDistanceStrict(new Date("2012-08-01"), new Date(), {
   roundingMethod: "ceil",
 });
 
-const intro = "I am passionate about creating simple beautiful apps.";
+const intro = "I am passionate about creating beautifully simple apps.";
 
 const texts = [
   `
@@ -32,7 +32,7 @@ For the past ${years}, I've worked on a number of large solutions, demonstrating
 
 const introRewrite = `
   
-  I am a seasoned software engineer with ${years} of experience, passionate about creating simple beautiful applications.
+  I am a seasoned software engineer with ${years} of experience, passionate about creating beautifully simple applications.
   
 `;
 
