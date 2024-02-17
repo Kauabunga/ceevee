@@ -4,18 +4,6 @@ export const projects = [
     title: "Platform",
     client: "Forsyth Barr",
     isDisabled: false,
-    briefOriginal: `
-
-          Forsyth Barr is a New Zealand leading investment firm who is also dedicated
-          to investing in its own technology capability.
-
-          Using the experience gained during the development of Tempo, the team implemented a platform product going
-          live with its first integration within 8 months.
-
-          My role involved design, direction, implementation focused on the delivery of The Platform with the majority
-          of my time done working in a separate timezone between Canada and New Zealand.
-
-          `,
     brief: `
 
     Forsyth Barr is a leading investment firm in New Zealand and committed to advancing its technology capabilities.
@@ -40,16 +28,6 @@ export const projects = [
     title: "Tempo",
     client: "Trove",
     isDisabled: false,
-    briefOriginal: `
-  
-          Tempo is New Zealand's first guided retail investment app. A detached subsidiary of Forsyth Barr aimed to delivery
-          this product to open a new set of customers and cement their technology capacity.
-
-          This product successfully went to market and is now serving New Zealand.
-
-          My role was flexible and included implementation design, mentoring, on call support and generally filling needs of the team and product.
-  
-          `,
     brief: `
 
     Tempo, New Zealand's pioneering guided retail investment app, emerged with the
@@ -74,16 +52,6 @@ export const projects = [
     title: "Open Banking Accelerator Product",
     client: "Glueware (MWNZ)",
     isDisabled: false,
-    briefOriginal: `
-  
-          The Open Banking Accelerator provides a standards conformant set of APIs banks can publish.
-  
-          With a small internal team, we created the product building on previous years experience within the Open Banking domain.
-  
-          My role included owning and delegating design, implementation and testing tasks along with reviewing and supporting other work in the team. 
-  
-          `,
-
     brief: `
     
     The Open Banking Accelerator offers a standardized set of APIs that banks can leverage to make conformance simpler.
@@ -114,15 +82,6 @@ export const projects = [
     title: "NZ COVID Pass Integration",
     client: "MoH (MWNZ)",
     isDisabled: false,
-    briefOriginal: `
-          
-          This project was part of the ministry's COVID response to bring a verifiable COVID pass to people living or visiting New Zealand.
-          
-          Challenges included ensuring forecasted demand was handled and ensuring the APIs were appropriately secured given their sensitive nature.
-  
-          My role involved helping support more junior members of the team and aligning the work of the team with the delivery. 
-    
-        `,
     brief: `
     
     As part of the ministry's COVID response, this project aimed to provide a verifiable COVID pass to residents and visitors in New Zealand. 
@@ -228,16 +187,6 @@ export const projects = [
     title: "Lending and Onboarding",
     client: "BNZ (Solnet)",
     isDisabled: false,
-    briefOriginal: `
-    
-          I joined a product team at BNZ to help transform their Lending and Onboarding systems, aiming to improve the experience
-          for customers and bank users. This transformation was supported by a new way of delivery, promoting more modular systems
-          design and implementation with supporting platforms and dev-ops processes.
-    
-          I shared the lead for the front-end implementation of two major applications and a component library.
-    
-        `,
-
     brief: `
     
     I joined BNZ's product team to contribute to the transformation of their Lending and Onboarding systems, 
@@ -262,14 +211,6 @@ export const projects = [
     title: "Employment Agreement Builder (EAB)",
     client: "Ministry of Business and Innovation and Employment (Solnet)",
     isDisabled: false,
-    briefOriginal: `
-    
-          EAB is an application for small to medium businesses to create new employment agreements while learning
-          about employment law with easy-to-digest content.
-            
-          EAB exceeded its objectives and was built, tested, and delivered in three months.
-    
-        `,
     brief: `
         
         EAB is an application designed for small to medium businesses to generate new employment agreements 
@@ -292,16 +233,6 @@ export const projects = [
     title: "Online Banking",
     client: "Westpac (Solnet)",
     isDisabled: false,
-    briefOriginal: `
-    
-          I was part of a Westpac team with a goal to improve their online banking experience.
-    
-          I supported the developers of the project, mediating communications between development teams.
-          I improved automation in local, development, and test environments helping developers become more autonomous.
-    
-          After two months my role extended to a technical lead of a team of five, responsible for feature development in the middleware.
-    
-        `,
     brief: `
         
         I was a member of a Westpac team dedicated to enhancing their online banking experience. 
