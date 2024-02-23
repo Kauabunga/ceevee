@@ -6,7 +6,7 @@
   height: $header-height;
 
   @media print {
-    font-size: 2em;
+    height: auto;
   }
 }
 
@@ -25,10 +25,15 @@
   h1 {
     color: #fff;
     margin: 0;
+
+    @media print {
+      font-size: 3em;
+    }
   }
 
   @media print {
-    margin: 0 20px;
+    margin: 0 4px;
+    padding: 0;
   }
 }
 
@@ -72,7 +77,9 @@
   }
 
   &:after {
-    transition: opacity 200ms ease, transform 200ms ease;
+    transition:
+      opacity 200ms ease,
+      transform 200ms ease;
     position: absolute;
     top: 55px;
     opacity: 0;
@@ -107,6 +114,7 @@
 
 .onlineView {
   display: none;
+  font-size: inherit;
   @media print {
     display: block;
   }

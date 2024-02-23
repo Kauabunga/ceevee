@@ -57,7 +57,8 @@ export default function Introduction() {
         </a>
         <b className="blue introLinkPrint">hello@carson.kiwi</b>
       </div>
-      <div style={{ display: "block", height: 72 }} />
+
+      <div className="contentBlock" />
     </div>
   );
 }

@@ -41,7 +41,7 @@ export const interests = [
   },
   {
     title: "Pets",
-    isDisabled: false,
+    isDisabled: true,
   },
   {
     title: "Stenciling",

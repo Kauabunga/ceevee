@@ -93,7 +93,7 @@ export const projects = [
     `,
     bullets: [
       "Balanced quality of development under extreme time pressures.",
-      "Enabled other developers and testers within the team by code reviews and pair programming.",
+      "Enabled other team members through code reviews and pair programming.",
       "Communicated with ministry teams and other vendors to ensure alignment of delivery.",
       "Supported design and achieved implementation of a highly available solution.",
     ],
@@ -209,7 +209,7 @@ export const projects = [
   {
     id: "eab",
     title: "Employment Agreement Builder (EAB)",
-    client: "Ministry of Business and Innovation and Employment (Solnet)",
+    client: "MBIE (Solnet)",
     isDisabled: false,
     brief: `
         
