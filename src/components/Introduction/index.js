@@ -9,34 +9,13 @@ const years = formatDistanceStrict(new Date("2012-08-01"), new Date(), {
   roundingMethod: "ceil",
 });
 
-const intro = "I am passionate about creating beautifully simple apps.";
-
-const texts = [
-  `
-I plan and deliver throughout the entire software development lifecycle, from when a project is imagined to its release. 
-
-For the past ${years}, I've worked on a number of large solutions, demonstrating my experience through a range of roles.
-
-`,
-  `
-
-  My key attributes include: problem solving, passion to learn and share, open mindedness, listening, and being a team player.
-
-`,
-  `
-
-  I am at home when working with and sharing JavaScript along with all the technologies and processes it enables.
-
-`,
-];
-
-const introRewrite = `
+const intro = `
   
   I am a seasoned software engineer with ${years} of experience, passionate about creating beautifully simple applications.
   
 `;
 
-const textsRewrite = [
+const texts = [
   `
 
   Throughout my career, I have successfully navigated the entire software development lifecycle, from conceptualization to deployment.
@@ -61,11 +40,11 @@ export default function Introduction() {
     <div className="root">
       <div className="firstSentence">
         <b className="blue">
-          <Text>{introRewrite}</Text>
+          <Text>{intro}</Text>
         </b>
       </div>
 
-      {textsRewrite.map((text) => (
+      {texts.map((text) => (
         <div key={text} className="content">
           <Text>{text}</Text>
         </div>
@@ -78,7 +57,8 @@ export default function Introduction() {
         </a>
         <b className="blue introLinkPrint">hello@carson.kiwi</b>
       </div>
-      <div style={{ display: "block", height: 72 }} />
+
+      <div className="contentBlock" />
     </div>
   );
 }

@@ -9,23 +9,6 @@ const trove = [
     isDisabled: false,
     link: `See here for my key achievements with Trove.`,
     linkHref: "#project-trove",
-    briefOriginal: [
-      `
-      
-      I worked with Trove as a Senior Financial Engineer. At Trove I helped launch Tempo, a FinTech product, 
-      by developing Financial Services and tooling to support the mobile application.
-
-      The system centered around utilising AWS services, where I was able to quickly up skill in both Python and serverless development.
-      
-      `,
-      `
-      One of my early achievements at Trove included creating a performance testing suite that significantly improved confidence knowing
-      the system was capable of handling loads well beyond launch expectations.
-      This suite highlighted areas requiring attention which was able to feed into design and development 
-      for teams to improvement their designs, processes and implementations.
-
-      `,
-    ],
     brief: [
       `
       As a Senior Financial Engineer at Trove, I contributed to the launch of Tempo, a FinTech product, by developing Financial Services and supporting tools for the mobile app. Utilizing AWS services, I quickly gained proficiency in Python and serverless development.

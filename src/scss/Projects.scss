@@ -7,7 +7,7 @@
 }
 
 .projectsTitle {
-  page-break-before: always;
+  // page-break-before: always;
 }
 
 .project {
@@ -79,6 +79,15 @@
 
 .projectTitleContainer {
   margin-bottom: 25px;
+
+  @media print {
+    margin: 0;
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .projectBullets {
@@ -100,6 +109,15 @@
   }
 }
 
+h2.projectTitle {
+  color: $gray-dark;
+  margin-bottom: 0;
+
+  @media print {
+    margin: 8px 0;
+  }
+}
+
 .projectBrief {
   width: 95%;
   display: block;
@@ -115,6 +133,7 @@
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
+    margin-bottom: 8px;
   }
 }
 
@@ -124,11 +143,6 @@
   @media (min-width: $max-content-break) {
     margin-right: 60px;
     margin: 30px;
-  }
-
-  h2 {
-    color: $gray-dark;
-    margin-bottom: 0;
   }
 
   ul {
@@ -146,11 +160,13 @@
   }
 
   @media print {
-    page-break-inside: avoid;
+    // page-break-inside: avoid;
 
     margin: 0;
     ul {
-      page-break-inside: avoid;
+      // page-break-inside: avoid;
+      // margin: 0;
+      margin: 0 0 8px;
     }
 
     ul li {

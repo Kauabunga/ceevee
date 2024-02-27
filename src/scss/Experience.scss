@@ -4,7 +4,7 @@
 $link-color: #bbb;
 
 .experienceTitle {
-  page-break-before: always;
+  // page-break-before: always;
 }
 
 .job {
@@ -52,9 +52,10 @@ $link-color: #bbb;
   }
 
   @media print {
-    page-break-inside: avoid;
+    // page-break-inside: avoid;
 
     padding: 0;
+    margin: 0;
     &:before,
     &:after {
       display: none;
@@ -104,6 +105,13 @@ $link-color: #bbb;
   @media (min-width: $screen-sm-min) {
     width: 70%;
   }
+
+  @media print {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .jobImage {
@@ -118,6 +126,10 @@ $link-color: #bbb;
 
   @media (min-width: 800px) {
     display: inline-block;
+  }
+
+  @media print {
+    display: none;
   }
 }
 
@@ -176,11 +188,15 @@ $link-color: #bbb;
 .jobBrief {
   margin-top: 40px;
   @media print {
-    margin-top: 20px;
+    margin: 0;
+    margin-bottom: 8px;
   }
 }
 
 .jobTitle {
   color: $gray-dark;
   margin-bottom: 0;
+  @media print {
+    margin: 8px 0;
+  }
 }

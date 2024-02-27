@@ -3,30 +3,55 @@
 
 .educationContent {
   @extend .blueRoot;
-  page-break-after: always;
+  // page-break-after: always;
 }
 
 .educationTitle {
-  page-break-before: always;
+  // page-break-before: always;
 }
 
 .educationContainer {
   padding-left: 20px;
   border-left: 4px solid $gray-lightish;
 
+  @media print {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  h2 {
+    @media print {
+      margin: 8px 0 8px;
+    }
+  }
+}
+
+.uniContainer {
   h3 {
     margin-bottom: 0;
+
+    @media print {
+      margin: 8px 0 0;
+    }
   }
+
   em {
     margin-top: 0;
     background-color: transparent;
     color: $gray-lightish;
     padding: 0;
     opacity: 1;
+
+    @media print {
+      color: inherit;
+      font-size: 0.925em;
+      font-style: normal;
+      margin: 0 6px;
+    }
   }
 
   @media print {
-    border-left: none;
-    padding-left: 0;
+    display: flex;
+    align-items: baseline;
   }
 }
